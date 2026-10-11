@@ -1,0 +1,21 @@
+[
+  {
+    "command": "halt",
+    "elapsed_s": 0.0013199179993534926,
+    "result": ""
+  },
+  {
+    "command": "mmw 0x5c001054 0x40000 0",
+    "elapsed_s": 0.0021903480010223575,
+    "result": ""
+  },
+  {
+    "command": "dump_image docs/hardware_runs/2026-10-11/original_flash.bin 0x08000000 0x100000",
+    "elapsed_s": 54.667309175998525,
+    "result": "dumped 1048576 bytes in 54.667114s (18.732 KiB/s)\n"
+  },
+  {
+    "backup_size": 1048576,
+    "backup_sha256": "83ef6ddd53af11fa72dc77d4b67e55bf8b21ea2fb3ba7ff229ffc0521dbed1c3"
+  }
+]

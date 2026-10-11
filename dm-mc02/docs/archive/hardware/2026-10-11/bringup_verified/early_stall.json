@@ -1,0 +1,410 @@
+{
+  "case": "early-stall",
+  "firmware": {
+    "elf": "build/h7-debug/board_bringup.elf",
+    "sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541"
+  },
+  "monitor": {
+    "firmware": {
+      "elf": "build/h7-debug/board_bringup.elf",
+      "sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541"
+    },
+    "duration_s": 24.000091778998467,
+    "samples": 22,
+    "observed_resets": 0,
+    "task_max_runtime_us": [
+      79,
+      23,
+      8,
+      5,
+      3,
+      50
+    ],
+    "task_stack_min_words": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "final": {
+      "board": {
+        "cpu_hz": 480000000,
+        "hclk_hz": 240000000,
+        "fdcan_hz": 80000000,
+        "reset_flags": 88211456,
+        "cpuid": 1092600434,
+        "hal_version": 17499392,
+        "dcache_enabled": true
+      },
+      "tasks": [
+        {
+          "run_count": 11236,
+          "last_finish_ms": 11240,
+          "max_runtime_us": 79,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 884
+        },
+        {
+          "run_count": 11236,
+          "last_finish_ms": 11240,
+          "max_runtime_us": 23,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 595
+        },
+        {
+          "run_count": 2248,
+          "last_finish_ms": 11240,
+          "max_runtime_us": 8,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 314
+        },
+        {
+          "run_count": 2248,
+          "last_finish_ms": 11240,
+          "max_runtime_us": 5,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 380
+        },
+        {
+          "run_count": 562,
+          "last_finish_ms": 11225,
+          "max_runtime_us": 3,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 670
+        },
+        {
+          "run_count": 1125,
+          "last_finish_ms": 11245,
+          "max_runtime_us": 50,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 605
+        }
+      ],
+      "ins": {
+        "timestamp_us": 11249794,
+        "sequence": 10799,
+        "calibration_count": 128,
+        "state": 1,
+        "error": 0,
+        "valid": true,
+        "converged": true,
+        "quaternion": [
+          0.9999738931655884,
+          -0.00500818295404315,
+          -0.004917091690003872,
+          0.0017391291912645102
+        ],
+        "gyro": [
+          0.006884693168103695,
+          -0.007702092174440622,
+          0.011534816585481167
+        ],
+        "accel": [
+          0.11133038252592087,
+          -0.10953472554683685,
+          9.87967300415039
+        ],
+        "gyro_bias": [
+          0.0005723374197259545,
+          -0.0050810109823942184,
+          0.002313621575012803
+        ],
+        "yaw_deg": 0.20278260111808777,
+        "pitch_deg": -0.5740450620651245,
+        "roll_deg": -0.5629214644432068,
+        "yaw_total_deg": 0.20278260111808777,
+        "temperature_c": 35.875,
+        "dt_s": 0.000999000039882958,
+        "motion_body": [
+          0.004153864458203316,
+          -0.01251216884702444,
+          0.032841313630342484
+        ],
+        "motion_earth": [
+          0.0038730441592633724,
+          -0.012169010937213898,
+          0.03300417587161064
+        ]
+      },
+      "raw": {
+        "accel": [
+          0.12210428714752197,
+          -0.07003039866685867,
+          9.838373184204102
+        ],
+        "gyro": [
+          0.001065264455974102,
+          -0.007456851191818714,
+          0.003195793367922306
+        ],
+        "temperature_c": 35.875,
+        "accel_us": 11253786,
+        "gyro_us": 11253794,
+        "sequence": 10932,
+        "valid": true
+      },
+      "gate": {
+        "epoch": 1,
+        "reasons": 4131,
+        "deadline_ms": 0,
+        "permitted": false
+      },
+      "fault": {
+        "magic": 0,
+        "version": 1,
+        "reason": 61443,
+        "ipsr": 3,
+        "cfsr": 65536,
+        "hfsr": 1073741824,
+        "mmfar": 0,
+        "bfar": 0,
+        "frame": [
+          0,
+          2779096485,
+          2779096485,
+          1,
+          2779096485,
+          134257033,
+          604303368,
+          1627389952
+        ],
+        "checksum": 1761659945
+      },
+      "can": [
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        }
+      ],
+      "serial": [
+        {
+          "stats": {
+            "rx_bytes": 19575,
+            "rx_events": 1394,
+            "rx_dropped": 0,
+            "rx_errors": 2,
+            "restarts": 1,
+            "restart_failures": 1,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 4,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 1370,
+          "tail": 1370,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 64,
+          "rx_position": 55,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 4,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 55,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 64,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 378,
+            "tx_completed": 378,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 378,
+          "tx_tail": 378,
+          "rx_capacity": 256,
+          "rx_position": 0,
+          "tx_lengths": [
+            37,
+            38
+          ],
+          "tx_capacity": 256,
+          "depth": 8,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        }
+      ],
+      "timer_us": 11301013,
+      "cfsr": 0,
+      "hfsr": 0,
+      "ccr": 459264,
+      "mpu_ctrl": 5,
+      "dhcsr": 16842753,
+      "gpiob_odr": 0,
+      "gpioc_odr": 9,
+      "log_dropped": 0,
+      "host_elapsed_s": 23.37891936699816
+    }
+  },
+  "passed": true
+}

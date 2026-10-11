@@ -1,0 +1,12 @@
+0x080091ec in prvIdleTask (pvParameters=0x0) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/freertos/tasks.c:3432
+3432				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+Hardware assisted breakpoint 1 at 0x8000400: file /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/generated/system_stm32h7xx.c, line 478.
+
+Temporary breakpoint 1, ExitRun0Mode () at /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/generated/system_stm32h7xx.c:478
+478	{
+EARLY_PC=0x8000400
+0x58004800:	0x00000000	0x00000006	0x000005db	0x00000000
+0x58004810:	0x00000fff
+[Inferior 1 (Remote target) detached]
+[stm32h723.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080002d0 msp: 0x20020000

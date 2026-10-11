@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-11T21:13:48.847611+08:00",
+  "firmware_sha256": "755ad80898512f9473c3028c70fee7f24f2662118c9b89b5da978552abdce6a4",
+  "attempts": [
+    {
+      "exit_code": 1,
+      "error": "CMSIS-DAP command CMD_INFO failed; OpenOCD init failed"
+    },
+    {
+      "host_usb_reset": "completed",
+      "exit_code": 1,
+      "error": "CMSIS-DAP command CMD_INFO failed; OpenOCD init failed"
+    }
+  ],
+  "flash_started": false,
+  "flash_verified": false
+}

@@ -1,0 +1,7 @@
+{
+  "command": "ctest --test-dir build/host --output-on-failure",
+  "exit_code": 0,
+  "output": "Test project /home/myself/workspace/RM/RM2027/dm-mc02/build/host\n    Start 1: chassis_demo_control\n1/1 Test #1: chassis_demo_control .............   Passed    0.00 sec\n\n100% tests passed out of 1\n\nTotal Test time (real) =   0.00 sec\n",
+  "test_binary_sha256": "3c016784638188dfb3d0d887b01cea5d56c923a0a82d143f12c4e448d24eb271",
+  "source_snapshot_sha256": "0201e41a26ff4552aefabda65bae4286adbdc88174ac4611c51ac9e0d9fe5c65"
+}

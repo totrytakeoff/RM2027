@@ -1,0 +1,46 @@
+1. can 信箱爆满
+2. 底盘映射
+
+
+
+
+1.阅读框架, 分析架构,拆分非必要耦合
+2.阅读自己的demo,拆分核心逻辑
+3.尝试根据自己的简单demo构建出最简框架,保证稳定性与可用性,暂不考虑可扩展性,按需直接添加逻辑,稳定可用优先
+
+
+接入基本裁判系统 接入图传链路
+
+[已修复 2026-10-01][安全-Release 构建] NaN/Inf 防护
+  - Release 工具链改用 -O3，移除 -ffinite-math-only 带来的恒真 isfinite() 风险
+  - 云台控制、Pitch 限位和轴状态额外统一使用 IEEE-754 位模式检查
+  - 视觉协议路径继续使用位模式检查，避免外部浮点数据传播非法参考
+
+[视觉] 接入遗留项（详见 docs/vision/vision_protocol.md §9.4）
+  [已完成 2026-09-11] 上位机侧：packet.hpp 重排+布局断言、rm_serial_driver.cpp
+    帧层重写、serial_driver.yaml 921600、node_params.yaml target_frame=gimbal_link、
+    URDF 删除 odom、launch_params odom2camera->gimbal2camera；
+    两侧测试向量已对拍一致（23 项检查全通过）；colcon build 全绿
+  [已完成 2026-09-11 后续] RmVisionLink_GetStats() 接入 gimbal.c LogVisionStatus()，
+    自瞄模式下每秒打印一次增量计数（rx/crc/fmt/tgt/rej/id/n），见协议文档 §9.5.1。
+    加日志时才发现该函数此前被 -Wl,--gc-sections 整体回收（nm 查不到符号）。
+  [已完成 2026-09-11 再后续] 弹道补偿明确搁置（用户：先只验基本跟随）。
+    新增 tools/vision_serial_stub/vision_stub.py：无相机闭环验证桩，
+    已用伪终端端到端跑通（50Hz 收发、CRC 零失败、相对方位正确）。
+  [上机第一件事] Yaw 跟随方向未验证：yaw_hold_ref += atan2(y,x) 的取反量全仓库
+    没有任何依据，docs/remote_control 里"Yaw 摇杆方向正确"至今未勾选。
+    vision_aim_test.c 的收敛测试是符号无关的，抓不住整体取反。
+    若不接管时云台转到底，改 robot_config.h 的 VISION_YAW_FOLLOW_ENABLE=0U。
+  [待办]
+  - 诊断/调参遥测的数值通道暴露视觉状态（当前只有文本日志；64 通道需先重分配）
+  - camera_joint 外参实车标定（当前仍是上游默认值，上机前必须完成）
+  - 弹速 ROBOT_BULLET_SPEED_MPS 实测标定
+  - gimbal.c 自瞄接管仅经编译+单元测试，未实板闭环验证
+
+[已完成 2026-10-02][视觉链路审计项 7–10]
+  - 在线状态与目标可用性拆成独立状态机，覆盖手动、TRACKING、非有限值和掉线边沿
+  - 旧 master_process/serial_frame_protocol 移入 compat，正式 runtime 只保留新视觉链路
+  - USART 注册新增启动回滚，视觉 daemon 注册失败时按 LIFO 回滚 UART/DMA 端点；DMA 无法安全停止时保留端点并返回失败
+  - 新增 vision_link_state 主机回归测试；主机与正式 runtime/compat target 均完成编译检查
+  - `test_infantry_minimal` 与 FreeRTOS 入口统一使用延后 CAN/UART dispatch，并在电机阶段派发 inbox
+  - 遥测发送拒绝 NaN/Inf 姿态；RESET_TRACKER 只在遥测真正入队后消费，串口忙时保留请求

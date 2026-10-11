@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "h7-debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/h7-debug",
+      "toolchainFile": "${sourceDir}/cmake/arm-gcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "RM_BUILD_FIRMWARE": "ON",
+        "RM_REMOTE_PROTOCOL": "SBUS"
+      }
+    },
+    {
+      "name": "h7-release",
+      "inherits": "h7-debug",
+      "binaryDir": "${sourceDir}/build/h7-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "h7-dbus-debug",
+      "inherits": "h7-debug",
+      "binaryDir": "${sourceDir}/build/h7-dbus-debug",
+      "cacheVariables": {
+        "RM_REMOTE_PROTOCOL": "DBUS"
+      }
+    },
+    {
+      "name": "h7-chassis-observe",
+      "inherits": "h7-debug",
+      "binaryDir": "${sourceDir}/build/h7-chassis-observe",
+      "cacheVariables": {
+        "RM_CHASSIS_ENABLE_MOTION": "OFF"
+      }
+    },
+    {
+      "name": "host",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/host",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "RM_BUILD_FIRMWARE": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "h7-debug",
+      "configurePreset": "h7-debug"
+    },
+    {
+      "name": "h7-release",
+      "configurePreset": "h7-release"
+    },
+    {
+      "name": "h7-dbus-debug",
+      "configurePreset": "h7-dbus-debug"
+    },
+    {
+      "name": "h7-chassis-observe",
+      "configurePreset": "h7-chassis-observe",
+      "targets": ["chassis_demo.elf"]
+    },
+    {
+      "name": "host",
+      "configurePreset": "host"
+    }
+  ]
+}

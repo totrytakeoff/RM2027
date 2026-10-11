@@ -1,0 +1,7 @@
+time_ms,et08_online,gimbal_mode,yaw_loop_mode,pitch_loop_mode,yaw_speed_ref,yaw_speed_fdb,yaw_hold_ref,pitch_speed_ref,pitch_speed_fdb,pitch_hold_ref,pitch_total_angle,pitch_angle_ref,pitch_angle_fdb,pitch_angle_err,pitch_angle_out,pitch_angle_max_out,pitch_speed_pid_ref,pitch_speed_pid_fdb,pitch_speed_pid_err,pitch_speed_pid_out,pitch_angle_sat_ratio,yaw_total_angle,yaw_angle_ref,yaw_angle_fdb,yaw_angle_err,yaw_angle_out,yaw_angle_max_out,yaw_speed_pid_ref,yaw_speed_pid_fdb,yaw_speed_pid_err,yaw_speed_pid_out,yaw_angle_sat_ratio,imu_yaw_total,imu_yaw,imu_pitch,imu_gyro_z,imu_gyro_x
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5000,0,0,0,0,0,0,0,0,0,0,2000,0,0,0,0,0,0,0,0,0,0
+20,1,0,0,0,0,0,10,0,0,-5,-5,-5,-5,0,0,5000,0,0,0,0,0,10,10,10,0,0,2000,0,0,0,0,0,1,1,-5,0,0
+40,1,0,1,0,120,80,10,0,0,-5,-5,-5,-5,0,0,5000,0,0,0,0,0,12,10,10,0,0,2000,120,80,40,420,0,1,1,-5,8,0
+60,1,0,2,0,0,25,12,0,0,-5,-5,-5,-5,0,0,5000,0,0,0,0,0,12,12,12,0,0,2000,0,25,-25,-180,0,1,1,-5,2,0
+80,1,1,0,1,0,0,12,-150,-110,-5,-8,-5,-8,3,90,5000,-150,-110,-40,-700,0.018,12,12,12,0,0,2000,0,0,0,0,0,1,1,-8,0,-2
+100,1,1,0,2,0,0,12,0,-20,-9,-9,-9,-9,0,0,5000,0,-20,20,160,0,12,12,12,0,0,2000,0,0,0,0,0,1,1,-9,0,-1

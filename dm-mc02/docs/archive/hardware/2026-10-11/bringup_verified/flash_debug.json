@@ -1,0 +1,8 @@
+{
+  "firmware": {
+    "elf": "build/h7-debug/board_bringup.elf",
+    "sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541"
+  },
+  "elapsed_s": 5.520648172998335,
+  "result": ""
+}

@@ -1,0 +1,4 @@
+{
+  "case": "fpu-fault",
+  "expected_pc": 604303368
+}

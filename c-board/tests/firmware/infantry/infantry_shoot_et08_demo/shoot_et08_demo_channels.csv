@@ -1,0 +1,2 @@
+tick,online,friction_en,loader_en,loader_continuous,loader_mode,single_active,pending_shots,sa_sb_raw,sa_sb_state,sb_pos,loader_ref,loader_speed_cmd,loader_target,loader_angle,loader_angle_err,single_start_angle,single_delta,single_elapsed_ms,loader_speed_fdb,loader_curr,friction_l_speed,friction_r_speed,friction_target,loader_conti_speed,loader_single_speed,loader_angle_step,loader_speed_kp,loader_speed_kd,loader_angle_kp,loader_angle_kd,shoot_en
+0,0,0,0,0,0,0,0,1024,1,1,0,0,0,0,0,0,0,0,0,0,0,0,-30000,20000,7000,585,10,0,2.2,0,0

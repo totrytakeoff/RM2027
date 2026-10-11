@@ -1,0 +1,2 @@
+time_ms,motor_output_active,speed_target_rad_s,speed_fdb_rad_s,speed_error_rad_s,speed_p_current,speed_i_current,speed_d_current,speed_output_current,final_output_current,current_fdb
+0,0,0,0,0,0,0,0,0,0,0

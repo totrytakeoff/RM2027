@@ -1,0 +1,4 @@
+#ifndef RM_HOST_TEST_ARM_MATH_H
+#define RM_HOST_TEST_ARM_MATH_H
+
+#endif /* RM_HOST_TEST_ARM_MATH_H */

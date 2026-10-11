@@ -1,0 +1,44 @@
+{
+  "time": "2026-10-11T21:12:32.220054+08:00",
+  "firmware": {
+    "elf": "build/h7-debug/chassis_demo.elf",
+    "sha256": "755ad80898512f9473c3028c70fee7f24f2662118c9b89b5da978552abdce6a4"
+  },
+  "layout": {
+    "assumption": "Top view; top row is front, awaiting confirmation",
+    "FR": 1,
+    "FL": 4,
+    "BR": 2,
+    "BL": 3
+  },
+  "yaw": {
+    "kp": 4,
+    "ki": 0,
+    "kd": 0.8,
+    "target_rate_deg_s": 90,
+    "max_rad_s": 2.5,
+    "derivative": "measurement only",
+    "feedforward": "target angular rate"
+  },
+  "builds_passed": [
+    "h7-debug",
+    "h7-release",
+    "h7-chassis-observe",
+    "h7-dbus-debug",
+    "host"
+  ],
+  "host_test": {
+    "passed": true,
+    "command": "ctest --test-dir build/host --output-on-failure",
+    "source_snapshot_sha256": "e84d6aea6edcd1e056c79edbb082a06895fe0ce4091b257c5f38392fd1ffb08a",
+    "test_binary_sha256": "1deff795f71e20e34b0c2e3b27ec962022c29d89085414660452f195175e6984"
+  },
+  "flash_started": true,
+  "flash_verified": true,
+  "connection_attempts": 4,
+  "connection_error": "CMSIS-DAP command CMD_INFO failed",
+  "preflash_serial_bytes": 0,
+  "motion_verified": false,
+  "successful_backend": "HID",
+  "startup_verified": true
+}

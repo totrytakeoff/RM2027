@@ -1,0 +1,402 @@
+{
+  "case": "early-stall",
+  "monitor": {
+    "duration_s": 24.000105311999505,
+    "samples": 23,
+    "observed_resets": 0,
+    "task_max_runtime_us": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "task_stack_min_words": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "final": {
+      "board": {
+        "cpu_hz": 480000000,
+        "hclk_hz": 240000000,
+        "fdcan_hz": 80000000,
+        "reset_flags": 88211456,
+        "cpuid": 1092600434,
+        "hal_version": 17499392,
+        "dcache_enabled": true
+      },
+      "tasks": [
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        },
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        },
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        },
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        },
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        },
+        {
+          "run_count": 0,
+          "last_finish_ms": 0,
+          "max_runtime_us": 0,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 0
+        }
+      ],
+      "ins": {
+        "timestamp_us": 0,
+        "sequence": 0,
+        "calibration_count": 0,
+        "state": 0,
+        "error": 0,
+        "valid": false,
+        "converged": false,
+        "quaternion": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gyro": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "accel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gyro_bias": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0,
+        "pitch_deg": 0.0,
+        "roll_deg": 0.0,
+        "yaw_total_deg": 0.0,
+        "temperature_c": 0.0,
+        "dt_s": 0.0,
+        "motion_body": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "motion_earth": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "raw": {
+        "accel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gyro": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "temperature_c": 0.0,
+        "accel_us": 0,
+        "gyro_us": 0,
+        "sequence": 0,
+        "valid": false
+      },
+      "gate": {
+        "epoch": 1,
+        "reasons": 1,
+        "deadline_ms": 0,
+        "permitted": false
+      },
+      "fault": {
+        "magic": 1380795969,
+        "version": 1,
+        "reason": 16385,
+        "ipsr": 0,
+        "cfsr": 0,
+        "hfsr": 0,
+        "mmfar": 0,
+        "bfar": 0,
+        "frame": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "checksum": 3248533517
+      },
+      "can": [
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 0,
+          "pending_frames": 0,
+          "online": false
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 0,
+          "pending_frames": 0,
+          "online": false
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 0,
+          "pending_frames": 0,
+          "online": false
+        }
+      ],
+      "serial": [
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 1,
+            "restarts": 0,
+            "restart_failures": 1,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 2,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": false,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 64,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 4,
+          "tx_running": false,
+          "fault": true,
+          "aborting": false,
+          "aborted": false,
+          "started": false,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 64,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 256,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 8,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        }
+      ],
+      "timer_us": 11552689,
+      "cfsr": 0,
+      "hfsr": 0,
+      "ccr": 459264,
+      "mpu_ctrl": 5,
+      "dhcsr": 16842753,
+      "gpiob_odr": 0,
+      "gpioc_odr": 9,
+      "log_dropped": 0,
+      "host_elapsed_s": 23.61843248599689
+    }
+  },
+  "passed": false
+}

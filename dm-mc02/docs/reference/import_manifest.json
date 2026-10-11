@@ -1,0 +1,1319 @@
+{
+  "baseline": "2026-10-07",
+  "records": [
+    {
+      "destination": "third_party/cmsis/Include/cmsis_armcc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "source_sha256": "5a80286d68d0b4478895a222da683c8ca561d3bcf6392aaaea225d4a117c843e",
+      "implementation_sha256": "5a80286d68d0b4478895a222da683c8ca561d3bcf6392aaaea225d4a117c843e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_armclang.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "source_sha256": "e24f4bd1548b94e0ad424f4f13f59a4db4ca5aad7b644d10a893a330775d3003",
+      "implementation_sha256": "e24f4bd1548b94e0ad424f4f13f59a4db4ca5aad7b644d10a893a330775d3003",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_armclang_ltm.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "source_sha256": "e8f040e9ef61e466cc751677ab3c413a463cb74d1fc33fb6dfd94225bd93c8c1",
+      "implementation_sha256": "e8f040e9ef61e466cc751677ab3c413a463cb74d1fc33fb6dfd94225bd93c8c1",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_compiler.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "source_sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8",
+      "implementation_sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_gcc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "source_sha256": "1fba3e120e5c0a439e0982bd37fae04bd033dbd14187428214462a1707c56252",
+      "implementation_sha256": "1fba3e120e5c0a439e0982bd37fae04bd033dbd14187428214462a1707c56252",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_iccarm.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "source_sha256": "820bcd68b0a92f97abf5cdde6413e5e842fb286e0514be2c1be1547bb2dd2e7d",
+      "implementation_sha256": "820bcd68b0a92f97abf5cdde6413e5e842fb286e0514be2c1be1547bb2dd2e7d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/cmsis_version.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/cmsis_version.h",
+      "source_sha256": "1b2c47a90e9ae741c8fd4d0f323495327b25ff5d555a6c7afd6749a65ba1bb8e",
+      "implementation_sha256": "1b2c47a90e9ae741c8fd4d0f323495327b25ff5d555a6c7afd6749a65ba1bb8e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_armv81mml.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_armv81mml.h",
+      "source_sha256": "b4bc83a6ff10fd2fb7e4c0abefdbd447eb7f78f3db898ca9aac5676307e2b862",
+      "implementation_sha256": "b4bc83a6ff10fd2fb7e4c0abefdbd447eb7f78f3db898ca9aac5676307e2b862",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_armv8mbl.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "source_sha256": "74b92c994af7355e222b45a0342754840b7221b611ef95bd206345879cc2caaa",
+      "implementation_sha256": "74b92c994af7355e222b45a0342754840b7221b611ef95bd206345879cc2caaa",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_armv8mml.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_armv8mml.h",
+      "source_sha256": "77255f30508cf0d225f8b72207e28bf81353f8b353e8b120132c6db7e9bead9e",
+      "implementation_sha256": "77255f30508cf0d225f8b72207e28bf81353f8b353e8b120132c6db7e9bead9e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm0.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm0.h",
+      "source_sha256": "52e8826259be4fcb10d0de2d3655c24d52436e54cd1509f3beb1a31a45524f38",
+      "implementation_sha256": "52e8826259be4fcb10d0de2d3655c24d52436e54cd1509f3beb1a31a45524f38",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm0plus.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm0plus.h",
+      "source_sha256": "36e9aec815eef944241e5fed7085845346de6bcb5ba30561f956356b393ba5f0",
+      "implementation_sha256": "36e9aec815eef944241e5fed7085845346de6bcb5ba30561f956356b393ba5f0",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm1.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm1.h",
+      "source_sha256": "944bf0c4f940eef30a632cd99d5dcfe8270e8a8431eb98c0f081bcf4f61f728e",
+      "implementation_sha256": "944bf0c4f940eef30a632cd99d5dcfe8270e8a8431eb98c0f081bcf4f61f728e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm23.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm23.h",
+      "source_sha256": "f04d3e5f385b0ff219a75f6648acabf7debb779a72f0628573b64dac5ad49fdc",
+      "implementation_sha256": "f04d3e5f385b0ff219a75f6648acabf7debb779a72f0628573b64dac5ad49fdc",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm3.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm3.h",
+      "source_sha256": "0191499015f3af7b37ce83092df29d1d63dbba9fa5f31b6d2341a2e850b20cb4",
+      "implementation_sha256": "0191499015f3af7b37ce83092df29d1d63dbba9fa5f31b6d2341a2e850b20cb4",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm33.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm33.h",
+      "source_sha256": "3566c5bf835091b1cc46baf6e9b6ce94d83dd0885e0db122f43e901e9326945a",
+      "implementation_sha256": "3566c5bf835091b1cc46baf6e9b6ce94d83dd0885e0db122f43e901e9326945a",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm35p.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm35p.h",
+      "source_sha256": "1f6da4c033261293acb8f0a7da42a0e9b6ab392c9462cc26f5e3e35d4db4e2d3",
+      "implementation_sha256": "1f6da4c033261293acb8f0a7da42a0e9b6ab392c9462cc26f5e3e35d4db4e2d3",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm4.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm4.h",
+      "source_sha256": "53d609b900c262650fcaf5a48eabd0fa299c3ac4d1426eb0f20e2aab053f8abb",
+      "implementation_sha256": "53d609b900c262650fcaf5a48eabd0fa299c3ac4d1426eb0f20e2aab053f8abb",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_cm7.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_cm7.h",
+      "source_sha256": "34d91327a5f1b251c54fa6bb532d9f5ec0423bf3b7f2b679c8f7b3df95af0fc8",
+      "implementation_sha256": "34d91327a5f1b251c54fa6bb532d9f5ec0423bf3b7f2b679c8f7b3df95af0fc8",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_sc000.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_sc000.h",
+      "source_sha256": "cc9037b32401824436d251de860799fcdbab3cf69e2321438c8f446f3f342526",
+      "implementation_sha256": "cc9037b32401824436d251de860799fcdbab3cf69e2321438c8f446f3f342526",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/core_sc300.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/core_sc300.h",
+      "source_sha256": "e6a78d85b3ca77e35dc512e32e535028a46e156adab8629360fa4b7fe6731827",
+      "implementation_sha256": "e6a78d85b3ca77e35dc512e32e535028a46e156adab8629360fa4b7fe6731827",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/mpu_armv7.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/mpu_armv7.h",
+      "source_sha256": "c9ad7cc99ba0481365550ae997c63cde9732d067d9ec0de28b0d6ac39280656d",
+      "implementation_sha256": "c9ad7cc99ba0481365550ae997c63cde9732d067d9ec0de28b0d6ac39280656d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/mpu_armv8.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/mpu_armv8.h",
+      "source_sha256": "53f9e848af62ea8704f463992e4d65c7c79fc72cfd8fab6fa14adc73478b0afd",
+      "implementation_sha256": "53f9e848af62ea8704f463992e4d65c7c79fc72cfd8fab6fa14adc73478b0afd",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Include/tz_context.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Include/tz_context.h",
+      "source_sha256": "45565c8cb04c653aabaf3cceddfc848b6a0de28c20d4f7e3d475a992c7eee788",
+      "implementation_sha256": "45565c8cb04c653aabaf3cceddfc848b6a0de28c20d4f7e3d475a992c7eee788",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Device/ST/STM32H7xx/Include/stm32h723xx.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h",
+      "source_sha256": "19086af8741f4aab5c6aecc895bc98d997a752dc28b1cc74d059b03717005259",
+      "implementation_sha256": "19086af8741f4aab5c6aecc895bc98d997a752dc28b1cc74d059b03717005259",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Device/ST/STM32H7xx/Include/stm32h7xx.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h",
+      "source_sha256": "9bad4fffca7a09b179e6be9d55204eff634cda7e2cec620a79002f6f4d0e0bcf",
+      "implementation_sha256": "9bad4fffca7a09b179e6be9d55204eff634cda7e2cec620a79002f6f4d0e0bcf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Device/ST/STM32H7xx/Include/system_stm32h7xx.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h",
+      "source_sha256": "edbd2ae253530241ca82470fde1db4de1b0ba856590d69b17d3342b952c1fcba",
+      "implementation_sha256": "edbd2ae253530241ca82470fde1db4de1b0ba856590d69b17d3342b952c1fcba",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/LICENSE.txt",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/LICENSE.txt",
+      "source_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "implementation_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis/Device/ST/STM32H7xx/LICENSE.txt",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt",
+      "source_sha256": "135fb2d86e9ecdf6824cc3bba21c72b8e380c07b055fbebb6b995463eb609baf",
+      "implementation_sha256": "135fb2d86e9ecdf6824cc3bba21c72b8e380c07b055fbebb6b995463eb609baf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/Legacy/stm32_hal_legacy.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "source_sha256": "7fff96faed90c81364225132389b1865f67ceac8e65381b60459264c4136ee6e",
+      "implementation_sha256": "7fff96faed90c81364225132389b1865f67ceac8e65381b60459264c4136ee6e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h",
+      "source_sha256": "97aeb9e9e0c3acde0c91d025e89c7972b9ad13ab3cb735d40ad852dc395f6980",
+      "implementation_sha256": "97aeb9e9e0c3acde0c91d025e89c7972b9ad13ab3cb735d40ad852dc395f6980",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_adc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h",
+      "source_sha256": "7a67f8a941d0d6e1803a2d59e3f4134c1e863f62142a2ff42b35a1761b1b42b0",
+      "implementation_sha256": "7a67f8a941d0d6e1803a2d59e3f4134c1e863f62142a2ff42b35a1761b1b42b0",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_adc_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h",
+      "source_sha256": "5f54fbf0716a5aabe1fab44acaa65553bbc96538038bdb629e7a203cffad6332",
+      "implementation_sha256": "5f54fbf0716a5aabe1fab44acaa65553bbc96538038bdb629e7a203cffad6332",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_cordic.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cordic.h",
+      "source_sha256": "1882081dc2973efec765b21fb888c415c4a60b6c399a78ca7fdcdf8093890a06",
+      "implementation_sha256": "1882081dc2973efec765b21fb888c415c4a60b6c399a78ca7fdcdf8093890a06",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_cortex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h",
+      "source_sha256": "8b61853cb8eb65dabf5181e9f4a2effb3be70974800f6ddc38ae62f0310e78ae",
+      "implementation_sha256": "8b61853cb8eb65dabf5181e9f4a2effb3be70974800f6ddc38ae62f0310e78ae",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_def.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h",
+      "source_sha256": "f7e6ad2cff1b770393ad76961fbb220bef0a52593e9035746e7961137061ebfc",
+      "implementation_sha256": "f7e6ad2cff1b770393ad76961fbb220bef0a52593e9035746e7961137061ebfc",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_dma.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h",
+      "source_sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae",
+      "implementation_sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_dma_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h",
+      "source_sha256": "bc906d5cf9ed149185aa77a80a793e50aa4b2c7e0606f88df1a4b8900a8a26fa",
+      "implementation_sha256": "bc906d5cf9ed149185aa77a80a793e50aa4b2c7e0606f88df1a4b8900a8a26fa",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_exti.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h",
+      "source_sha256": "24a13bdf1e9010068e8bb123c28421f4e009c86ab949ca5df86a7065a96f0498",
+      "implementation_sha256": "24a13bdf1e9010068e8bb123c28421f4e009c86ab949ca5df86a7065a96f0498",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_fdcan.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h",
+      "source_sha256": "a50c2a825716267483c905d8689bf387f8314f37e56999dee05ea7b77f3d02c4",
+      "implementation_sha256": "a50c2a825716267483c905d8689bf387f8314f37e56999dee05ea7b77f3d02c4",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_flash.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h",
+      "source_sha256": "96340bb9572f6c53554323795b3aa8c86962d14b0596dab550322f34dfccba7c",
+      "implementation_sha256": "96340bb9572f6c53554323795b3aa8c86962d14b0596dab550322f34dfccba7c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_flash_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h",
+      "source_sha256": "a5634068e887b72f39c9f18816d5ca4534b1c0103c9847db5067dd866fa42ba6",
+      "implementation_sha256": "a5634068e887b72f39c9f18816d5ca4534b1c0103c9847db5067dd866fa42ba6",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_gpio.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h",
+      "source_sha256": "75c7e634ec0b5fa2ad6ef90b9b010a4dbac1cdd9876daf80cab2253774c092bb",
+      "implementation_sha256": "75c7e634ec0b5fa2ad6ef90b9b010a4dbac1cdd9876daf80cab2253774c092bb",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_gpio_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h",
+      "source_sha256": "81b441ab0ef72718230fc3b259a120c57e253018863d9aa9e50f4f6456c866f3",
+      "implementation_sha256": "81b441ab0ef72718230fc3b259a120c57e253018863d9aa9e50f4f6456c866f3",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_hsem.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h",
+      "source_sha256": "9375fc3023cde3f3ccf0a77a21d571d63acbe47f23149c2f226972cecdffdc6f",
+      "implementation_sha256": "9375fc3023cde3f3ccf0a77a21d571d63acbe47f23149c2f226972cecdffdc6f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_i2c.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h",
+      "source_sha256": "6741b4870c9e870e3293996b968419b7edbd2c3477183e44663086ec6f069398",
+      "implementation_sha256": "6741b4870c9e870e3293996b968419b7edbd2c3477183e44663086ec6f069398",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_i2c_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h",
+      "source_sha256": "445dcca6512f91fa60903605c52f19c2792e3d00e6eba9db3a234901a9dd8c40",
+      "implementation_sha256": "445dcca6512f91fa60903605c52f19c2792e3d00e6eba9db3a234901a9dd8c40",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_iwdg.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_iwdg.h",
+      "source_sha256": "ae8490b6c1243af8f35707c591f304337d0bf626fc0eabf912e411c16ba91f3a",
+      "implementation_sha256": "ae8490b6c1243af8f35707c591f304337d0bf626fc0eabf912e411c16ba91f3a",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_mdma.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h",
+      "source_sha256": "580b7f7d97482fe435f5c3c4086f017a090ba186201db2af7c68567094e868e8",
+      "implementation_sha256": "580b7f7d97482fe435f5c3c4086f017a090ba186201db2af7c68567094e868e8",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_ospi.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h",
+      "source_sha256": "78dd9724ec8aeb7c2ba8cda49452970617551d4289f7a65005441dd2f285260d",
+      "implementation_sha256": "78dd9724ec8aeb7c2ba8cda49452970617551d4289f7a65005441dd2f285260d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pcd.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h",
+      "source_sha256": "70f865192e52b3d001a4ea32e0e95dd06fc449ac393fe8ab2a51b730a64c3824",
+      "implementation_sha256": "70f865192e52b3d001a4ea32e0e95dd06fc449ac393fe8ab2a51b730a64c3824",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pcd_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h",
+      "source_sha256": "b063cfb05de32e8c0b573edd1231eae3f27e6e7cd5e57508346ee7b4c0763726",
+      "implementation_sha256": "b063cfb05de32e8c0b573edd1231eae3f27e6e7cd5e57508346ee7b4c0763726",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pwr.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h",
+      "source_sha256": "65a883328691a724d5163403e5e7db38d5a1e8ec11f7bdcf5620329bf779cdfa",
+      "implementation_sha256": "65a883328691a724d5163403e5e7db38d5a1e8ec11f7bdcf5620329bf779cdfa",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pwr_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h",
+      "source_sha256": "76ec9d62421667db5a499309f50c8145d086d76b5529a7ece37331fe5de05842",
+      "implementation_sha256": "76ec9d62421667db5a499309f50c8145d086d76b5529a7ece37331fe5de05842",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_rcc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h",
+      "source_sha256": "27c198869e9a02d059427189d0897130172c10d64a8c993cb57ee9231ebd44cf",
+      "implementation_sha256": "27c198869e9a02d059427189d0897130172c10d64a8c993cb57ee9231ebd44cf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_rcc_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h",
+      "source_sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf",
+      "implementation_sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_spi.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h",
+      "source_sha256": "9ea983fd0e3148a3291b2aa56b1d01709374a3a3845d6b592b3d3356b71f6cb5",
+      "implementation_sha256": "9ea983fd0e3148a3291b2aa56b1d01709374a3a3845d6b592b3d3356b71f6cb5",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_spi_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h",
+      "source_sha256": "44d854991d118840677da5ce86d88b1e555fe811808354522ad2f198ac4fa66c",
+      "implementation_sha256": "44d854991d118840677da5ce86d88b1e555fe811808354522ad2f198ac4fa66c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_tim.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h",
+      "source_sha256": "90eaea9d79e3e69afa3d1ef8758a07ef8809eab28e6502e46d15201f8ffa7c38",
+      "implementation_sha256": "90eaea9d79e3e69afa3d1ef8758a07ef8809eab28e6502e46d15201f8ffa7c38",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_tim_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h",
+      "source_sha256": "c6e76b135cc6bff07ad4b84a76d7eedb3a63ddba472131595c4655ac37ed7196",
+      "implementation_sha256": "c6e76b135cc6bff07ad4b84a76d7eedb3a63ddba472131595c4655ac37ed7196",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_uart.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h",
+      "source_sha256": "4065a1e1b21da22b6ee74e6549d573ea4c0930e744ce923a776cfc3f35383bd7",
+      "implementation_sha256": "4065a1e1b21da22b6ee74e6549d573ea4c0930e744ce923a776cfc3f35383bd7",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_uart_ex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h",
+      "source_sha256": "99756f731f50013b1344f8ea0d1a0259ccacd5e085fb7477080c215dcf343841",
+      "implementation_sha256": "99756f731f50013b1344f8ea0d1a0259ccacd5e085fb7477080c215dcf343841",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_adc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h",
+      "source_sha256": "cb252eef4c35038adc1ed634b7acdb7067e4984ef7f399eb6432916756481920",
+      "implementation_sha256": "cb252eef4c35038adc1ed634b7acdb7067e4984ef7f399eb6432916756481920",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_bus.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h",
+      "source_sha256": "0eb42ffbba51192ec0efd6463759a5fda060637ff4d694274df16b4763c882a5",
+      "implementation_sha256": "0eb42ffbba51192ec0efd6463759a5fda060637ff4d694274df16b4763c882a5",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_cordic.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cordic.h",
+      "source_sha256": "c14e0a66652d2618eea6de289f5a6a67c3dce425848ba6df4a3b56f4a081d1f9",
+      "implementation_sha256": "c14e0a66652d2618eea6de289f5a6a67c3dce425848ba6df4a3b56f4a081d1f9",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_cortex.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h",
+      "source_sha256": "e6781bfcc812a315006a5ea9ed0f0eb7db19beb095bce5136c345e0af4caed1c",
+      "implementation_sha256": "e6781bfcc812a315006a5ea9ed0f0eb7db19beb095bce5136c345e0af4caed1c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_crs.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h",
+      "source_sha256": "cb7133e48358f5cd50119c8b88c4a59634dad521f489448e04602c9efd9d2972",
+      "implementation_sha256": "cb7133e48358f5cd50119c8b88c4a59634dad521f489448e04602c9efd9d2972",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_dma.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h",
+      "source_sha256": "3cf0adf0da04435eb89743523a7f9e6a23a18fd6133afed7c808acef9ee0aa76",
+      "implementation_sha256": "3cf0adf0da04435eb89743523a7f9e6a23a18fd6133afed7c808acef9ee0aa76",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_dmamux.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h",
+      "source_sha256": "74cdd7b811aa394274ba645d05ae410d417f0e3836d91194e58156960d68a2ea",
+      "implementation_sha256": "74cdd7b811aa394274ba645d05ae410d417f0e3836d91194e58156960d68a2ea",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_exti.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h",
+      "source_sha256": "6eee9e7ba6b688c5c848e8f318b7adc293347a4697a888cfaadc9a2cd654cc5b",
+      "implementation_sha256": "6eee9e7ba6b688c5c848e8f318b7adc293347a4697a888cfaadc9a2cd654cc5b",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_gpio.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h",
+      "source_sha256": "3a84cb663d59954ce2a057ee58793890579b4ef15af37c8f043190b0a82c9093",
+      "implementation_sha256": "3a84cb663d59954ce2a057ee58793890579b4ef15af37c8f043190b0a82c9093",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_hsem.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h",
+      "source_sha256": "7e2cc95c8dcd6b326801026d0398a46b903c94e4c3befd650a227e9a351606c2",
+      "implementation_sha256": "7e2cc95c8dcd6b326801026d0398a46b903c94e4c3befd650a227e9a351606c2",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_iwdg.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_iwdg.h",
+      "source_sha256": "dd5c8116767550492595983a08f870d9db95181c31ec7d149e3923d274dd6768",
+      "implementation_sha256": "dd5c8116767550492595983a08f870d9db95181c31ec7d149e3923d274dd6768",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_lpuart.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_lpuart.h",
+      "source_sha256": "272862ad6036ead74e88306b08ed0870c44f866617328beabb505038be9af6ba",
+      "implementation_sha256": "272862ad6036ead74e88306b08ed0870c44f866617328beabb505038be9af6ba",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_pwr.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h",
+      "source_sha256": "fd20ad8efbceb8ad7169e92a365385759fc1331157a94399d9e8328e32c8a564",
+      "implementation_sha256": "fd20ad8efbceb8ad7169e92a365385759fc1331157a94399d9e8328e32c8a564",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_rcc.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h",
+      "source_sha256": "811ac8f472d426f2d7542d1e5987f1771035637bbdf69d9197f02cd52bb9f2e9",
+      "implementation_sha256": "811ac8f472d426f2d7542d1e5987f1771035637bbdf69d9197f02cd52bb9f2e9",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_spi.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h",
+      "source_sha256": "637d0822e248429fd87182786f1e727860dc52645440405642e08f5df13bf565",
+      "implementation_sha256": "637d0822e248429fd87182786f1e727860dc52645440405642e08f5df13bf565",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_system.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h",
+      "source_sha256": "b8fa6b6b051d961eea8b74d62b1f70849ab029b112d99c3d4955400392d78462",
+      "implementation_sha256": "b8fa6b6b051d961eea8b74d62b1f70849ab029b112d99c3d4955400392d78462",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_tim.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h",
+      "source_sha256": "c4547de1d0e4825dc91d40bd4e9af5cc4d5eff16357c1601fc9127c8aea3f7c3",
+      "implementation_sha256": "c4547de1d0e4825dc91d40bd4e9af5cc4d5eff16357c1601fc9127c8aea3f7c3",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_usart.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usart.h",
+      "source_sha256": "137553753bb69d630d93751f895b3951be03c7a30862a31ac60e94355ce81bde",
+      "implementation_sha256": "137553753bb69d630d93751f895b3951be03c7a30862a31ac60e94355ce81bde",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_usb.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h",
+      "source_sha256": "1214fcc2d4046842942f3e74c0219d24be038184a2a5c395519d30f11da4e97d",
+      "implementation_sha256": "1214fcc2d4046842942f3e74c0219d24be038184a2a5c395519d30f11da4e97d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_utils.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h",
+      "source_sha256": "02f36cc8124209b5045c10a4063a7e5f4f92fb1eeb1d29f1104d94cffcbde2a5",
+      "implementation_sha256": "02f36cc8124209b5045c10a4063a7e5f4f92fb1eeb1d29f1104d94cffcbde2a5",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c",
+      "source_sha256": "3e46894e1870c682b6362c0536d5a5ded6cf5541f54559e5cc591e90352f0bfc",
+      "implementation_sha256": "3e46894e1870c682b6362c0536d5a5ded6cf5541f54559e5cc591e90352f0bfc",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_cortex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c",
+      "source_sha256": "9df95c02feab163763ac752c17c07f0a10f6bd7d303f659e950dd8b6b4cce2c9",
+      "implementation_sha256": "9df95c02feab163763ac752c17c07f0a10f6bd7d303f659e950dd8b6b4cce2c9",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_dma.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c",
+      "source_sha256": "e1b72f89360c46185e557e9ae3ad9c0b36978130dbf010ac54a089a850a9d2cf",
+      "implementation_sha256": "e1b72f89360c46185e557e9ae3ad9c0b36978130dbf010ac54a089a850a9d2cf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_dma_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c",
+      "source_sha256": "a8bc1642a339acba8aaa7be9101854ab36319efcf2a3ba299760451af31585d1",
+      "implementation_sha256": "a8bc1642a339acba8aaa7be9101854ab36319efcf2a3ba299760451af31585d1",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_exti.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c",
+      "source_sha256": "90865afce1c097a4760b197f1c23f602edab2cfd75f19c1d56a14f02e5042411",
+      "implementation_sha256": "90865afce1c097a4760b197f1c23f602edab2cfd75f19c1d56a14f02e5042411",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_fdcan.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c",
+      "source_sha256": "beb1ee442655f607984b1df1bed4caf99dc50a00ea0670c72c917b65aa1657ee",
+      "implementation_sha256": "beb1ee442655f607984b1df1bed4caf99dc50a00ea0670c72c917b65aa1657ee",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_flash.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c",
+      "source_sha256": "f5d7fae3a1dce51e81c099a48a39c2076ee79932a7d369a76a2dd1d5b0e8103f",
+      "implementation_sha256": "f5d7fae3a1dce51e81c099a48a39c2076ee79932a7d369a76a2dd1d5b0e8103f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_flash_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c",
+      "source_sha256": "aea2f7cf88a97ff6e9eb6afd542ee9aa1f1be2946db834625df176f2a383497f",
+      "implementation_sha256": "aea2f7cf88a97ff6e9eb6afd542ee9aa1f1be2946db834625df176f2a383497f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_gpio.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c",
+      "source_sha256": "e8cb800d746479f9b768e6845dfd2c84867a0b264101afb21f5ad799e3a65ae2",
+      "implementation_sha256": "e8cb800d746479f9b768e6845dfd2c84867a0b264101afb21f5ad799e3a65ae2",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_iwdg.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_iwdg.c",
+      "source_sha256": "086e965d94cacc528808f4e76c2f66e94e8df95be4d960374898e6b6c316e968",
+      "implementation_sha256": "086e965d94cacc528808f4e76c2f66e94e8df95be4d960374898e6b6c316e968",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_mdma.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c",
+      "source_sha256": "674d7a273d208509e2941cb88d9419f549cbdfd35d4aa81b2da135bf1c1a30ad",
+      "implementation_sha256": "674d7a273d208509e2941cb88d9419f549cbdfd35d4aa81b2da135bf1c1a30ad",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_pwr.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c",
+      "source_sha256": "87dc25ff1b0a58773eeed5a87de133167cfe4306bf54aa884889a61d8a5bd7f4",
+      "implementation_sha256": "87dc25ff1b0a58773eeed5a87de133167cfe4306bf54aa884889a61d8a5bd7f4",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_pwr_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c",
+      "source_sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c",
+      "implementation_sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_rcc.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c",
+      "source_sha256": "99c51eaf3e01a9040e3080b2d0f537fd546e63792b571f74fc39bdc481d82116",
+      "implementation_sha256": "99c51eaf3e01a9040e3080b2d0f537fd546e63792b571f74fc39bdc481d82116",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_rcc_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c",
+      "source_sha256": "ba3ffa42989a60a93e8de7f148cde4fa22c6853223d00d5d9954ad370c6012fe",
+      "implementation_sha256": "ba3ffa42989a60a93e8de7f148cde4fa22c6853223d00d5d9954ad370c6012fe",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_spi.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c",
+      "source_sha256": "862a531faa657484a7af61412387f146587e4430cbfdcf104749f48683ab419c",
+      "implementation_sha256": "862a531faa657484a7af61412387f146587e4430cbfdcf104749f48683ab419c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_spi_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c",
+      "source_sha256": "d7262bb17d9c4949ff4be52cb287ab823415ea59019ed89a4750d6c5c1997988",
+      "implementation_sha256": "d7262bb17d9c4949ff4be52cb287ab823415ea59019ed89a4750d6c5c1997988",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_tim.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c",
+      "source_sha256": "a629504942e13c443324ebf9efa301a003ce2880c57b7aeb59bff5a643ec829f",
+      "implementation_sha256": "a629504942e13c443324ebf9efa301a003ce2880c57b7aeb59bff5a643ec829f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_tim_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c",
+      "source_sha256": "f00d3730972ebc50ced69c9c40bfb2d5e2bbc2026e33818bc97cf2048dc47837",
+      "implementation_sha256": "f00d3730972ebc50ced69c9c40bfb2d5e2bbc2026e33818bc97cf2048dc47837",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c",
+      "source_sha256": "24be6acbe1eaad088184086efb3a4ce309e00e90ceeeecbf3e112b8ec23bb429",
+      "implementation_sha256": "24be6acbe1eaad088184086efb3a4ce309e00e90ceeeecbf3e112b8ec23bb429",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart_ex.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c",
+      "source_sha256": "ef3ee8fb9ea24163b9ed0b0e6078bba36b071de3ff9af16a7914df634e0bb191",
+      "implementation_sha256": "ef3ee8fb9ea24163b9ed0b0e6078bba36b071de3ff9af16a7914df634e0bb191",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/stm32h7xx_hal/LICENSE.txt",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt",
+      "source_sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1",
+      "implementation_sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/FreeRTOS.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/FreeRTOS.h",
+      "source_sha256": "74c201409e1156806627c233a27adb1f4da62d9e40baae99db5c7ddc7e9aae2f",
+      "implementation_sha256": "74c201409e1156806627c233a27adb1f4da62d9e40baae99db5c7ddc7e9aae2f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/StackMacros.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/StackMacros.h",
+      "source_sha256": "4fe5345c6e09102910b765e0facc05ac12f42ed75eb627767aee59fa5b0df65f",
+      "implementation_sha256": "4fe5345c6e09102910b765e0facc05ac12f42ed75eb627767aee59fa5b0df65f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/atomic.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/atomic.h",
+      "source_sha256": "343ced16833df1aad70972829631136d18727bd687fce6f08264162fc9bf221c",
+      "implementation_sha256": "343ced16833df1aad70972829631136d18727bd687fce6f08264162fc9bf221c",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/croutine.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/croutine.h",
+      "source_sha256": "ecbc64327844a7f24255314d65c4205d3490e8ace8b5d655c1c9f45725b2d7d6",
+      "implementation_sha256": "ecbc64327844a7f24255314d65c4205d3490e8ace8b5d655c1c9f45725b2d7d6",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/deprecated_definitions.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/deprecated_definitions.h",
+      "source_sha256": "dcfd3ab2633029c04037ef35a854db090995fcf938ca33b51199377c36720d47",
+      "implementation_sha256": "dcfd3ab2633029c04037ef35a854db090995fcf938ca33b51199377c36720d47",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/event_groups.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/event_groups.h",
+      "source_sha256": "b97b6b2d7aa918e62434083f76dca08ae73c85fedd021ecc91af1f39838324f7",
+      "implementation_sha256": "b97b6b2d7aa918e62434083f76dca08ae73c85fedd021ecc91af1f39838324f7",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/list.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/list.h",
+      "source_sha256": "973915ae18a63c6783fe09bf589798cbccf3baee7dfa4b14f8d1525607af3ab6",
+      "implementation_sha256": "973915ae18a63c6783fe09bf589798cbccf3baee7dfa4b14f8d1525607af3ab6",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/message_buffer.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/message_buffer.h",
+      "source_sha256": "07c912a59ba6af0b6f619f23cc7b58f445596d5ff7f589e9fc564cebbf2530bf",
+      "implementation_sha256": "07c912a59ba6af0b6f619f23cc7b58f445596d5ff7f589e9fc564cebbf2530bf",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/mpu_prototypes.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/mpu_prototypes.h",
+      "source_sha256": "94ca481a3cb128b2caf847dc570cc82942ee6ffb06710eff09fb0bcbef173848",
+      "implementation_sha256": "94ca481a3cb128b2caf847dc570cc82942ee6ffb06710eff09fb0bcbef173848",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/mpu_wrappers.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/mpu_wrappers.h",
+      "source_sha256": "5a02b1083a49d9dadd65ac52cd6f21283f24586c939f68c75ce632f60863fd3f",
+      "implementation_sha256": "5a02b1083a49d9dadd65ac52cd6f21283f24586c939f68c75ce632f60863fd3f",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/portable.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/portable.h",
+      "source_sha256": "e3921faf76c89c5bcf068b41b5b806655a0841b68114f9496a56e3a25a5fd84e",
+      "implementation_sha256": "e3921faf76c89c5bcf068b41b5b806655a0841b68114f9496a56e3a25a5fd84e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/projdefs.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/projdefs.h",
+      "source_sha256": "f646ef12236991a3b34c170c65aa12d2d0c0310b28e324ace620e1957b7c109e",
+      "implementation_sha256": "f646ef12236991a3b34c170c65aa12d2d0c0310b28e324ace620e1957b7c109e",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/queue.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/queue.h",
+      "source_sha256": "c4372fb6b9cd6fb08121c1ac21153bdf3621f92edf2a8381cc631fcef2964fae",
+      "implementation_sha256": "c4372fb6b9cd6fb08121c1ac21153bdf3621f92edf2a8381cc631fcef2964fae",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/semphr.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/semphr.h",
+      "source_sha256": "6d4179c295ec9aadb186744e7618854c5ef10cb9a0f8c27948b343a3f6a129af",
+      "implementation_sha256": "6d4179c295ec9aadb186744e7618854c5ef10cb9a0f8c27948b343a3f6a129af",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/stack_macros.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/stack_macros.h",
+      "source_sha256": "54ff69e8652c7f1332d1679594d1b2076a1633955d6d46e51b3ab4f99780f6ee",
+      "implementation_sha256": "54ff69e8652c7f1332d1679594d1b2076a1633955d6d46e51b3ab4f99780f6ee",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/stream_buffer.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/stream_buffer.h",
+      "source_sha256": "13f288307ce0b9182941cecfc261b8281fe0fb0e9156f621c252f96f9de8de07",
+      "implementation_sha256": "13f288307ce0b9182941cecfc261b8281fe0fb0e9156f621c252f96f9de8de07",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/task.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/task.h",
+      "source_sha256": "1d75dff80cdc81720b60eeb4cb825370bd05508feed244d2ee1cf263be51ffd9",
+      "implementation_sha256": "1d75dff80cdc81720b60eeb4cb825370bd05508feed244d2ee1cf263be51ffd9",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/include/timers.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/include/timers.h",
+      "source_sha256": "bd94103aef9d4dbf18db3296b5c55be524d229bae90aecb01e2b9475b8f02f55",
+      "implementation_sha256": "bd94103aef9d4dbf18db3296b5c55be524d229bae90aecb01e2b9475b8f02f55",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/portable/GCC/ARM_CM4F/port.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/portable/GCC/ARM_CM4F/port.c",
+      "source_sha256": "41538311e845a7b4b6e8227b595c63b0d6c1e7b1ffd196104b57339d6c5ba3f7",
+      "implementation_sha256": "41538311e845a7b4b6e8227b595c63b0d6c1e7b1ffd196104b57339d6c5ba3f7",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/portable/GCC/ARM_CM4F/portmacro.h",
+      "source": "RM2026/third_party/freertos_kernel/Source/portable/GCC/ARM_CM4F/portmacro.h",
+      "source_sha256": "203df13c4041a32d681ece9884e3e0e5fda00814ec40d3d644b15b3e7e3eb0e4",
+      "implementation_sha256": "203df13c4041a32d681ece9884e3e0e5fda00814ec40d3d644b15b3e7e3eb0e4",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/list.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/list.c",
+      "source_sha256": "2c7593ec5c67bcdb371d5c3fda60f240e594dd3a7b60f72947f53e8c01971e24",
+      "implementation_sha256": "2c7593ec5c67bcdb371d5c3fda60f240e594dd3a7b60f72947f53e8c01971e24",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/queue.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/queue.c",
+      "source_sha256": "4613e2dd8c099ee689ff4fabc1d4979c0c22683a95f3e85283c6ef1b92a32bd8",
+      "implementation_sha256": "4613e2dd8c099ee689ff4fabc1d4979c0c22683a95f3e85283c6ef1b92a32bd8",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/tasks.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/tasks.c",
+      "source_sha256": "6f540b927668e4c87a064749c03f6ee0ca7370b9dfae7d9d5e96ebd0fdf12b8d",
+      "implementation_sha256": "6f540b927668e4c87a064749c03f6ee0ca7370b9dfae7d9d5e96ebd0fdf12b8d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/timers.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/timers.c",
+      "source_sha256": "87be4c74af661ade4ad39f420888c655067d11df008e7a66c88658f7131cb7f4",
+      "implementation_sha256": "87be4c74af661ade4ad39f420888c655067d11df008e7a66c88658f7131cb7f4",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/event_groups.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/event_groups.c",
+      "source_sha256": "54f696c16294199f4445d042d907b14da401fbb7f3bc3b2ca71acd5dbb120218",
+      "implementation_sha256": "54f696c16294199f4445d042d907b14da401fbb7f3bc3b2ca71acd5dbb120218",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/stream_buffer.c",
+      "source": "RM2026/third_party/freertos_kernel/Source/stream_buffer.c",
+      "source_sha256": "20e1a58018635a746b5193073f09a3736464bc913f4ebfe28c39bbb75b4cac6b",
+      "implementation_sha256": "20e1a58018635a746b5193073f09a3736464bc913f4ebfe28c39bbb75b4cac6b",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/gpio.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/gpio.c",
+      "source_sha256": "faf646ef7af5f580cc6e2fa6bc8b5f8fdf9f9fd40439e7b318ae64b7cab468d7",
+      "implementation_sha256": "a5090bb081872e8d6ed0d75eb480b19089958fc7aae53b2cefcb5dbfa9714085",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/spi.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/spi.c",
+      "source_sha256": "748e47f2a9e92edfe15ad94e9ca6792c70efe89370a08100067038464dbc6566",
+      "implementation_sha256": "86793bdc5bd86c18718c9438dda135a3281ef4c6fe02836b7ed37cc68ae2418b",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/usart.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/usart.c",
+      "source_sha256": "af81a35e5003776f304f28ee312ab181cdb62d16e5d7ad5f0b5b43a51dd4e03b",
+      "implementation_sha256": "22cdc8534ae8580e8801e2f01c63d7f53c1d3c489f579e5cb8fd392b11acaee6",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/fdcan.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/fdcan.c",
+      "source_sha256": "77bf6a3af3fd87604b6af2cab5d7e2cc5fe3cc5ecccf215d62e67279732da092",
+      "implementation_sha256": "aa93f2f50ac32447d1a8ab6bf883885717b832f1a68c085088e8ce1a2f3e7814",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/stm32h7xx_hal_msp.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/stm32h7xx_hal_msp.c",
+      "source_sha256": "7246c19aeea766a4ad60bd1b5aef7ac464bc0498f54f7bbf1141a374de6cf508",
+      "implementation_sha256": "7246c19aeea766a4ad60bd1b5aef7ac464bc0498f54f7bbf1141a374de6cf508",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/generated/system_stm32h7xx.c",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/system_stm32h7xx.c",
+      "source_sha256": "2ea5c2bd1c55e454fcbe26612c0b2a57f321fffb857ccd92844682288dd62518",
+      "implementation_sha256": "e444cb477c5a326ab6a7a1eb1cd47a6012f8ad0f988e74457bb2eb9b4f47bb53",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/gpio.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/gpio.h",
+      "source_sha256": "8648a64151f772929666f6b66e85071c7bc5d4bbfcdf12cffe1aaa1b2d5fbb1e",
+      "implementation_sha256": "8648a64151f772929666f6b66e85071c7bc5d4bbfcdf12cffe1aaa1b2d5fbb1e",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/spi.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/spi.h",
+      "source_sha256": "dbad12dc606d7d8fbb76263ea5790b15e19b0e85918c80da841ea6d1a5c344a0",
+      "implementation_sha256": "dbad12dc606d7d8fbb76263ea5790b15e19b0e85918c80da841ea6d1a5c344a0",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/usart.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/usart.h",
+      "source_sha256": "ddb18ccce7788c5098e994a0bac8eb682baf768825e69d179e48c7cfbf094e0f",
+      "implementation_sha256": "ddb18ccce7788c5098e994a0bac8eb682baf768825e69d179e48c7cfbf094e0f",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/fdcan.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/fdcan.h",
+      "source_sha256": "6040912db1b6c7de55c40ac6b27b0cae6555eac3ea65d18307778dc0795ab15c",
+      "implementation_sha256": "6040912db1b6c7de55c40ac6b27b0cae6555eac3ea65d18307778dc0795ab15c",
+      "adapted": false
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/main.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/main.h",
+      "source_sha256": "077eac4f5c32eeb452f289bc60948d537d488fca20728fbd922b7f41fdead103",
+      "implementation_sha256": "4c2accc2ec27de3a9dd0ddae2fc5e5c8246d557ed0bf2de92a09e67c70571fc1",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/include/stm32h7xx_hal_conf.h",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Inc/stm32h7xx_hal_conf.h",
+      "source_sha256": "277ea12fa252c20565eba03af4601f8edbcd05287db63c64bf7c4a26e9d0c794",
+      "implementation_sha256": "ae5ed16431ad6ea2ae3fc37ce29eb1d4a36dec33d600a6bfd2e84c0ce8da3293",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/startup/startup_stm32h723vgtx.s",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Startup/startup_stm32h723vgtx.s",
+      "source_sha256": "8460ce955e1ab8ccd9bbf22b62351058035ed0f2c8020b3c91c09d84cc48f416",
+      "implementation_sha256": "7386a0ee3844a88c0a5e75a1c38c8eec8a9640ad2d7bf6ee45a5d828110eb65a",
+      "adapted": true
+    },
+    {
+      "destination": "platform/boards/dm_mc02/reference/dm02_test.ioc",
+      "source": "dm-mc02/damiao_mc02_bsp/dm02_test/dm02_test.ioc",
+      "source_sha256": "a9e89d34086270b52452ba7f6935dacc54035f00d246fc4f95fd825cfdf9d763",
+      "implementation_sha256": "a9e89d34086270b52452ba7f6935dacc54035f00d246fc4f95fd825cfdf9d763",
+      "adapted": false
+    },
+    {
+      "destination": "components/services/safety/safety_manager.c",
+      "source": "RM2026/components/services/safety/safety_manager.c",
+      "source_sha256": "1dc1c921fafdbad059592774d22aba155fba5b6bc4add0b9aa8b6b137b82aac0",
+      "implementation_sha256": "1dc1c921fafdbad059592774d22aba155fba5b6bc4add0b9aa8b6b137b82aac0",
+      "adapted": false
+    },
+    {
+      "destination": "components/services/safety/safety_manager.h",
+      "source": "RM2026/components/services/safety/safety_manager.h",
+      "source_sha256": "2e5417e71f1843a39d5e83bb366616922a7ceafaa42d5bd8568611bb5723a4cf",
+      "implementation_sha256": "2e5417e71f1843a39d5e83bb366616922a7ceafaa42d5bd8568611bb5723a4cf",
+      "adapted": false
+    },
+    {
+      "destination": "components/devices/vision/vision_protocol.c",
+      "source": "RM2026/components/devices/vision/vision_protocol.c",
+      "source_sha256": "554860067697943068765d41a3b21fa62aa8fcfe91fee8675e78baab65e3cf4c",
+      "implementation_sha256": "554860067697943068765d41a3b21fa62aa8fcfe91fee8675e78baab65e3cf4c",
+      "adapted": false
+    },
+    {
+      "destination": "components/devices/vision/vision_protocol.h",
+      "source": "RM2026/components/devices/vision/vision_protocol.h",
+      "source_sha256": "530c55041d894d084987ebd6e159eaae1585f88f8ce74fff1edb4567cbc5907b",
+      "implementation_sha256": "530c55041d894d084987ebd6e159eaae1585f88f8ce74fff1edb4567cbc5907b",
+      "adapted": false
+    },
+    {
+      "destination": "components/devices/vision/vision_link_state.c",
+      "source": "RM2026/components/devices/vision/vision_link_state.c",
+      "source_sha256": "bd297836b22876e9e952f2f7b4253b1522a1906543e3282649b4dd8e8ce87e8c",
+      "implementation_sha256": "bd297836b22876e9e952f2f7b4253b1522a1906543e3282649b4dd8e8ce87e8c",
+      "adapted": false
+    },
+    {
+      "destination": "components/devices/vision/vision_link_state.h",
+      "source": "RM2026/components/devices/vision/vision_link_state.h",
+      "source_sha256": "620fe1baf7ae71019a6e6c379efc9e5844e40620827ce3d6e58e15553a303791",
+      "implementation_sha256": "620fe1baf7ae71019a6e6c379efc9e5844e40620827ce3d6e58e15553a303791",
+      "adapted": false
+    },
+    {
+      "destination": "components/algorithms/pid/controller.c",
+      "source": "RM2026/components/algorithms/pid/controller.c",
+      "source_sha256": "51361a6a42e29f2be50d6b7f86d21f61e44d250c8fec3d0687cbe8dd6ac9dff9",
+      "implementation_sha256": "2b94cc1641b3a9fd194f6c946f2b30551734f0f357bed7041541519e66a81fcd",
+      "adapted": true
+    },
+    {
+      "destination": "components/algorithms/pid/controller.h",
+      "source": "RM2026/components/algorithms/pid/controller.h",
+      "source_sha256": "209b773508a293ed45ab650c0ec1b79cecb7b7c6b9138df8328bfa9d0c5f661b",
+      "implementation_sha256": "f0c9a1e9bb47c7e452fde09990578c6f7977e36768352c3f879377594ff64630",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/freertos/portable/GCC/ARM_CM7/r0p1/port.c",
+      "source": "https://raw.githubusercontent.com/FreeRTOS/FreeRTOS-Kernel/V10.3.1-kernel-only/portable/GCC/ARM_CM7/r0p1/port.c",
+      "source_sha256": "d9b888fa09e8d034f7e9116916105585f77a09ea0cd51bcc259d1202425d353d",
+      "implementation_sha256": "d9b888fa09e8d034f7e9116916105585f77a09ea0cd51bcc259d1202425d353d",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/portable/GCC/ARM_CM7/r0p1/portmacro.h",
+      "source": "https://raw.githubusercontent.com/FreeRTOS/FreeRTOS-Kernel/V10.3.1-kernel-only/portable/GCC/ARM_CM7/r0p1/portmacro.h",
+      "source_sha256": "6037be06fd2f0e63b213bcf295139105a7543488ffb54fd5f3d6de538e7e64f2",
+      "implementation_sha256": "6037be06fd2f0e63b213bcf295139105a7543488ffb54fd5f3d6de538e7e64f2",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/freertos/LICENSE",
+      "source": "https://raw.githubusercontent.com/FreeRTOS/FreeRTOS-Kernel/V10.3.1-kernel-only/LICENSE",
+      "source_sha256": "a74efb143c66527cdb7a96461fc4e9652cbd33700bd2a129a0407e31ae03084a",
+      "implementation_sha256": "a74efb143c66527cdb7a96461fc4e9652cbd33700bd2a129a0407e31ae03084a",
+      "adapted": false
+    },
+    {
+      "destination": "components/algorithms/filters/kalman/kalman_filter.c",
+      "source": "RM2026/components/algorithms/filters/kalman/kalman_filter.c",
+      "source_sha256": "66fecfd9d95a4417b600b999443966b4af39fefa8af60457ee8934fbcbd74739",
+      "implementation_sha256": "c8cc2bdc3f884595ce12f40b45833b0673883a19291874e3936c4f0aacf6c08d",
+      "adapted": true
+    },
+    {
+      "destination": "components/algorithms/filters/kalman/kalman_filter.h",
+      "source": "RM2026/components/algorithms/filters/kalman/kalman_filter.h",
+      "source_sha256": "15816d68e88b7afbc90e40c0516098bc378267c31a64ed730b4cc70dc5defe61",
+      "implementation_sha256": "e840893d1b025b91b2de21966c89307ac0b1e4e655c37fa0ef465b319444dcaa",
+      "adapted": true
+    },
+    {
+      "destination": "components/algorithms/quaternion_ekf/QuaternionEKF.c",
+      "source": "RM2026/components/algorithms/quaternion_ekf/QuaternionEKF.c",
+      "source_sha256": "e2e94bfe2207cee3181cf8be3365ddc415ec0826b823289944c798122e5a6d4b",
+      "implementation_sha256": "50be1630aad0ac57ba607544ef87e6639a41174c55697ce695a6f2d863f45461",
+      "adapted": true
+    },
+    {
+      "destination": "components/algorithms/quaternion_ekf/QuaternionEKF.h",
+      "source": "RM2026/components/algorithms/quaternion_ekf/QuaternionEKF.h",
+      "source_sha256": "6719364e6b8273e910185aca27ba3fc09581a4a0e397e95f22feb6c6c12bb0a5",
+      "implementation_sha256": "c92f161133fba83277d2e7217f88fb5473f44150949a2bc0f407989c6b0158e5",
+      "adapted": true
+    },
+    {
+      "destination": "components/devices/remote/remote_control_state.h",
+      "source": "RM2026/components/devices/remote/remote_control_state.h",
+      "source_sha256": "e11d8c916516ac470de270cd796b97f529a44590bd396da0bf9ee75a75444726",
+      "implementation_sha256": "e11d8c916516ac470de270cd796b97f529a44590bd396da0bf9ee75a75444726",
+      "adapted": false
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_init_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c",
+      "source_sha256": "f441c917e21caab027621c4f2ee430020bd62e2b7981931cb5484d5b23211977",
+      "implementation_sha256": "0360c2a35b8c676b9fe5b67fea6d6ff523701c4466f876340ee460a90d7139f9",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_add_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c",
+      "source_sha256": "25dc5e13023f2e4bcd2aa0fc4f09cda79321e62f9e577509e5ae6f1a927e2b5f",
+      "implementation_sha256": "ba2a45a8abb2f6d934ab197758e87a1721496930866de59549bd7fadac332940",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_sub_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c",
+      "source_sha256": "7b7955d0b91009b24ddb49f3aa30125cf4a0d50a4529321547e453383a4685e3",
+      "implementation_sha256": "484fda7399fff638da432edcce73a643c28bb2addfff6b0eefa1e8706e83e7cc",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_mult_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c",
+      "source_sha256": "4db90da203aa493652d718c77b8ba3d9ab6eeae368b9efcfc0305ffa660d41c6",
+      "implementation_sha256": "0f83e0029d875da81ac7eb10e561e482cd0800d351ae3be3e37e72ed9d4d5b6c",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_trans_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c",
+      "source_sha256": "cf38f171dfd6c6c8f6344b07ee51cc7b8341c847c8a1008b457bf0fe6ee62433",
+      "implementation_sha256": "ebebfadfaf8af6ad519d50601ec48cd9029569948647197bd0b35f512488febc",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/arm_mat_inverse_f32.c",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c",
+      "source_sha256": "936bf73a6e971645959b1691505871ec6e406bccece6a3be5f4d82454e99ed97",
+      "implementation_sha256": "c44da421c61c944c2a3596a36d85cac2df8faa19b405de3c7ca422d6e704c9c7",
+      "adapted": true
+    },
+    {
+      "destination": "third_party/cmsis_dsp_matrix/LICENSE.txt",
+      "source": "dm-mc02/例程/CtrBoard-H7_ALL/Drivers/CMSIS/LICENSE.txt",
+      "source_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "implementation_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "adapted": false
+    },
+    {
+      "destination": "applications/chassis_demo/chassis_kinematics.c",
+      "source": "RM2026/applications/robot/chassis/chassis_kinematics.c",
+      "source_sha256": "02c7a1b8748d4dce56f000221df3531f61db3e2dccca6b0e842f0e60e6f5317e",
+      "implementation_sha256": "02c7a1b8748d4dce56f000221df3531f61db3e2dccca6b0e842f0e60e6f5317e",
+      "adapted": false
+    },
+    {
+      "destination": "applications/chassis_demo/chassis_kinematics.h",
+      "source": "RM2026/applications/robot/chassis/chassis_kinematics.h",
+      "source_sha256": "18a66db50ed497e3455e34c99339c24f677236716a980570c5762f1a2a11c8e8",
+      "implementation_sha256": "18a66db50ed497e3455e34c99339c24f677236716a980570c5762f1a2a11c8e8",
+      "adapted": false
+    },
+    {
+      "destination": "applications/chassis_demo/chassis_follow.c",
+      "source": "RM2026/applications/robot/chassis/chassis_follow.c",
+      "source_sha256": "c807c74442fe7cd0e7f89aca368d23436f80e8020cd8fb91dbaa7ac54abdd7bf",
+      "implementation_sha256": "c807c74442fe7cd0e7f89aca368d23436f80e8020cd8fb91dbaa7ac54abdd7bf",
+      "adapted": false
+    },
+    {
+      "destination": "applications/chassis_demo/chassis_follow.h",
+      "source": "RM2026/applications/robot/chassis/chassis_follow.h",
+      "source_sha256": "607cfd28eafedca30f0b532ac66925e7ca457c423c506309227e7599e00e6e4e",
+      "implementation_sha256": "607cfd28eafedca30f0b532ac66925e7ca457c423c506309227e7599e00e6e4e",
+      "adapted": false
+    },
+    {
+      "destination": "scripts/build.sh",
+      "source": "RM2026/scripts/build.sh",
+      "source_sha256": "34814dbb4edd0f9fb982b1b69cb1761a73828aef3f087bb13f71b24e94de471c",
+      "implementation_sha256": "ac5ad2d8f42fa86decc7d1c592f66e38abb6c01139f3498ba3c1374594c651e5",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/debug.sh",
+      "source": "RM2026/scripts/debug.sh",
+      "source_sha256": "28b701025f64e5b2f2823fd405fb8e5b0be7a47217296bc387ad89b18b687727",
+      "implementation_sha256": "21f787d79c5a8afd961f9cf766de5482251940a468a41ebd700b99fe0c06fd29",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/gdb.sh",
+      "source": "RM2026/scripts/gdb.sh",
+      "source_sha256": "38d8dd81deff0d4a8a78aa98a863415fa43f8132decd04b8121bfb81ef0175f6",
+      "implementation_sha256": "bc7ad1594116a3e33e75454dd2811e353de1a7a4e845772303b799ae5aa67df0",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/log.sh",
+      "source": "RM2026/scripts/log.sh",
+      "source_sha256": "1ad1b1bd09b999a92004b89818056e6b5e49b27f997e4fd57f2f9e79dbd94ad1",
+      "implementation_sha256": "5071cebf3078ed25301bae5484c4331ddf8f877439c3fcaae8d43b6efe819c75",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/openocd_rtt_log.ps1",
+      "source": "RM2026/scripts/openocd_rtt_log.ps1",
+      "source_sha256": "824b687bc257915f5d5b2dfe0a71df14faee82d916f07a7da5e21a2efaa629b2",
+      "implementation_sha256": "2f2387cdca033e3c842b88dd4e61423bc782421433395abd454c69745b23e81a",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/openocd_rtt_log.sh",
+      "source": "RM2026/scripts/openocd_rtt_log.sh",
+      "source_sha256": "e1bef4350b29ecef0e1365c432d27f88ed194aca5c9eaa3c022e22563d4320b0",
+      "implementation_sha256": "df8a7acc42b9f7c056c3ede713b077191864ce8400ebeff16187243b0a257eb3",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/upload.ps1",
+      "source": "RM2026/scripts/upload.ps1",
+      "source_sha256": "e34d2b4b6fb5c85454310e43027ccdf9da4f148dd528f3dce53ed2fb4dec69e4",
+      "implementation_sha256": "9470f615690aa7a2a0aa23f591e58eaa593d05866403b82ca714c777f0683138",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/upload.sh",
+      "source": "RM2026/scripts/upload.sh",
+      "source_sha256": "4b106bf3a39df6706093fe7b3d2ca2e39956f4fdcc2ff0b56c0dbc31d19aaf30",
+      "implementation_sha256": "890dab214fdbafa32fb31f91781f944ca072acebe99ebd0c309a2b92b4178cb1",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/vt_serial_monitor.py",
+      "source": "RM2026/scripts/vt_serial_monitor.py",
+      "source_sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb",
+      "implementation_sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb",
+      "adapted": false
+    }
+  ],
+  "source_root_note": "Local source paths are relative to /home/myself/workspace/RM, for attribution only; builds use project-local files.",
+  "upstream_tag": "FreeRTOS-Kernel V10.3.1-kernel-only",
+  "implementation_hash_note": "Implementation hashes refreshed on 2026-10-11 after hardware fixes and chassis demo; original source hashes retained.",
+  "design_references": [
+    {
+      "source": "RM2026/components/devices/remote/et08/et08_remote.c",
+      "source_sha256": "c1a42aa29b04e6fcec579dd435b5a31955c77bbf7114a063524adc9b7f515d39"
+    },
+    {
+      "source": "RM2026/components/devices/remote/et08/et08_backend.hpp",
+      "source_sha256": "c671379c8792792e7d62bbc65ad8ad7631e8eb55c7c65df079c371046c9ef057"
+    },
+    {
+      "source": "RM2026/components/devices/remote/dt7/dt7_remote.c",
+      "source_sha256": "4491f39f2ed638a464b0ec02d84f51481d2ecfff797519a0a59866c96d41bc16"
+    },
+    {
+      "source": "RM2026/components/devices/remote/dt7/dt7_backend.hpp",
+      "source_sha256": "a1161fa94f7a0ad2085fe877b1981331a73c45696d5f70119cfb037a67cc8488"
+    },
+    {
+      "source": "RM2026/components/devices/motor/dji/dji_motor.c",
+      "source_sha256": "b98ea93587a2cd300a93716a6bbaea9c31261c1c9c3d6b15f296bcee77daf0eb"
+    },
+    {
+      "source": "RM2026/components/devices/motor/motor_def.h",
+      "source_sha256": "f4d2130e1657f15b08666698433fe5b003d454d257e3d73b3e72c9c95c7dad40"
+    },
+    {
+      "source": "RM2026/components/devices/imu/ins/ins_task.c",
+      "source_sha256": "85cb13e96011444d31fef231764b5ff3ced47e53ce3f60916a68b35f78ce973b"
+    },
+    {
+      "source": "RM2026/components/devices/imu/bmi088/BMI088driver.c",
+      "source_sha256": "c36f927888cf43839013373551572b06cd5468db636339e755b2fd3c0b70bced"
+    },
+    {
+      "source": "RM2026/applications/robot/config/robot_config.h",
+      "source_sha256": "996aef63a958ec5389aee3063c064b42d64cc26c672a518ebfc806251efddf0c"
+    },
+    {
+      "source": "RM2026/applications/robot/command/et08_input_profile.cpp",
+      "source_sha256": "37c88c11894e86d43f3f73af8db09048cae21300a5fffb99e9060060578f6245"
+    },
+    {
+      "source": "RM2026/applications/robot/chassis/chassis.c",
+      "source_sha256": "25f65dc8bfcf6a1c16df358b5e55fb1488c158f922c7e3336a94bdbedfb2a56d"
+    },
+    {
+      "source": "RM2026/applications/robot/gimbal/gimbal.c",
+      "source_sha256": "eda0e9a839525836ca20d2d0ba8aec1fe25440a3d12aea6f31c1416a30185d7d"
+    }
+  ],
+  "implementation_snapshot_date": "2026-10-11"
+}

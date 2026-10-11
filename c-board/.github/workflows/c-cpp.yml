@@ -1,0 +1,34 @@
+name: CMake-Ninja Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ARM GCC and Ninja
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi libnewlib-arm-none-eabi ninja-build cmake
+          arm-none-eabi-gcc --version
+
+      - name: Configure host unit tests
+        run: cmake -S tests/host -B build-host -G Ninja -DCMAKE_BUILD_TYPE=Debug
+
+      - name: Run host unit tests
+        run: |
+          cmake --build build-host
+          ctest --test-dir build-host --output-on-failure
+
+      - name: Configure (CMake + Ninja)
+        run: cmake -S . -B build -G Ninja -DCMAKE_TOOLCHAIN_FILE=cmake/Toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build (app + tests)
+        run: cmake --build build --target all -- -v
+      

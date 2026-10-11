@@ -1,0 +1,9 @@
+0x080091f4 in prvIdleTask (pvParameters=0x0) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/freertos/tasks.c:3432
+3432				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+Hardware assisted breakpoint 1 at 0x80108b0: file /home/myself/workspace/RM/RM2027/dm-mc02/third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart_ex.c, line 898.
+
+Temporary breakpoint 1, HAL_UARTEx_ReceiveToIdle_DMA (huart=0x240008c4 <huart5>, pData=pData@entry=0x30000800 <rx_buffers> "", Size=64) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart_ex.c:898
+898	  if (huart->RxState == HAL_UART_STATE_READY)
+[Inferior 1 (Remote target) detached]
+[stm32h723.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080002d0 msp: 0x20020000

@@ -1,0 +1,12 @@
+[
+  {
+    "command": "log_output docs/hardware_runs/2026-10-11/openocd.log",
+    "elapsed_s": 0.00015567100126645528,
+    "result": ""
+  },
+  {
+    "command": "program build/h7-debug/board_bringup.elf verify reset",
+    "elapsed_s": 3.9010694829994463,
+    "result": ""
+  }
+]

@@ -1,0 +1,211 @@
+0x080091d2 in prvIdleTask (pvParameters=0x0) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/freertos/tasks.c:3432
+3432				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+pc             0x80091d2           0x80091d2 <prvIdleTask+2>
+lr             0x8009969           134257001
+sp             0x200047f8          0x200047f8 <idle_stack+1016>
+$1 = 0x0
+$2 = 0x0
+$3 = 0x70200
+$4 = {
+  magic = 0,
+  version = 2204756375,
+  reason = 1985587590,
+  ipsr = 585648977,
+  cfsr = 543176278,
+  hfsr = 2345515527,
+  mmfar = 461575608,
+  bfar = 403191473,
+  frame = {2099581828, 3819601136, 2614676498, 1834279664, 576618171, 715111255, 2671949451, 3550343237},
+  checksum = 909923799
+}
+$5 = {
+  cpu_hz = 480000000,
+  hclk_hz = 240000000,
+  fdcan_hz = 80000000,
+  reset_flags = 21102592,
+  cpuid = 1092600434,
+  hal_version = 17499392,
+  dcache_enabled = true
+}
+$6 = {
+  bus = 0x8011fec <bus>,
+  state = RM_BMI_READY,
+  sample = {
+    accel = {0.0377086774, -0.0825999603, 9.85453415},
+    gyro = {-0.00106526446, -0.00852211565, 0.0149137024},
+    temperature_c = 31.375,
+    accel_us = 3074239,
+    gyro_us = 3074248,
+    sequence = 2752,
+    valid = true
+  },
+  start_us = 268,
+  next_us = 322229,
+  timeout_us = 2000000,
+  errors = 0,
+  phase = 5 '\005',
+  register_index = 7 '\a',
+  accel_id = 30 '\036',
+  gyro_id = 15 '\017',
+  verify = false
+}
+$7 = {
+  timestamp_us = 3074248,
+  sequence = 2624,
+  calibration_count = 128,
+  state = RM_INS_RUNNING,
+  error = RM_INS_ERROR_NONE,
+  valid = true,
+  converged = true,
+  quaternion = {0.99998194, -0.00367076742, -0.00473469589, -0.000451904663},
+  gyro = {-0.00157744833, -0.00303830765, 0.0114932051},
+  accel = {0.0377086774, -0.0825999603, 9.85453415},
+  gyro_bias = {0.000512299768, -0.00548443897, 0.00342049752},
+  yaw_deg = -0.049794171,
+  pitch_deg = -0.420408845,
+  roll_deg = -0.542744577,
+  yaw_total_deg = -0.049794171,
+  temperature_c = 31.375,
+  dt_s = 0.00100000005,
+  motion_body = {-0.00314797834, -0.00337353186, 0.0379821286},
+  motion_earth = {-0.00351053732, -0.00309169921, 0.0379743353}
+}
+$8 = {{
+    run_count = 3070,
+    last_finish_ms = 3074,
+    max_runtime_us = 79,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 890
+  }, {
+    run_count = 3070,
+    last_finish_ms = 3074,
+    max_runtime_us = 25,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 630
+  }, {
+    run_count = 614,
+    last_finish_ms = 3070,
+    max_runtime_us = 7,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 343
+  }, {
+    run_count = 614,
+    last_finish_ms = 3070,
+    max_runtime_us = 4,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 392
+  }, {
+    run_count = 154,
+    last_finish_ms = 3065,
+    max_runtime_us = 3,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 682
+  }, {
+    run_count = 307,
+    last_finish_ms = 3065,
+    max_runtime_us = 47,
+    deadline_misses = 0,
+    consecutive_overruns = 0,
+    stack_free_words = 605
+  }}
+$9 = {
+  type = REMOTE_CONTROL_TYPE_NONE,
+  capabilities = 0,
+  link_online = 0 '\000',
+  data_valid = 0 '\000',
+  failsafe = 0 '\000',
+  frame_lost = 0 '\000',
+  sample_sequence = 0,
+  sample_time_ms = 0,
+  axis_raw = {0 <repeats 16 times>},
+  axis_normalized = {0 <repeats 16 times>},
+  axis_valid_mask = 0,
+  switches = {REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID, REMOTE_SWITCH_INVALID},
+  switch_valid_mask = 0,
+  switch_changed_mask = 0,
+  keys_down = 0,
+  keys_pressed = 0,
+  keys_released = 0,
+  mouse_x = 0,
+  mouse_y = 0,
+  mouse_z = 0,
+  buttons_supported = 0,
+  buttons_down = 0,
+  buttons_pressed = 0,
+  buttons_released = 0
+}
+$10 = {
+  uart = 0x240008c4 <huart5>,
+  chunks = {{
+      timestamp_us = 0,
+      generation = 0,
+      length = 0,
+      data = '\000' <repeats 63 times>
+    } <repeats 32 times>},
+  stats = {
+    rx_bytes = 0,
+    rx_events = 0,
+    rx_dropped = 0,
+    rx_errors = 0,
+    restarts = 0,
+    restart_failures = 0,
+    tx_accepted = 0,
+    tx_completed = 0,
+    tx_errors = 0,
+    tx_busy = 0,
+    generation = 1,
+    pending_chunks = 0,
+    abort_timeouts = 0,
+    recovery_exhausted = 0,
+    online = false,
+    quarantined = false
+  },
+  head = 0,
+  tail = 0,
+  tx_head = 0,
+  tx_tail = 0,
+  rx_capacity = 64,
+  rx_position = 0,
+  tx_lengths = {0, 0},
+  tx_capacity = 256,
+  depth = 4,
+  tx_running = false,
+  fault = false,
+  aborting = false,
+  aborted = false,
+  started = true,
+  rx_wrap_before_tc = false,
+  retry_ms = 0,
+  abort_deadline_ms = 0,
+  recovery_attempts = 0
+}
+$11 = {
+  rx_frames = 0,
+  rx_dropped = 0,
+  rx_errors = 0,
+  tx_accepted = 0,
+  tx_completed = 0,
+  tx_aborted = 0,
+  tx_expired = 0,
+  tx_busy = 0,
+  bus_off_count = 0,
+  recoveries = 0,
+  recovery_failures = 0,
+  generation = 1,
+  pending_frames = 0,
+  online = true
+}
+$12 = {
+  epoch = 1,
+  reasons = 4131,
+  deadline_ms = 0,
+  permitted = false
+}
+$13 = 0x9
+$14 = 0x0
+[Inferior 1 (Remote target) detached]

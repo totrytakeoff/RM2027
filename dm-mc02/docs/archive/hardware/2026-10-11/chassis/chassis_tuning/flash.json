@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-11T21:16:46.084308+08:00",
+  "command": "openocd -f platform/boards/dm_mc02/openocd/cmsis-dap.cfg -c 'cmsis_dap_backend hid' -c 'program build/h7-debug/chassis_demo.elf verify reset exit'",
+  "exit_code": 0,
+  "programming_finished": true,
+  "verified": true,
+  "reset": true,
+  "backend": "HID (DAP v1)",
+  "firmware": {
+    "elf": "build/h7-debug/chassis_demo.elf",
+    "sha256": "755ad80898512f9473c3028c70fee7f24f2662118c9b89b5da978552abdce6a4"
+  }
+}

@@ -1,0 +1,2 @@
+time_ms,input_fire_mode,fire_trigger_down,fire_trigger_pressed,single_trigger_consumed,single_trigger_activation_count,shoot_state,friction_ready,single_active,pending_shots,single_start_count,single_timeout_count,loader_jam_state,loader_jam_retry_count,loader_jam_fault_count
+0,1,1,0,1,1,2,1,1,0,1,0,0,0,0

@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-11T21:00:05.484688+08:00",
+  "command": "openocd -f platform/boards/dm_mc02/openocd/cmsis-dap.cfg -c 'program build/h7-debug/chassis_demo.elf verify reset exit'",
+  "exit_code": 0,
+  "programming_finished": true,
+  "verified": true,
+  "reset": true,
+  "firmware": {
+    "elf": "build/h7-debug/chassis_demo.elf",
+    "sha256": "f6bdfd1d59f2ff7c1783d6ca763f5b6d7cf8dce9f0f1fdb07c7b74cfe7b0a425"
+  }
+}

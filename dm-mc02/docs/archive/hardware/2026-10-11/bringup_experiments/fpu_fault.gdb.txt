@@ -1,0 +1,26 @@
+0x080091d2 in prvIdleTask (pvParameters=0x0) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/freertos/tasks.c:3432
+3432				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+Restoring binary file docs/hardware_runs/2026-10-11/fpu_fault.bin into memory (0x2404f000 to 0x2404f00c)
+Hardware assisted breakpoint 1 at 0x80019c0: file /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c, line 67.
+
+Temporary breakpoint 1, RmFault_FromException (frame=0x20004790 <idle_stack+912>, exc_return=4294967277) at /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c:67
+67	{
+EXC_RETURN=0xffffffed
+FRAME_SP=0x20004790
+0x20004790 <idle_stack+912>:	0x00000000	0xa5a5a5a5	0xa5a5a5a5	0x00000001
+0x200047a0 <idle_stack+928>:	0xa5a5a5a5	0x08009969	0x2404f008	0x61000000
+0x200047b0 <idle_stack+944>:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5
+0x200047c0 <idle_stack+960>:	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5	0xa5a5a5a5
+0x200047d0 <idle_stack+976>:	0xa5a5a5a5	0xfffffffd	0x00000000	0xa5a5a5a5
+0x200047e0 <idle_stack+992>:	0xa5a5a5a5	0x240092f4	0xa5a5a5a5	0x08009969
+0x200047f0 <idle_stack+1008>:	0x080091d2	0x61000000
+Hardware assisted breakpoint 2 at 0x80018f0: file /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c, line 63.
+
+Temporary breakpoint 2, record (reason=<optimized out>, frame=<optimized out>) at /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c:63
+63	    for (;;) __WFI(); /* The watchdog, if running, resets; debugger can inspect retained record. */
+[Inferior 1 (Remote target) detached]
+[stm32h723.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x61000000 pc: 0x080091d0 psp: 0x200047f8
+Python Exception <class 'TypeError'>: 'gdb.Value' object is not iterable
+docs/hardware_runs/2026-10-11/fpu_fault.gdb:28: Error in sourced command file:
+Error occurred in Python: 'gdb.Value' object is not iterable

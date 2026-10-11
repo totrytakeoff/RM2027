@@ -1,0 +1,84 @@
+{
+  "time": "2026-10-11T21:24:04.419812+08:00",
+  "entries": [
+    {
+      "destination": "scripts/build.sh",
+      "source": "RM2026/scripts/build.sh",
+      "source_sha256": "34814dbb4edd0f9fb982b1b69cb1761a73828aef3f087bb13f71b24e94de471c",
+      "implementation_sha256": "ac5ad2d8f42fa86decc7d1c592f66e38abb6c01139f3498ba3c1374594c651e5",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/debug.sh",
+      "source": "RM2026/scripts/debug.sh",
+      "source_sha256": "28b701025f64e5b2f2823fd405fb8e5b0be7a47217296bc387ad89b18b687727",
+      "implementation_sha256": "21f787d79c5a8afd961f9cf766de5482251940a468a41ebd700b99fe0c06fd29",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/gdb.sh",
+      "source": "RM2026/scripts/gdb.sh",
+      "source_sha256": "38d8dd81deff0d4a8a78aa98a863415fa43f8132decd04b8121bfb81ef0175f6",
+      "implementation_sha256": "bc7ad1594116a3e33e75454dd2811e353de1a7a4e845772303b799ae5aa67df0",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/log.sh",
+      "source": "RM2026/scripts/log.sh",
+      "source_sha256": "1ad1b1bd09b999a92004b89818056e6b5e49b27f997e4fd57f2f9e79dbd94ad1",
+      "implementation_sha256": "5071cebf3078ed25301bae5484c4331ddf8f877439c3fcaae8d43b6efe819c75",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/openocd_rtt_log.ps1",
+      "source": "RM2026/scripts/openocd_rtt_log.ps1",
+      "source_sha256": "824b687bc257915f5d5b2dfe0a71df14faee82d916f07a7da5e21a2efaa629b2",
+      "implementation_sha256": "2f2387cdca033e3c842b88dd4e61423bc782421433395abd454c69745b23e81a",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/openocd_rtt_log.sh",
+      "source": "RM2026/scripts/openocd_rtt_log.sh",
+      "source_sha256": "e1bef4350b29ecef0e1365c432d27f88ed194aca5c9eaa3c022e22563d4320b0",
+      "implementation_sha256": "df8a7acc42b9f7c056c3ede713b077191864ce8400ebeff16187243b0a257eb3",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/upload.ps1",
+      "source": "RM2026/scripts/upload.ps1",
+      "source_sha256": "e34d2b4b6fb5c85454310e43027ccdf9da4f148dd528f3dce53ed2fb4dec69e4",
+      "implementation_sha256": "9470f615690aa7a2a0aa23f591e58eaa593d05866403b82ca714c777f0683138",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/upload.sh",
+      "source": "RM2026/scripts/upload.sh",
+      "source_sha256": "4b106bf3a39df6706093fe7b3d2ca2e39956f4fdcc2ff0b56c0dbc31d19aaf30",
+      "implementation_sha256": "890dab214fdbafa32fb31f91781f944ca072acebe99ebd0c309a2b92b4178cb1",
+      "adapted": true
+    },
+    {
+      "destination": "scripts/vt_serial_monitor.py",
+      "source": "RM2026/scripts/vt_serial_monitor.py",
+      "source_sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb",
+      "implementation_sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb",
+      "adapted": false
+    }
+  ],
+  "new_shared_implementation": {
+    "path": "scripts/devtools.py",
+    "sha256": "c46a01ef817332f82a4977b8bd0f837af5f325e5dc50d4949466cf39163ac492",
+    "scope": "Debug/log only; native build/upload do not import this file"
+  },
+  "tests_run": false,
+  "hardware_actions_run": false,
+  "native_upload_revision": {
+    "time": "2026-10-11T21:46:27.208753+08:00",
+    "requires_python": false,
+    "default_format": "bin",
+    "bash": "scripts/upload.sh",
+    "powershell": "scripts/upload.ps1",
+    "tests_run": false,
+    "hardware_actions_run": false
+  }
+}

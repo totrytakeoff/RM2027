@@ -1,0 +1,24 @@
+0x080091f2 in prvIdleTask (pvParameters=0x0) at /home/myself/workspace/RM/RM2027/dm-mc02/third_party/freertos/tasks.c:3432
+3432				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+Restoring binary file docs/hardware_runs/2026-10-11/final/fpu_fault.bin into memory (0x2404f000 to 0x2404f00c)
+Hardware assisted breakpoint 1 at 0x80019dc: file /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c, line 67.
+
+Temporary breakpoint 1, RmFault_FromException (frame=0x20004200 <ins_stack+3584>, exc_return=4294967277) at /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c:67
+67	{
+EXC_RETURN=0xffffffed
+FRAME_SP=0x20004200
+0x20004200 <ins_stack+3584>:	0x00000000	0x00000006	0x240087dc	0x240086bc
+0x20004210 <ins_stack+3600>:	0x240088c0	0x00000003	0x2404f008	0x61000000
+0x20004220 <ins_stack+3616>:	0x00000001	0x0800365f	0x08011f8e	0x81000000
+0x20004230 <ins_stack+3632>:	0x08001e3c	0x61000000	0x24000158	0x00000000
+0x20004240 <ins_stack+3648>:	0x00000001	0x24008820	0x00000000	0x24008264
+0x20004250 <ins_stack+3664>:	0x000007fb	0x240081c4	0x240081c4	0x24008284
+0x20004260 <ins_stack+3680>:	0x2400825c	0x240081c0
+Hardware assisted breakpoint 2 at 0x800190c: file /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c, line 63.
+
+Temporary breakpoint 2, record (reason=<optimized out>, frame=<optimized out>) at /home/myself/workspace/RM/RM2027/dm-mc02/platform/boards/dm_mc02/fault/fault.c:63
+63	    for (;;) __WFI(); /* The watchdog, if running, resets; debugger can inspect retained record. */
+RM_CAPTURE={"fault": {"magic": 1380795969, "version": 1, "reason": 61443, "ipsr": 3, "cfsr": 65536, "hfsr": 1073741824, "mmfar": 0, "bfar": 0, "checksum": 3768940961, "frame": [0, 6, 604014556, 604014268, 604014784, 3, 604303368, 1627389952]}, "gpiob_odr": 0, "gpioc_odr": 9, "can_cccr": [4097, 4097, 4097]}
+[Inferior 1 (Remote target) detached]
+[stm32h723.cpu0] halted due to debug-request, current mode: Thread 
+xPSR: 0x61000000 pc: 0x0801138c psp: 0x20004268

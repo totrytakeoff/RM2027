@@ -1,0 +1,56 @@
+# PlatformIO
+.pio/
+*.tmp
+*.bak
+
+# Build
+**/build/
+build/
+build-*/
+*.o
+*.obj
+*.elf
+*.map
+*.hex
+*.bin
+*.d
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Config
+config/local/
+*.local
+
+
+#other
+
+# Python tooling
+__pycache__/
+*.py[cod]
+
+node_modules/
+
+dist/
+
+.env
+
+.cache/
+
+temp/
+
+tep/
+
+marscode/
+.claude/

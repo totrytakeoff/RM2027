@@ -1,0 +1,33 @@
+{
+  "time": "2026-10-11T21:30:26.540347+08:00",
+  "command": "./scripts/upload.sh --backend dapv2",
+  "backend": "USB bulk (DAP v2)",
+  "exit_code": 0,
+  "programming_finished": true,
+  "verified": true,
+  "reset": true,
+  "firmware": {
+    "elf": "build/h7-debug/chassis_demo.elf",
+    "sha256": "93eec62f11ec05f2e098a59c7741cfd8758f25373d75ab369f90ccba7a0bf368"
+  },
+  "layout": {
+    "FR": 1,
+    "FL": 4,
+    "BR": 2,
+    "BL": 3
+  },
+  "remote_polarity": {
+    "x": -1,
+    "y": 1
+  },
+  "yaw_kp": 10,
+  "builds_passed": [
+    "h7-debug",
+    "h7-release",
+    "h7-chassis-observe",
+    "h7-dbus-debug",
+    "host"
+  ],
+  "tests_run": false,
+  "motion_verified": false
+}

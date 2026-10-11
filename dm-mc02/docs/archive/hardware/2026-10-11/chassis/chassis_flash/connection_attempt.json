@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-11T20:57:17.668741+08:00",
+  "elf": "build/h7-debug/chassis_demo.elf",
+  "sha256": "f6bdfd1d59f2ff7c1783d6ca763f5b6d7cf8dce9f0f1fdb07c7b74cfe7b0a425",
+  "flash_started": false,
+  "flash_verified": false,
+  "attempts": [
+    {
+      "operation": "OpenOCD init",
+      "result": "CMSIS-DAP command CMD_INFO failed"
+    },
+    {
+      "operation": "host USB reset then OpenOCD init",
+      "result": "USB reset completed; CMSIS-DAP command CMD_INFO failed"
+    }
+  ],
+  "next_action": "Await target power and wireless DAP restart/replug confirmation."
+}

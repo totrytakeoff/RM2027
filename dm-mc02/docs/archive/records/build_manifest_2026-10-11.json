@@ -1,0 +1,1264 @@
+{
+  "date": "2026-10-11",
+  "target": "board_bringup",
+  "hardware_verified": false,
+  "tests_run": false,
+  "toolchain": {
+    "arm_gcc": "16.2.0",
+    "cmake": "4.4.3",
+    "ninja": "1.13.2"
+  },
+  "firmware_options": {
+    "mcu": "STM32H723xx",
+    "cpu": "cortex-m7",
+    "fpu": "fpv5-d16",
+    "float_abi": "hard",
+    "dcache": true,
+    "freertos_kernel": "10.3.1",
+    "freertos_port": "ARM_CM7/r0p1",
+    "remote_protocol": "per preset",
+    "chassis_demo_uart1_baud": 115200,
+    "release_dwarf": true
+  },
+  "artifacts": [
+    {
+      "preset": "h7-debug",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/board_bringup.elf",
+      "size_bytes": 2474168,
+      "sha256": "360e3ce04d770687d51420448892c1564bb377919275775f6e4a925c96562d6d"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/board_bringup.bin",
+      "size_bytes": 74784,
+      "sha256": "ae08aac7a1e767c1c1918b08cd863a7e69ebedcd6693e4040d53b734cb221135"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/board_bringup.hex",
+      "size_bytes": 210403,
+      "sha256": "9a2f0040224fb23c8ced4d12e909e3db41dddba67145b1c154de9c6517656f8d"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/board_bringup.map",
+      "size_bytes": 751449,
+      "sha256": "ef105ed43796acb4bf6b7faa299364c269dff1fef05f523345eea924d828a9ce"
+    },
+    {
+      "preset": "h7-release",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/board_bringup.elf",
+      "size_bytes": 852296,
+      "sha256": "33746d49a0149bdfcd0578065030a4218719cca4d1c11e7127a4edf00396fd2b"
+    },
+    {
+      "preset": "h7-release",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/board_bringup.bin",
+      "size_bytes": 73976,
+      "sha256": "973ff4e69d42d4568f66955d86507e3260f627057f13abe33d3fc1e459ee42cb"
+    },
+    {
+      "preset": "h7-release",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/board_bringup.hex",
+      "size_bytes": 208137,
+      "sha256": "a5478f1e55d5d8202a61bd643d6c8ad316a8aa75dac2e32f16c7aebdfa0b7397"
+    },
+    {
+      "preset": "h7-release",
+      "target": "board_bringup",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/board_bringup.map",
+      "size_bytes": 288398,
+      "sha256": "3b9481b12613b41052f8e7bd69377395a30f3f55d959bf244191ad7e35a13140"
+    },
+    {
+      "preset": "h7-dbus-debug",
+      "target": "board_bringup",
+      "remote_protocol": "DBUS",
+      "path": "build/h7-dbus-debug/board_bringup.elf",
+      "size_bytes": 2474172,
+      "sha256": "a4033ad765a7d3639ccdf0a8e8e21b7c90bfe33ba7abd9ab8a2fb550abff2438"
+    },
+    {
+      "preset": "h7-dbus-debug",
+      "target": "board_bringup",
+      "remote_protocol": "DBUS",
+      "path": "build/h7-dbus-debug/board_bringup.bin",
+      "size_bytes": 74784,
+      "sha256": "3b82d5b98a048841de0a1e7c0d05b1c533b4ad7d1852ca1328cf9690c8ded7a7"
+    },
+    {
+      "preset": "h7-dbus-debug",
+      "target": "board_bringup",
+      "remote_protocol": "DBUS",
+      "path": "build/h7-dbus-debug/board_bringup.hex",
+      "size_bytes": 210403,
+      "sha256": "f643fbf23ff374eda36b910fb4720c3a81f6c0da2d8498bbff40cafb135b445c"
+    },
+    {
+      "preset": "h7-dbus-debug",
+      "target": "board_bringup",
+      "remote_protocol": "DBUS",
+      "path": "build/h7-dbus-debug/board_bringup.map",
+      "size_bytes": 751488,
+      "sha256": "56f8a52821e78b04092d006b0682516b92315201c650253d59ea8c55b60d5c10"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/chassis_demo.elf",
+      "size_bytes": 2551096,
+      "sha256": "93eec62f11ec05f2e098a59c7741cfd8758f25373d75ab369f90ccba7a0bf368"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/chassis_demo.bin",
+      "size_bytes": 83692,
+      "sha256": "0b0040a1bda142d97ee623aec9e80f91c3e450d525c857c461c650735005b3e6"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/chassis_demo.hex",
+      "size_bytes": 235460,
+      "sha256": "dff8521ab87f2bd58d6200d8ad29e67c526b98dcb27bbaeb3a534f09a76045b0"
+    },
+    {
+      "preset": "h7-debug",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-debug/chassis_demo.map",
+      "size_bytes": 812020,
+      "sha256": "2b3d27c56ae53cdbdac1f16a26da2f9903a93244088ea12e3c57e05fdcfe309e"
+    },
+    {
+      "preset": "h7-release",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/chassis_demo.elf",
+      "size_bytes": 931724,
+      "sha256": "8265c04f12cdae74c8883882ad7f137e7b30acaae19b1ba5d56785a1e0b55a84"
+    },
+    {
+      "preset": "h7-release",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/chassis_demo.bin",
+      "size_bytes": 85124,
+      "sha256": "6aeb3a79373e98eaaa225a4502a9c1a76d867797e18bbb3c03812a1a069e433a"
+    },
+    {
+      "preset": "h7-release",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/chassis_demo.hex",
+      "size_bytes": 239481,
+      "sha256": "f2f1578b852ce4ea92b2ea26e05f89dd29264a165b720171795e541f2018b8d9"
+    },
+    {
+      "preset": "h7-release",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-release/chassis_demo.map",
+      "size_bytes": 320603,
+      "sha256": "5fd598b8d2096ace268c1d988b73266b367fcd456c2e3436e4d40e6be83f552e"
+    },
+    {
+      "preset": "h7-chassis-observe",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-chassis-observe/chassis_demo.elf",
+      "size_bytes": 2550992,
+      "sha256": "d53dc2f2422298499298ca13308d605066c548faa6b29badddd36ac84d00f364"
+    },
+    {
+      "preset": "h7-chassis-observe",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-chassis-observe/chassis_demo.bin",
+      "size_bytes": 83644,
+      "sha256": "f52c9ba3b623a5ee8298efcf437511b05fa4b38fa74e6cba72f8ddc81da57d0c"
+    },
+    {
+      "preset": "h7-chassis-observe",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-chassis-observe/chassis_demo.hex",
+      "size_bytes": 235325,
+      "sha256": "4f2b3f0fa29cb069fefce4b837e8da1f87106489265b8f3c34b2b9a57c253548"
+    },
+    {
+      "preset": "h7-chassis-observe",
+      "target": "chassis_demo",
+      "remote_protocol": "SBUS",
+      "path": "build/h7-chassis-observe/chassis_demo.map",
+      "size_bytes": 811965,
+      "sha256": "afd9c10ec00643d405698ca52576d39d9eef34c4f51d6a8a2df83d315b935f38"
+    },
+    {
+      "preset": "host",
+      "path": "build/host/librm_logic.a",
+      "size_bytes": 167316,
+      "sha256": "cdf8195071a2998a0deed76b28992090e41dc1bbf46ffca035c579777bc2902a"
+    },
+    {
+      "preset": "host",
+      "path": "build/host/librm_matrix.a",
+      "size_bytes": 32354,
+      "sha256": "41507f7da0881ed01416d70ad8affc2645b823ecc4335663f31599ca5871cea9"
+    },
+    {
+      "preset": "host",
+      "path": "build/host/librm_chassis_logic.a",
+      "size_bytes": 35316,
+      "sha256": "0a79e55393835ee3b19040a8d5346ad7a58a7d44e90fd7c1c3b26742c1181083"
+    },
+    {
+      "preset": "host",
+      "path": "build/host/chassis_demo_test",
+      "size_bytes": 79408,
+      "sha256": "78bc7a45fdf433c80c3ccd2dbce04da5ce30b2a56538b07471a0b83eedb66478"
+    }
+  ],
+  "milestone": "chassis_demo",
+  "memory_bytes": {
+    "h7-debug": {
+      "flash": 74784,
+      "axi": 38208,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    },
+    "h7-release": {
+      "flash": 73976,
+      "axi": 38200,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    },
+    "h7-dbus-debug": {
+      "flash": 74784,
+      "axi": 38208,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    },
+    "chassis_demo:h7-debug": {
+      "flash": 83692,
+      "axi": 39324,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    },
+    "chassis_demo:h7-release": {
+      "flash": 85124,
+      "axi": 39312,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    },
+    "chassis_demo:h7-chassis-observe": {
+      "flash": 83644,
+      "axi": 39324,
+      "dtcm": 18432,
+      "msp_reserved": 8192,
+      "d2": 4224,
+      "d3": 96
+    }
+  },
+  "source_snapshot": {
+    "scope": "Project C/H/ASM/linker/CMake/preset and Python tools, including inactive vendored sources and host tests; excludes build products, hardware captures and reference .ioc.; migrated scripts/*.py, scripts/*.sh and scripts/*.ps1 included",
+    "sha256": "62994dd64294bae45a168d3802d1dae7e9772ad885ebeaaf0ad1e5b48e90f472",
+    "files": [
+      {
+        "path": "CMakeLists.txt",
+        "sha256": "a269e0a05eea31a9c831deffd96bbf1dc0544e40501cb81d77a905d98b1ceb78"
+      },
+      {
+        "path": "CMakePresets.json",
+        "sha256": "f48e529da1e7b86b3427931fb98ee83d372ce1e18f5eae062d84046169dc82a7"
+      },
+      {
+        "path": "applications/board_bringup/bringup.c",
+        "sha256": "1f0867f5e4dd370b63af9249e5cc313982383b2106e1c21648bbf070894ff2a1"
+      },
+      {
+        "path": "applications/board_bringup/bringup_app.h",
+        "sha256": "721808fdd912edec15604382f09abed5b11ff20d460d2d9e68cc2abfa1323ab3"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_app.c",
+        "sha256": "beee0412a6463ef1e154d9fa21661e16fb3d8e8c7e273f2ec4a915a7a7efd7d0"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_app.h",
+        "sha256": "cd37c5decf481f257c3abcc26f2f00fc364a9412790bfabbd54b5fd8ff56d4c8"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_control.c",
+        "sha256": "0d2f5ffc93362f38b8eb3362cbf5e58350068023dd61e4b6990b1f32ea3251c9"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_control.h",
+        "sha256": "111df5dca518785b59d2b98e53d4b4b3e7ca024c7d2ba0819611aa2586c0e15c"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_follow.c",
+        "sha256": "c807c74442fe7cd0e7f89aca368d23436f80e8020cd8fb91dbaa7ac54abdd7bf"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_follow.h",
+        "sha256": "607cfd28eafedca30f0b532ac66925e7ca457c423c506309227e7599e00e6e4e"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_kinematics.c",
+        "sha256": "02c7a1b8748d4dce56f000221df3531f61db3e2dccca6b0e842f0e60e6f5317e"
+      },
+      {
+        "path": "applications/chassis_demo/chassis_kinematics.h",
+        "sha256": "18a66db50ed497e3455e34c99339c24f677236716a980570c5762f1a2a11c8e8"
+      },
+      {
+        "path": "cmake/arm-gcc.cmake",
+        "sha256": "4a7225a29c626371c14e708aa97a782d814ca7da76d2f1d7415f014a78e31844"
+      },
+      {
+        "path": "components/algorithms/filters/kalman/kalman_filter.c",
+        "sha256": "c8cc2bdc3f884595ce12f40b45833b0673883a19291874e3936c4f0aacf6c08d"
+      },
+      {
+        "path": "components/algorithms/filters/kalman/kalman_filter.h",
+        "sha256": "e840893d1b025b91b2de21966c89307ac0b1e4e655c37fa0ef465b319444dcaa"
+      },
+      {
+        "path": "components/algorithms/matrix/rm_matrix.h",
+        "sha256": "fbf6a4634d2ed19cf80d67dc3c38b7ff37233ba98d060f6600132ed1cd4430b4"
+      },
+      {
+        "path": "components/algorithms/pid/controller.c",
+        "sha256": "2b94cc1641b3a9fd194f6c946f2b30551734f0f357bed7041541519e66a81fcd"
+      },
+      {
+        "path": "components/algorithms/pid/controller.h",
+        "sha256": "f0c9a1e9bb47c7e452fde09990578c6f7977e36768352c3f879377594ff64630"
+      },
+      {
+        "path": "components/algorithms/quaternion_ekf/QuaternionEKF.c",
+        "sha256": "50be1630aad0ac57ba607544ef87e6639a41174c55697ce695a6f2d863f45461"
+      },
+      {
+        "path": "components/algorithms/quaternion_ekf/QuaternionEKF.h",
+        "sha256": "c92f161133fba83277d2e7217f88fb5473f44150949a2bc0f407989c6b0158e5"
+      },
+      {
+        "path": "components/devices/imu/bmi088/bmi088.c",
+        "sha256": "e0bdfb20831405dcb3a4c8fd93621698ee9bfca1b1a45b8f99abcc1dfdc0fee9"
+      },
+      {
+        "path": "components/devices/imu/bmi088/bmi088.h",
+        "sha256": "2c4d34bb195d074281e19b04528327dd8a3771f20be5f9c8752af7a202f03786"
+      },
+      {
+        "path": "components/devices/motor/dji/dji.c",
+        "sha256": "6199cf6271249a055ce6c982fd9b4b762d6509e081a548776fce5ecce7214221"
+      },
+      {
+        "path": "components/devices/motor/dji/dji.h",
+        "sha256": "4095fa763a16058887b9e1e97a22f1be54235c0ddf23c1dfbf19b20ecd83aa5a"
+      },
+      {
+        "path": "components/devices/remote/remote.c",
+        "sha256": "3359fb936c5b380d5b2c64633a5e266a804675f360d710211966d747d6ac109c"
+      },
+      {
+        "path": "components/devices/remote/remote.h",
+        "sha256": "306098501ba25f75e18e10d7a0070daa10ae2e8aba2419604ed842c98055ee61"
+      },
+      {
+        "path": "components/devices/remote/remote_control_state.h",
+        "sha256": "e11d8c916516ac470de270cd796b97f529a44590bd396da0bf9ee75a75444726"
+      },
+      {
+        "path": "components/devices/vision/vision_link_state.c",
+        "sha256": "bd297836b22876e9e952f2f7b4253b1522a1906543e3282649b4dd8e8ce87e8c"
+      },
+      {
+        "path": "components/devices/vision/vision_link_state.h",
+        "sha256": "620fe1baf7ae71019a6e6c379efc9e5844e40620827ce3d6e58e15553a303791"
+      },
+      {
+        "path": "components/devices/vision/vision_protocol.c",
+        "sha256": "554860067697943068765d41a3b21fa62aa8fcfe91fee8675e78baab65e3cf4c"
+      },
+      {
+        "path": "components/devices/vision/vision_protocol.h",
+        "sha256": "530c55041d894d084987ebd6e159eaae1585f88f8ce74fff1edb4567cbc5907b"
+      },
+      {
+        "path": "components/services/ins/ins.c",
+        "sha256": "a47270ff5460fb8ff8c094bee71f8192473ccd444185c2a3a261da74453a5ac2"
+      },
+      {
+        "path": "components/services/ins/ins.h",
+        "sha256": "ffd794653b4d22ee140279f94f3257927580c17a852eb31cf5c030e5250b7fb3"
+      },
+      {
+        "path": "components/services/logging/logging.c",
+        "sha256": "76f6d911c74a6b7df26d36c74f224849c6508233b4271821cfa04acda6162e25"
+      },
+      {
+        "path": "components/services/logging/logging.h",
+        "sha256": "5aa361c654c4272cb426b78b8dd5bf98fc02a68f951148ec3800c81bdc0524bc"
+      },
+      {
+        "path": "components/services/safety/output_gate.c",
+        "sha256": "f64c0a8ee42696f44e755f6238538873a5c9842f9405aaa54a67660216693260"
+      },
+      {
+        "path": "components/services/safety/output_gate.h",
+        "sha256": "515eefef3d2f175bd41ca65956fa65e7922a44910720b4505e21f1edd4eeb299"
+      },
+      {
+        "path": "components/services/safety/safety_manager.c",
+        "sha256": "1dc1c921fafdbad059592774d22aba155fba5b6bc4add0b9aa8b6b137b82aac0"
+      },
+      {
+        "path": "components/services/safety/safety_manager.h",
+        "sha256": "2e5417e71f1843a39d5e83bb366616922a7ceafaa42d5bd8568611bb5723a4cf"
+      },
+      {
+        "path": "config/boards/dm_mc02/resources.h",
+        "sha256": "b9528ca3a6bdce0a200998253fb8da7f742ecb6bce5d3bd87edddcce6c0dd9af"
+      },
+      {
+        "path": "config/profiles/bringup.h",
+        "sha256": "6899df97a406c4f50b544e9ca90078bc749cca9ef11785dc5161e6da970bc1ef"
+      },
+      {
+        "path": "config/robots/bringup/binding.c",
+        "sha256": "88a1cfc1ebe8a5bbec0c20ab994a81aa84a2c63a0763762c5cdb8fa3df316d90"
+      },
+      {
+        "path": "config/robots/bringup/binding.h",
+        "sha256": "8a23057ee15f77170e9496c9ca07f287c89e46ec9680ffe0af06c2fb78904861"
+      },
+      {
+        "path": "config/robots/chassis_demo/binding.c",
+        "sha256": "d755530e293875b8085cd99924e04ed2605cc951475f485b6f11796fbcf16f7c"
+      },
+      {
+        "path": "config/robots/chassis_demo/chassis_config.h",
+        "sha256": "e506bb5667993aeba6a95cb12e7a39654e5dd2512592d713e03fa419eef0b598"
+      },
+      {
+        "path": "firmware/dm_mc02/chassis_main.c",
+        "sha256": "3af5fd0856016966e9985d3313c93151c231fa26bc9b8bd16afc6506bf73ca29"
+      },
+      {
+        "path": "firmware/dm_mc02/main.c",
+        "sha256": "af3e26a2d6da0f5edcdc6999d0971483ce6b313fbc027c1552c208fefd50c9f0"
+      },
+      {
+        "path": "firmware/dm_mc02/syscalls.c",
+        "sha256": "92119a206fc6a7f27ad5c61cc25bf9cb85a902db76c01b66f98d71d6de040424"
+      },
+      {
+        "path": "platform/api/rm_platform.h",
+        "sha256": "b2dd313cfb4973f147c6ac6fa3d4286663572bc62237e8510b329f6c4c0e443e"
+      },
+      {
+        "path": "platform/boards/dm_mc02/board.c",
+        "sha256": "44ad949f647fc76042fc156927b478eda9fe5210d27a471ae09f68839bc97983"
+      },
+      {
+        "path": "platform/boards/dm_mc02/fault/fault.c",
+        "sha256": "438e37f0ded930516c10200e7eacbd3e1941741991128ff8225a279c7fc88c23"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/fdcan.c",
+        "sha256": "aa93f2f50ac32447d1a8ab6bf883885717b832f1a68c085088e8ce1a2f3e7814"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/gpio.c",
+        "sha256": "a5090bb081872e8d6ed0d75eb480b19089958fc7aae53b2cefcb5dbfa9714085"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/spi.c",
+        "sha256": "86793bdc5bd86c18718c9438dda135a3281ef4c6fe02836b7ed37cc68ae2418b"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/stm32h7xx_hal_msp.c",
+        "sha256": "7246c19aeea766a4ad60bd1b5aef7ac464bc0498f54f7bbf1141a374de6cf508"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/system_stm32h7xx.c",
+        "sha256": "e444cb477c5a326ab6a7a1eb1cd47a6012f8ad0f988e74457bb2eb9b4f47bb53"
+      },
+      {
+        "path": "platform/boards/dm_mc02/generated/usart.c",
+        "sha256": "22cdc8534ae8580e8801e2f01c63d7f53c1d3c489f579e5cb8fd392b11acaee6"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/FreeRTOSConfig.h",
+        "sha256": "06a8d0033ceeb0474ce990d0dca006bfc664d082b601a6a106913c42c5addb7f"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/fdcan.h",
+        "sha256": "6040912db1b6c7de55c40ac6b27b0cae6555eac3ea65d18307778dc0795ab15c"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/gpio.h",
+        "sha256": "8648a64151f772929666f6b66e85071c7bc5d4bbfcdf12cffe1aaa1b2d5fbb1e"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/main.h",
+        "sha256": "4c2accc2ec27de3a9dd0ddae2fc5e5c8246d557ed0bf2de92a09e67c70571fc1"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/spi.h",
+        "sha256": "dbad12dc606d7d8fbb76263ea5790b15e19b0e85918c80da841ea6d1a5c344a0"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/stm32h7xx_hal_conf.h",
+        "sha256": "ae5ed16431ad6ea2ae3fc37ce29eb1d4a36dec33d600a6bfd2e84c0ce8da3293"
+      },
+      {
+        "path": "platform/boards/dm_mc02/include/usart.h",
+        "sha256": "ddb18ccce7788c5098e994a0bac8eb682baf768825e69d179e48c7cfbf094e0f"
+      },
+      {
+        "path": "platform/boards/dm_mc02/irq/interrupts.c",
+        "sha256": "7a7ccfcc60a149d96e5bf316b0c943f673acb7346a90a138b3d7c9d6607969e9"
+      },
+      {
+        "path": "platform/boards/dm_mc02/linker/STM32H723VG.ld",
+        "sha256": "766b0969d192dafe4379abcb8a230fa0e9113d0cbc37d34bc2ffb3b303358919"
+      },
+      {
+        "path": "platform/boards/dm_mc02/startup/startup_stm32h723vgtx.s",
+        "sha256": "7386a0ee3844a88c0a5e75a1c38c8eec8a9640ad2d7bf6ee45a5d828110eb65a"
+      },
+      {
+        "path": "platform/stm32h7/can.c",
+        "sha256": "a8cf80b19289b90f97d96a31106fe7ff724ccf921d58171670184ab07541a6f3"
+      },
+      {
+        "path": "platform/stm32h7/critical.c",
+        "sha256": "3ca9b6369eabfcd1e99c69cf636931a6e692c5b0f5995c406b9021cd90dc3cbd"
+      },
+      {
+        "path": "platform/stm32h7/h7_private.h",
+        "sha256": "675140c0042cb65fdd1d848799051c0ac1be62599711868452d78017aa58ecdc"
+      },
+      {
+        "path": "platform/stm32h7/memory.c",
+        "sha256": "f119cc3fee57ba41aac35e3e78d2d4d32360139a63e08906340d45cf9e6d8d18"
+      },
+      {
+        "path": "platform/stm32h7/sensor_bus.c",
+        "sha256": "bdf05bf2f9bdf75c0c3ef237a7869acb40880bafcee86a3b06e1a70411a5e31e"
+      },
+      {
+        "path": "platform/stm32h7/serial.c",
+        "sha256": "a4a3b1b88fc5e61a8975da2968be3921a9f384079d6c8e4954da74f87ae6b550"
+      },
+      {
+        "path": "platform/stm32h7/time.c",
+        "sha256": "903e7e00838cbaefb6d14e103a4e2338ceaa2eb6494974196bfe1c2a589c1412"
+      },
+      {
+        "path": "platform/stm32h7/watchdog.c",
+        "sha256": "77b8d7bef9b0bfc73a209dc25c6419f3ac4ebe30e9e0b816ff82b93ad61c70d1"
+      },
+      {
+        "path": "runtime/freertos/hooks.c",
+        "sha256": "5d0f487049aa2d22a8eab53948a8e7781019a04099e96bc0d21fa7dcdd415f64"
+      },
+      {
+        "path": "runtime/freertos/runtime.c",
+        "sha256": "18706b9a7851cf3e6e7436dc71d248cf51285d5bde7f25757edebdeebdb96744"
+      },
+      {
+        "path": "runtime/freertos/runtime.h",
+        "sha256": "18ba87e283e173387c1ff1d8407283bcc96d58f5e552bf3062e95610fbdf9023"
+      },
+      {
+        "path": "scripts/build.sh",
+        "sha256": "ac5ad2d8f42fa86decc7d1c592f66e38abb6c01139f3498ba3c1374594c651e5"
+      },
+      {
+        "path": "scripts/debug.sh",
+        "sha256": "21f787d79c5a8afd961f9cf766de5482251940a468a41ebd700b99fe0c06fd29"
+      },
+      {
+        "path": "scripts/devtools.py",
+        "sha256": "c46a01ef817332f82a4977b8bd0f837af5f325e5dc50d4949466cf39163ac492"
+      },
+      {
+        "path": "scripts/gdb.sh",
+        "sha256": "bc7ad1594116a3e33e75454dd2811e353de1a7a4e845772303b799ae5aa67df0"
+      },
+      {
+        "path": "scripts/log.sh",
+        "sha256": "5071cebf3078ed25301bae5484c4331ddf8f877439c3fcaae8d43b6efe819c75"
+      },
+      {
+        "path": "scripts/openocd_rtt_log.ps1",
+        "sha256": "2f2387cdca033e3c842b88dd4e61423bc782421433395abd454c69745b23e81a"
+      },
+      {
+        "path": "scripts/openocd_rtt_log.sh",
+        "sha256": "df8a7acc42b9f7c056c3ede713b077191864ce8400ebeff16187243b0a257eb3"
+      },
+      {
+        "path": "scripts/upload.ps1",
+        "sha256": "9470f615690aa7a2a0aa23f591e58eaa593d05866403b82ca714c777f0683138"
+      },
+      {
+        "path": "scripts/upload.sh",
+        "sha256": "890dab214fdbafa32fb31f91781f944ca072acebe99ebd0c309a2b92b4178cb1"
+      },
+      {
+        "path": "scripts/vt_serial_monitor.py",
+        "sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb"
+      },
+      {
+        "path": "tests/host/chassis_demo_test.c",
+        "sha256": "a18d8390c419b5df08ccc1627138ee090c579a1a4f3809aeb8b8435b35cd01c4"
+      },
+      {
+        "path": "third_party/CMakeLists.txt",
+        "sha256": "728d54ce5bc0e0d2fd954f27cf8d91c8b2b8b66ce79e6268ba802c28444b66b2"
+      },
+      {
+        "path": "third_party/cmsis/Device/ST/STM32H7xx/Include/stm32h723xx.h",
+        "sha256": "19086af8741f4aab5c6aecc895bc98d997a752dc28b1cc74d059b03717005259"
+      },
+      {
+        "path": "third_party/cmsis/Device/ST/STM32H7xx/Include/stm32h7xx.h",
+        "sha256": "9bad4fffca7a09b179e6be9d55204eff634cda7e2cec620a79002f6f4d0e0bcf"
+      },
+      {
+        "path": "third_party/cmsis/Device/ST/STM32H7xx/Include/system_stm32h7xx.h",
+        "sha256": "edbd2ae253530241ca82470fde1db4de1b0ba856590d69b17d3342b952c1fcba"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_armcc.h",
+        "sha256": "5a80286d68d0b4478895a222da683c8ca561d3bcf6392aaaea225d4a117c843e"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_armclang.h",
+        "sha256": "e24f4bd1548b94e0ad424f4f13f59a4db4ca5aad7b644d10a893a330775d3003"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_armclang_ltm.h",
+        "sha256": "e8f040e9ef61e466cc751677ab3c413a463cb74d1fc33fb6dfd94225bd93c8c1"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_compiler.h",
+        "sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_gcc.h",
+        "sha256": "1fba3e120e5c0a439e0982bd37fae04bd033dbd14187428214462a1707c56252"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_iccarm.h",
+        "sha256": "820bcd68b0a92f97abf5cdde6413e5e842fb286e0514be2c1be1547bb2dd2e7d"
+      },
+      {
+        "path": "third_party/cmsis/Include/cmsis_version.h",
+        "sha256": "1b2c47a90e9ae741c8fd4d0f323495327b25ff5d555a6c7afd6749a65ba1bb8e"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_armv81mml.h",
+        "sha256": "b4bc83a6ff10fd2fb7e4c0abefdbd447eb7f78f3db898ca9aac5676307e2b862"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_armv8mbl.h",
+        "sha256": "74b92c994af7355e222b45a0342754840b7221b611ef95bd206345879cc2caaa"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_armv8mml.h",
+        "sha256": "77255f30508cf0d225f8b72207e28bf81353f8b353e8b120132c6db7e9bead9e"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm0.h",
+        "sha256": "52e8826259be4fcb10d0de2d3655c24d52436e54cd1509f3beb1a31a45524f38"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm0plus.h",
+        "sha256": "36e9aec815eef944241e5fed7085845346de6bcb5ba30561f956356b393ba5f0"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm1.h",
+        "sha256": "944bf0c4f940eef30a632cd99d5dcfe8270e8a8431eb98c0f081bcf4f61f728e"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm23.h",
+        "sha256": "f04d3e5f385b0ff219a75f6648acabf7debb779a72f0628573b64dac5ad49fdc"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm3.h",
+        "sha256": "0191499015f3af7b37ce83092df29d1d63dbba9fa5f31b6d2341a2e850b20cb4"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm33.h",
+        "sha256": "3566c5bf835091b1cc46baf6e9b6ce94d83dd0885e0db122f43e901e9326945a"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm35p.h",
+        "sha256": "1f6da4c033261293acb8f0a7da42a0e9b6ab392c9462cc26f5e3e35d4db4e2d3"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm4.h",
+        "sha256": "53d609b900c262650fcaf5a48eabd0fa299c3ac4d1426eb0f20e2aab053f8abb"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_cm7.h",
+        "sha256": "34d91327a5f1b251c54fa6bb532d9f5ec0423bf3b7f2b679c8f7b3df95af0fc8"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_sc000.h",
+        "sha256": "cc9037b32401824436d251de860799fcdbab3cf69e2321438c8f446f3f342526"
+      },
+      {
+        "path": "third_party/cmsis/Include/core_sc300.h",
+        "sha256": "e6a78d85b3ca77e35dc512e32e535028a46e156adab8629360fa4b7fe6731827"
+      },
+      {
+        "path": "third_party/cmsis/Include/mpu_armv7.h",
+        "sha256": "c9ad7cc99ba0481365550ae997c63cde9732d067d9ec0de28b0d6ac39280656d"
+      },
+      {
+        "path": "third_party/cmsis/Include/mpu_armv8.h",
+        "sha256": "53f9e848af62ea8704f463992e4d65c7c79fc72cfd8fab6fa14adc73478b0afd"
+      },
+      {
+        "path": "third_party/cmsis/Include/tz_context.h",
+        "sha256": "45565c8cb04c653aabaf3cceddfc848b6a0de28c20d4f7e3d475a992c7eee788"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_add_f32.c",
+        "sha256": "ba2a45a8abb2f6d934ab197758e87a1721496930866de59549bd7fadac332940"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_init_f32.c",
+        "sha256": "0360c2a35b8c676b9fe5b67fea6d6ff523701c4466f876340ee460a90d7139f9"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_inverse_f32.c",
+        "sha256": "c44da421c61c944c2a3596a36d85cac2df8faa19b405de3c7ca422d6e704c9c7"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_mult_f32.c",
+        "sha256": "0f83e0029d875da81ac7eb10e561e482cd0800d351ae3be3e37e72ed9d4d5b6c"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_sub_f32.c",
+        "sha256": "484fda7399fff638da432edcce73a643c28bb2addfff6b0eefa1e8706e83e7cc"
+      },
+      {
+        "path": "third_party/cmsis_dsp_matrix/arm_mat_trans_f32.c",
+        "sha256": "ebebfadfaf8af6ad519d50601ec48cd9029569948647197bd0b35f512488febc"
+      },
+      {
+        "path": "third_party/freertos/event_groups.c",
+        "sha256": "54f696c16294199f4445d042d907b14da401fbb7f3bc3b2ca71acd5dbb120218"
+      },
+      {
+        "path": "third_party/freertos/include/FreeRTOS.h",
+        "sha256": "74c201409e1156806627c233a27adb1f4da62d9e40baae99db5c7ddc7e9aae2f"
+      },
+      {
+        "path": "third_party/freertos/include/StackMacros.h",
+        "sha256": "4fe5345c6e09102910b765e0facc05ac12f42ed75eb627767aee59fa5b0df65f"
+      },
+      {
+        "path": "third_party/freertos/include/atomic.h",
+        "sha256": "343ced16833df1aad70972829631136d18727bd687fce6f08264162fc9bf221c"
+      },
+      {
+        "path": "third_party/freertos/include/croutine.h",
+        "sha256": "ecbc64327844a7f24255314d65c4205d3490e8ace8b5d655c1c9f45725b2d7d6"
+      },
+      {
+        "path": "third_party/freertos/include/deprecated_definitions.h",
+        "sha256": "dcfd3ab2633029c04037ef35a854db090995fcf938ca33b51199377c36720d47"
+      },
+      {
+        "path": "third_party/freertos/include/event_groups.h",
+        "sha256": "b97b6b2d7aa918e62434083f76dca08ae73c85fedd021ecc91af1f39838324f7"
+      },
+      {
+        "path": "third_party/freertos/include/list.h",
+        "sha256": "973915ae18a63c6783fe09bf589798cbccf3baee7dfa4b14f8d1525607af3ab6"
+      },
+      {
+        "path": "third_party/freertos/include/message_buffer.h",
+        "sha256": "07c912a59ba6af0b6f619f23cc7b58f445596d5ff7f589e9fc564cebbf2530bf"
+      },
+      {
+        "path": "third_party/freertos/include/mpu_prototypes.h",
+        "sha256": "94ca481a3cb128b2caf847dc570cc82942ee6ffb06710eff09fb0bcbef173848"
+      },
+      {
+        "path": "third_party/freertos/include/mpu_wrappers.h",
+        "sha256": "5a02b1083a49d9dadd65ac52cd6f21283f24586c939f68c75ce632f60863fd3f"
+      },
+      {
+        "path": "third_party/freertos/include/portable.h",
+        "sha256": "e3921faf76c89c5bcf068b41b5b806655a0841b68114f9496a56e3a25a5fd84e"
+      },
+      {
+        "path": "third_party/freertos/include/projdefs.h",
+        "sha256": "f646ef12236991a3b34c170c65aa12d2d0c0310b28e324ace620e1957b7c109e"
+      },
+      {
+        "path": "third_party/freertos/include/queue.h",
+        "sha256": "c4372fb6b9cd6fb08121c1ac21153bdf3621f92edf2a8381cc631fcef2964fae"
+      },
+      {
+        "path": "third_party/freertos/include/semphr.h",
+        "sha256": "6d4179c295ec9aadb186744e7618854c5ef10cb9a0f8c27948b343a3f6a129af"
+      },
+      {
+        "path": "third_party/freertos/include/stack_macros.h",
+        "sha256": "54ff69e8652c7f1332d1679594d1b2076a1633955d6d46e51b3ab4f99780f6ee"
+      },
+      {
+        "path": "third_party/freertos/include/stream_buffer.h",
+        "sha256": "13f288307ce0b9182941cecfc261b8281fe0fb0e9156f621c252f96f9de8de07"
+      },
+      {
+        "path": "third_party/freertos/include/task.h",
+        "sha256": "1d75dff80cdc81720b60eeb4cb825370bd05508feed244d2ee1cf263be51ffd9"
+      },
+      {
+        "path": "third_party/freertos/include/timers.h",
+        "sha256": "bd94103aef9d4dbf18db3296b5c55be524d229bae90aecb01e2b9475b8f02f55"
+      },
+      {
+        "path": "third_party/freertos/list.c",
+        "sha256": "2c7593ec5c67bcdb371d5c3fda60f240e594dd3a7b60f72947f53e8c01971e24"
+      },
+      {
+        "path": "third_party/freertos/portable/GCC/ARM_CM4F/port.c",
+        "sha256": "41538311e845a7b4b6e8227b595c63b0d6c1e7b1ffd196104b57339d6c5ba3f7"
+      },
+      {
+        "path": "third_party/freertos/portable/GCC/ARM_CM4F/portmacro.h",
+        "sha256": "203df13c4041a32d681ece9884e3e0e5fda00814ec40d3d644b15b3e7e3eb0e4"
+      },
+      {
+        "path": "third_party/freertos/portable/GCC/ARM_CM7/r0p1/port.c",
+        "sha256": "d9b888fa09e8d034f7e9116916105585f77a09ea0cd51bcc259d1202425d353d"
+      },
+      {
+        "path": "third_party/freertos/portable/GCC/ARM_CM7/r0p1/portmacro.h",
+        "sha256": "6037be06fd2f0e63b213bcf295139105a7543488ffb54fd5f3d6de538e7e64f2"
+      },
+      {
+        "path": "third_party/freertos/queue.c",
+        "sha256": "4613e2dd8c099ee689ff4fabc1d4979c0c22683a95f3e85283c6ef1b92a32bd8"
+      },
+      {
+        "path": "third_party/freertos/stream_buffer.c",
+        "sha256": "20e1a58018635a746b5193073f09a3736464bc913f4ebfe28c39bbb75b4cac6b"
+      },
+      {
+        "path": "third_party/freertos/tasks.c",
+        "sha256": "6f540b927668e4c87a064749c03f6ee0ca7370b9dfae7d9d5e96ebd0fdf12b8d"
+      },
+      {
+        "path": "third_party/freertos/timers.c",
+        "sha256": "87be4c74af661ade4ad39f420888c655067d11df008e7a66c88658f7131cb7f4"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/Legacy/stm32_hal_legacy.h",
+        "sha256": "7fff96faed90c81364225132389b1865f67ceac8e65381b60459264c4136ee6e"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal.h",
+        "sha256": "97aeb9e9e0c3acde0c91d025e89c7972b9ad13ab3cb735d40ad852dc395f6980"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_adc.h",
+        "sha256": "7a67f8a941d0d6e1803a2d59e3f4134c1e863f62142a2ff42b35a1761b1b42b0"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_adc_ex.h",
+        "sha256": "5f54fbf0716a5aabe1fab44acaa65553bbc96538038bdb629e7a203cffad6332"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_cordic.h",
+        "sha256": "1882081dc2973efec765b21fb888c415c4a60b6c399a78ca7fdcdf8093890a06"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_cortex.h",
+        "sha256": "8b61853cb8eb65dabf5181e9f4a2effb3be70974800f6ddc38ae62f0310e78ae"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_def.h",
+        "sha256": "f7e6ad2cff1b770393ad76961fbb220bef0a52593e9035746e7961137061ebfc"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_dma.h",
+        "sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_dma_ex.h",
+        "sha256": "bc906d5cf9ed149185aa77a80a793e50aa4b2c7e0606f88df1a4b8900a8a26fa"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_exti.h",
+        "sha256": "24a13bdf1e9010068e8bb123c28421f4e009c86ab949ca5df86a7065a96f0498"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_fdcan.h",
+        "sha256": "a50c2a825716267483c905d8689bf387f8314f37e56999dee05ea7b77f3d02c4"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_flash.h",
+        "sha256": "96340bb9572f6c53554323795b3aa8c86962d14b0596dab550322f34dfccba7c"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_flash_ex.h",
+        "sha256": "a5634068e887b72f39c9f18816d5ca4534b1c0103c9847db5067dd866fa42ba6"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_gpio.h",
+        "sha256": "75c7e634ec0b5fa2ad6ef90b9b010a4dbac1cdd9876daf80cab2253774c092bb"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_gpio_ex.h",
+        "sha256": "81b441ab0ef72718230fc3b259a120c57e253018863d9aa9e50f4f6456c866f3"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_hsem.h",
+        "sha256": "9375fc3023cde3f3ccf0a77a21d571d63acbe47f23149c2f226972cecdffdc6f"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_i2c.h",
+        "sha256": "6741b4870c9e870e3293996b968419b7edbd2c3477183e44663086ec6f069398"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_i2c_ex.h",
+        "sha256": "445dcca6512f91fa60903605c52f19c2792e3d00e6eba9db3a234901a9dd8c40"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_iwdg.h",
+        "sha256": "ae8490b6c1243af8f35707c591f304337d0bf626fc0eabf912e411c16ba91f3a"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_mdma.h",
+        "sha256": "580b7f7d97482fe435f5c3c4086f017a090ba186201db2af7c68567094e868e8"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_ospi.h",
+        "sha256": "78dd9724ec8aeb7c2ba8cda49452970617551d4289f7a65005441dd2f285260d"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pcd.h",
+        "sha256": "70f865192e52b3d001a4ea32e0e95dd06fc449ac393fe8ab2a51b730a64c3824"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pcd_ex.h",
+        "sha256": "b063cfb05de32e8c0b573edd1231eae3f27e6e7cd5e57508346ee7b4c0763726"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pwr.h",
+        "sha256": "65a883328691a724d5163403e5e7db38d5a1e8ec11f7bdcf5620329bf779cdfa"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_pwr_ex.h",
+        "sha256": "76ec9d62421667db5a499309f50c8145d086d76b5529a7ece37331fe5de05842"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_rcc.h",
+        "sha256": "27c198869e9a02d059427189d0897130172c10d64a8c993cb57ee9231ebd44cf"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_rcc_ex.h",
+        "sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_spi.h",
+        "sha256": "9ea983fd0e3148a3291b2aa56b1d01709374a3a3845d6b592b3d3356b71f6cb5"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_spi_ex.h",
+        "sha256": "44d854991d118840677da5ce86d88b1e555fe811808354522ad2f198ac4fa66c"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_tim.h",
+        "sha256": "90eaea9d79e3e69afa3d1ef8758a07ef8809eab28e6502e46d15201f8ffa7c38"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_tim_ex.h",
+        "sha256": "c6e76b135cc6bff07ad4b84a76d7eedb3a63ddba472131595c4655ac37ed7196"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_uart.h",
+        "sha256": "4065a1e1b21da22b6ee74e6549d573ea4c0930e744ce923a776cfc3f35383bd7"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_hal_uart_ex.h",
+        "sha256": "99756f731f50013b1344f8ea0d1a0259ccacd5e085fb7477080c215dcf343841"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_adc.h",
+        "sha256": "cb252eef4c35038adc1ed634b7acdb7067e4984ef7f399eb6432916756481920"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_bus.h",
+        "sha256": "0eb42ffbba51192ec0efd6463759a5fda060637ff4d694274df16b4763c882a5"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_cordic.h",
+        "sha256": "c14e0a66652d2618eea6de289f5a6a67c3dce425848ba6df4a3b56f4a081d1f9"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_cortex.h",
+        "sha256": "e6781bfcc812a315006a5ea9ed0f0eb7db19beb095bce5136c345e0af4caed1c"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_crs.h",
+        "sha256": "cb7133e48358f5cd50119c8b88c4a59634dad521f489448e04602c9efd9d2972"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_dma.h",
+        "sha256": "3cf0adf0da04435eb89743523a7f9e6a23a18fd6133afed7c808acef9ee0aa76"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_dmamux.h",
+        "sha256": "74cdd7b811aa394274ba645d05ae410d417f0e3836d91194e58156960d68a2ea"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_exti.h",
+        "sha256": "6eee9e7ba6b688c5c848e8f318b7adc293347a4697a888cfaadc9a2cd654cc5b"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_gpio.h",
+        "sha256": "3a84cb663d59954ce2a057ee58793890579b4ef15af37c8f043190b0a82c9093"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_hsem.h",
+        "sha256": "7e2cc95c8dcd6b326801026d0398a46b903c94e4c3befd650a227e9a351606c2"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_iwdg.h",
+        "sha256": "dd5c8116767550492595983a08f870d9db95181c31ec7d149e3923d274dd6768"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_lpuart.h",
+        "sha256": "272862ad6036ead74e88306b08ed0870c44f866617328beabb505038be9af6ba"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_pwr.h",
+        "sha256": "fd20ad8efbceb8ad7169e92a365385759fc1331157a94399d9e8328e32c8a564"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_rcc.h",
+        "sha256": "811ac8f472d426f2d7542d1e5987f1771035637bbdf69d9197f02cd52bb9f2e9"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_spi.h",
+        "sha256": "637d0822e248429fd87182786f1e727860dc52645440405642e08f5df13bf565"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_system.h",
+        "sha256": "b8fa6b6b051d961eea8b74d62b1f70849ab029b112d99c3d4955400392d78462"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_tim.h",
+        "sha256": "c4547de1d0e4825dc91d40bd4e9af5cc4d5eff16357c1601fc9127c8aea3f7c3"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_usart.h",
+        "sha256": "137553753bb69d630d93751f895b3951be03c7a30862a31ac60e94355ce81bde"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_usb.h",
+        "sha256": "1214fcc2d4046842942f3e74c0219d24be038184a2a5c395519d30f11da4e97d"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Inc/stm32h7xx_ll_utils.h",
+        "sha256": "02f36cc8124209b5045c10a4063a7e5f4f92fb1eeb1d29f1104d94cffcbde2a5"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal.c",
+        "sha256": "3e46894e1870c682b6362c0536d5a5ded6cf5541f54559e5cc591e90352f0bfc"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_cortex.c",
+        "sha256": "9df95c02feab163763ac752c17c07f0a10f6bd7d303f659e950dd8b6b4cce2c9"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_dma.c",
+        "sha256": "e1b72f89360c46185e557e9ae3ad9c0b36978130dbf010ac54a089a850a9d2cf"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_dma_ex.c",
+        "sha256": "a8bc1642a339acba8aaa7be9101854ab36319efcf2a3ba299760451af31585d1"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_exti.c",
+        "sha256": "90865afce1c097a4760b197f1c23f602edab2cfd75f19c1d56a14f02e5042411"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_fdcan.c",
+        "sha256": "beb1ee442655f607984b1df1bed4caf99dc50a00ea0670c72c917b65aa1657ee"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_flash.c",
+        "sha256": "f5d7fae3a1dce51e81c099a48a39c2076ee79932a7d369a76a2dd1d5b0e8103f"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_flash_ex.c",
+        "sha256": "aea2f7cf88a97ff6e9eb6afd542ee9aa1f1be2946db834625df176f2a383497f"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_gpio.c",
+        "sha256": "e8cb800d746479f9b768e6845dfd2c84867a0b264101afb21f5ad799e3a65ae2"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_iwdg.c",
+        "sha256": "086e965d94cacc528808f4e76c2f66e94e8df95be4d960374898e6b6c316e968"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_mdma.c",
+        "sha256": "674d7a273d208509e2941cb88d9419f549cbdfd35d4aa81b2da135bf1c1a30ad"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_pwr.c",
+        "sha256": "87dc25ff1b0a58773eeed5a87de133167cfe4306bf54aa884889a61d8a5bd7f4"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_pwr_ex.c",
+        "sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_rcc.c",
+        "sha256": "99c51eaf3e01a9040e3080b2d0f537fd546e63792b571f74fc39bdc481d82116"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_rcc_ex.c",
+        "sha256": "ba3ffa42989a60a93e8de7f148cde4fa22c6853223d00d5d9954ad370c6012fe"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_spi.c",
+        "sha256": "862a531faa657484a7af61412387f146587e4430cbfdcf104749f48683ab419c"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_spi_ex.c",
+        "sha256": "d7262bb17d9c4949ff4be52cb287ab823415ea59019ed89a4750d6c5c1997988"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_tim.c",
+        "sha256": "a629504942e13c443324ebf9efa301a003ce2880c57b7aeb59bff5a643ec829f"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_tim_ex.c",
+        "sha256": "f00d3730972ebc50ced69c9c40bfb2d5e2bbc2026e33818bc97cf2048dc47837"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart.c",
+        "sha256": "24be6acbe1eaad088184086efb3a4ce309e00e90ceeeecbf3e112b8ec23bb429"
+      },
+      {
+        "path": "third_party/stm32h7xx_hal/Src/stm32h7xx_hal_uart_ex.c",
+        "sha256": "ef3ee8fb9ea24163b9ed0b0e6078bba36b071de3ff9af16a7914df634e0bb191"
+      },
+      {
+        "path": "tools/board_exception_tests.py",
+        "sha256": "70285b03799fa7dba84e791bd8b028a53d24b52cce990cec7cfcd80b2b45d5bc"
+      },
+      {
+        "path": "tools/board_fault_tests.py",
+        "sha256": "b7c77303b85853ba8ed7f7a4c2a818a513957b4b7364ec575d62cc6703d2b2e3"
+      },
+      {
+        "path": "tools/board_probe.py",
+        "sha256": "8ccd8f76cdb0b31c7b2dccdd7ccdba261087cd203750c554adfa7d9da04bd1d6"
+      },
+      {
+        "path": "tools/fpu_fault_probe.s",
+        "sha256": "5b799e0ebc7981bae935963df23c9e6060827e5c276c22f694ceea7be1ab425a"
+      },
+      {
+        "path": "tools/remote_probe.py",
+        "sha256": "09ebfd11f7312931836328443d07c19518761018e6dfaf26792c230979ea9771"
+      },
+      {
+        "path": "tools/serial_capture.py",
+        "sha256": "4848f5c6e484bbf1f4ec729d32714fbd99992e970b8a97289433c8063636fb33"
+      }
+    ]
+  },
+  "audit_fixes": {
+    "count": 7,
+    "record": "docs/archive/milestones/2026-10-08_audit_fixes.md",
+    "uart_abort_timeout_ms": 50,
+    "uart_recovery_attempts": 3,
+    "early_watchdog_nominal_ms": 12000,
+    "runtime_watchdog_nominal_ms": 500
+  },
+  "hardware_validation": {
+    "record": "docs/archive/milestones/2026-10-11_hardware_log.md",
+    "scope": "Current h7-debug forward-polarity revision flashed via migrated upload.sh, DAP v2, verified and reset. Vehicle direction and yaw response not yet verified for this hash.",
+    "verified_debug_elf_sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541",
+    "chassis_debug_elf_sha256": "93eec62f11ec05f2e098a59c7741cfd8758f25373d75ab369f90ccba7a0bf368",
+    "latest_flash_backend": "USB bulk (DAP v2)",
+    "latest_flash_record": "docs/archive/hardware/2026-10-11/chassis/chassis_forward_fix/flash.json"
+  },
+  "tests": [
+    {
+      "name": "chassis_demo_control",
+      "kind": "host",
+      "passed": null,
+      "command": "ctest --test-dir build/host --output-on-failure",
+      "status": "Not rerun after longitudinal polarity change; earlier results belong to earlier snapshots."
+    }
+  ],
+  "script_migration": {
+    "record": "scripts/README.md",
+    "original_entries": 9,
+    "shared_implementation": "scripts/devtools.py (debug/log only)",
+    "default_target": "chassis_demo.elf",
+    "default_preset": "h7-debug",
+    "default_backend": "DAP v2 / USB bulk",
+    "scripts_tests_run": false,
+    "board_actions_run": false,
+    "upload_hardware_verified": false,
+    "build_implementation": "native Bash",
+    "upload_implementation": "native Bash / PowerShell adapted from RM2026",
+    "upload_requires_python": false,
+    "default_upload_format": "bin",
+    "scope": "Native uploader revision not exercised; earlier Python uploader hardware success remains in historical flash records."
+  },
+  "archive_note": "Historical build/source snapshot. Documentation/evidence paths relocated during closeout; original artifact/source hashes retained. This is not a current-build certification."
+}

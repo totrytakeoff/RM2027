@@ -1,0 +1,13 @@
+
+docs/hardware_runs/2026-10-11/fpu_fault.o:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <RmTest_FpuFault>:
+   0:	eeb7 0a00 	vmov.f32	s0, #112	@ 0x3f800000  1.0
+   4:	ee30 0a00 	vadd.f32	s0, s0, s0
+
+00000008 <RmTest_FpuFaultSite>:
+   8:	de00      	udf	#0
+   a:	e7fe      	b.n	a <RmTest_FpuFaultSite+0x2>

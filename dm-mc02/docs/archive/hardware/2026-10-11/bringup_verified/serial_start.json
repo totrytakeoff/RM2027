@@ -1,0 +1,410 @@
+{
+  "case": "serial-start",
+  "firmware": {
+    "elf": "build/h7-debug/board_bringup.elf",
+    "sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541"
+  },
+  "monitor": {
+    "firmware": {
+      "elf": "build/h7-debug/board_bringup.elf",
+      "sha256": "353f31c635ee031e99e11e82a0cd960665fb51ecc33a6f496d44b69c485db541"
+    },
+    "duration_s": 3.000090973000624,
+    "samples": 3,
+    "observed_resets": 0,
+    "task_max_runtime_us": [
+      79,
+      23,
+      8,
+      4,
+      3,
+      51
+    ],
+    "task_stack_min_words": [
+      886,
+      595,
+      343,
+      380,
+      670,
+      605
+    ],
+    "final": {
+      "board": {
+        "cpu_hz": 480000000,
+        "hclk_hz": 240000000,
+        "fdcan_hz": 80000000,
+        "reset_flags": 21102592,
+        "cpuid": 1092600434,
+        "hal_version": 17499392,
+        "dcache_enabled": true
+      },
+      "tasks": [
+        {
+          "run_count": 2286,
+          "last_finish_ms": 2400,
+          "max_runtime_us": 79,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 886
+        },
+        {
+          "run_count": 2286,
+          "last_finish_ms": 2400,
+          "max_runtime_us": 23,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 595
+        },
+        {
+          "run_count": 459,
+          "last_finish_ms": 2405,
+          "max_runtime_us": 8,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 343
+        },
+        {
+          "run_count": 459,
+          "last_finish_ms": 2405,
+          "max_runtime_us": 4,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 380
+        },
+        {
+          "run_count": 116,
+          "last_finish_ms": 2415,
+          "max_runtime_us": 3,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 670
+        },
+        {
+          "run_count": 231,
+          "last_finish_ms": 2415,
+          "max_runtime_us": 51,
+          "deadline_misses": 0,
+          "consecutive_overruns": 0,
+          "stack_free_words": 605
+        }
+      ],
+      "ins": {
+        "timestamp_us": 2423162,
+        "sequence": 1859,
+        "calibration_count": 128,
+        "state": 1,
+        "error": 0,
+        "valid": true,
+        "converged": true,
+        "quaternion": [
+          0.9999740123748779,
+          -0.004854706581681967,
+          -0.005250775720924139,
+          0.0009061715099960566
+        ],
+        "gyro": [
+          0.0034524567890912294,
+          -0.003789495909586549,
+          0.0044358279556035995
+        ],
+        "accel": [
+          0.055665191262960434,
+          -0.09876082092523575,
+          9.786299705505371
+        ],
+        "gyro_bias": [
+          0.0008083914290182292,
+          -0.004733038600534201,
+          0.001955758547410369
+        ],
+        "yaw_deg": 0.10701936483383179,
+        "pitch_deg": -0.55596524477005,
+        "roll_deg": -0.6012236475944519,
+        "yaw_total_deg": 0.10635095834732056,
+        "temperature_c": 36.75,
+        "dt_s": 0.0010000000474974513,
+        "motion_body": [
+          -0.023384325206279755,
+          0.0029554180800914764,
+          0.030887026339769363
+        ],
+        "motion_earth": [
+          -0.022792842239141464,
+          0.0007992595201358199,
+          0.030643371865153313
+        ]
+      },
+      "raw": {
+        "accel": [
+          0.10055647045373917,
+          -0.11312603205442429,
+          9.813234329223633
+        ],
+        "gyro": [
+          0.01065264455974102,
+          -0.009587380103766918,
+          -0.004261057823896408
+        ],
+        "temperature_c": 36.75,
+        "accel_us": 2429153,
+        "gyro_us": 2429162,
+        "sequence": 1994,
+        "valid": true
+      },
+      "gate": {
+        "epoch": 1,
+        "reasons": 4131,
+        "deadline_ms": 0,
+        "permitted": false
+      },
+      "fault": {
+        "magic": 0,
+        "version": 1,
+        "reason": 16385,
+        "ipsr": 0,
+        "cfsr": 0,
+        "hfsr": 0,
+        "mmfar": 0,
+        "bfar": 0,
+        "frame": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "checksum": 3248533517
+      },
+      "can": [
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        },
+        {
+          "rx_frames": 0,
+          "rx_dropped": 0,
+          "rx_errors": 0,
+          "tx_accepted": 0,
+          "tx_completed": 0,
+          "tx_aborted": 0,
+          "tx_expired": 0,
+          "tx_busy": 0,
+          "bus_off_count": 0,
+          "recoveries": 0,
+          "recovery_failures": 0,
+          "generation": 1,
+          "pending_frames": 0,
+          "online": true
+        }
+      ],
+      "serial": [
+        {
+          "stats": {
+            "rx_bytes": 4113,
+            "rx_events": 293,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 1,
+            "restart_failures": 1,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 2,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 288,
+          "tail": 288,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 64,
+          "rx_position": 17,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 4,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 165,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 64,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 0,
+            "tx_completed": 0,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 0,
+          "tx_tail": 0,
+          "rx_capacity": 512,
+          "rx_position": 0,
+          "tx_lengths": [
+            0,
+            0
+          ],
+          "tx_capacity": 256,
+          "depth": 32,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        },
+        {
+          "stats": {
+            "rx_bytes": 0,
+            "rx_events": 0,
+            "rx_dropped": 0,
+            "rx_errors": 0,
+            "restarts": 0,
+            "restart_failures": 0,
+            "tx_accepted": 99,
+            "tx_completed": 99,
+            "tx_errors": 0,
+            "tx_busy": 0,
+            "generation": 1,
+            "pending_chunks": 0,
+            "abort_timeouts": 0,
+            "recovery_exhausted": 0,
+            "online": true,
+            "quarantined": false
+          },
+          "head": 0,
+          "tail": 0,
+          "tx_head": 99,
+          "tx_tail": 99,
+          "rx_capacity": 256,
+          "rx_position": 0,
+          "tx_lengths": [
+            37,
+            36
+          ],
+          "tx_capacity": 256,
+          "depth": 8,
+          "tx_running": false,
+          "fault": false,
+          "aborting": false,
+          "aborted": false,
+          "started": true,
+          "rx_wrap_before_tc": false,
+          "retry_ms": 0,
+          "abort_deadline_ms": 0,
+          "recovery_attempts": 0
+        }
+      ],
+      "timer_us": 2501176,
+      "cfsr": 0,
+      "hfsr": 0,
+      "ccr": 459264,
+      "mpu_ctrl": 5,
+      "dhcsr": 16842753,
+      "gpiob_odr": 0,
+      "gpioc_odr": 9,
+      "log_dropped": 0,
+      "host_elapsed_s": 2.4038090690009994
+    }
+  },
+  "passed": true
+}
