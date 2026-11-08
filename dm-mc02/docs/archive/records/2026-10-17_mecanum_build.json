@@ -1,0 +1,551 @@
+{
+  "date": "2026-10-17T18:50:37.982175+08:00",
+  "target": "mecanum_demo",
+  "tests_run": false,
+  "hardware_verified": false,
+  "flash_performed": true,
+  "builds_passed": [
+    "h7-debug: mecanum_demo + chassis_demo + board_bringup",
+    "h7-release: mecanum_demo + chassis_demo + board_bringup",
+    "h7-mecanum-observe: mecanum_demo",
+    "h7-dbus-debug: board_bringup + logic",
+    "host: logic and existing test executable compiled only"
+  ],
+  "power_scope": "50W nominal-voltage motor-current proxy; NOT an actual DC input power guarantee. DC current/voltage measurement unavailable.",
+  "assumptions": {
+    "supply_v": 24,
+    "rollers": "X",
+    "wheel_radius_m": 0.075,
+    "length_m": 0.34,
+    "width_m": 0.34
+  },
+  "artifacts": [
+    {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "bytes": 2564180,
+      "sha256": "308354a3c3977344c212cd1b7d9f9bcacf962c345407dd4b5a4fcbb0416e13a9"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "bytes": 85260,
+      "sha256": "25717fa8781ce6c118e6d645af629880ce275d35cd00a16634025ecea924932c"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.hex",
+      "bytes": 239870,
+      "sha256": "09088e84b44dfa9ed438ed9728d0aecda35427caabc0c4fac19bf90ed8a59cef"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.map",
+      "bytes": 820163,
+      "sha256": "4399dbabd7a46784c83b8160af35ca35f595e5e4a6e4bd730562584f24b99f88"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.elf",
+      "bytes": 954064,
+      "sha256": "6ff71391d98ad2ef6a8e83693bacee4b798a302feda5f61febde7a5d0737eaa6"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.bin",
+      "bytes": 87596,
+      "sha256": "2dadbdf3ec6dd8a73843d05b88e46d6119612025f60958906529ae6d20eca860"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.hex",
+      "bytes": 246440,
+      "sha256": "bfe4350d274558882e17c067717214c7ae04ad1903f7ff8d0be338dc64404332"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.map",
+      "bytes": 324615,
+      "sha256": "8d9dcd917d4683d2d4d190fc3c5a6d541918875ebfd2663975dafac7e365e834"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.elf",
+      "bytes": 2564064,
+      "sha256": "b669e69dfa9edbeb908e3b334a007ff99504a3ebc1fcfaf8353dae499278461f"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.bin",
+      "bytes": 85196,
+      "sha256": "820c69cb36a779d59747de3d257596e329197bd9078c6d05d0d1d50b135505ac"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.hex",
+      "bytes": 239690,
+      "sha256": "b83f8a7d3d8f12e2eff1557bf3dccfe5dce7a689384a4c98040dfc712e5e623c"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.map",
+      "bytes": 819991,
+      "sha256": "829b3a832202df2a5ea163a2ebabe121d43bea6735fbff49ad77ac6b462e8638"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "0c2ac602458de3b4ef48a86ae4c66e9453bbdd8579f6f54eaa91c897e2aef548"
+    },
+    {
+      "path": "CMakePresets.json",
+      "sha256": "d7cd01ce193342d00fc38898becf9a605b0b46e6140f92f68c80dd027b54943b"
+    },
+    {
+      "path": "applications/board_bringup/bringup.c",
+      "sha256": "92b8961ebf5a4ebb27043cc48eaff0f9f673f7a5b5445c8804eb36241f31cd4c"
+    },
+    {
+      "path": "applications/board_bringup/bringup_app.h",
+      "sha256": "721808fdd912edec15604382f09abed5b11ff20d460d2d9e68cc2abfa1323ab3"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_app.c",
+      "sha256": "beee0412a6463ef1e154d9fa21661e16fb3d8e8c7e273f2ec4a915a7a7efd7d0"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_app.h",
+      "sha256": "cd37c5decf481f257c3abcc26f2f00fc364a9412790bfabbd54b5fd8ff56d4c8"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_control.c",
+      "sha256": "0d2f5ffc93362f38b8eb3362cbf5e58350068023dd61e4b6990b1f32ea3251c9"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_control.h",
+      "sha256": "111df5dca518785b59d2b98e53d4b4b3e7ca024c7d2ba0819611aa2586c0e15c"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_follow.c",
+      "sha256": "c807c74442fe7cd0e7f89aca368d23436f80e8020cd8fb91dbaa7ac54abdd7bf"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_follow.h",
+      "sha256": "607cfd28eafedca30f0b532ac66925e7ca457c423c506309227e7599e00e6e4e"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_kinematics.c",
+      "sha256": "02c7a1b8748d4dce56f000221df3531f61db3e2dccca6b0e842f0e60e6f5317e"
+    },
+    {
+      "path": "applications/chassis_demo/chassis_kinematics.h",
+      "sha256": "18a66db50ed497e3455e34c99339c24f677236716a980570c5762f1a2a11c8e8"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_app.c",
+      "sha256": "d2195d8a17fc764a6cd56674935846548d948c8e4f2c7ad970af916fc1919c1f"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_app.h",
+      "sha256": "bb3b53b3114682eb032928cf6ba69ed2c4d598ce341831213c92f634a7a06c1b"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_control.c",
+      "sha256": "b121f9d7cf1f45145a56672b578f611f2041894f099c40d2c59074a507562d04"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_control.h",
+      "sha256": "a693db8ce6aa3a7fcb7a25ebc8ff8ed629eb8835fef812fc02b7c38b44bef990"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_follow.c",
+      "sha256": "a529f58faef1ba7d6c80b771041f19a8ae64b4c43dda61d02d77aede712d4f4e"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_follow.h",
+      "sha256": "4fd4c3ef5f48b94331c2b42b582d8de9a8e6c1d2ce724c58d5471dbfae2fd697"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_kinematics.c",
+      "sha256": "db85f5d2c8f7fb3ff30836db1a4c979843542646c3aece35e8217ec8fbf5d8d3"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_kinematics.h",
+      "sha256": "675e56b9fb54f3726202637b717dc946d931c6cb54ec73c2976cfad772f99658"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_power.c",
+      "sha256": "bd15bdec0c2d6531974bbdb3017e9e34b30d31e982056e50533776b9f3b02e9a"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_power.h",
+      "sha256": "9fc834cc189571cde5e830abb9a8c58b3e09f189a4c91660bb7368542b4acd96"
+    },
+    {
+      "path": "components/algorithms/filters/kalman/kalman_filter.c",
+      "sha256": "c8cc2bdc3f884595ce12f40b45833b0673883a19291874e3936c4f0aacf6c08d"
+    },
+    {
+      "path": "components/algorithms/filters/kalman/kalman_filter.h",
+      "sha256": "e840893d1b025b91b2de21966c89307ac0b1e4e655c37fa0ef465b319444dcaa"
+    },
+    {
+      "path": "components/algorithms/matrix/rm_matrix.h",
+      "sha256": "fbf6a4634d2ed19cf80d67dc3c38b7ff37233ba98d060f6600132ed1cd4430b4"
+    },
+    {
+      "path": "components/algorithms/pid/controller.c",
+      "sha256": "2b94cc1641b3a9fd194f6c946f2b30551734f0f357bed7041541519e66a81fcd"
+    },
+    {
+      "path": "components/algorithms/pid/controller.h",
+      "sha256": "f0c9a1e9bb47c7e452fde09990578c6f7977e36768352c3f879377594ff64630"
+    },
+    {
+      "path": "components/algorithms/quaternion_ekf/QuaternionEKF.c",
+      "sha256": "50be1630aad0ac57ba607544ef87e6639a41174c55697ce695a6f2d863f45461"
+    },
+    {
+      "path": "components/algorithms/quaternion_ekf/QuaternionEKF.h",
+      "sha256": "c92f161133fba83277d2e7217f88fb5473f44150949a2bc0f407989c6b0158e5"
+    },
+    {
+      "path": "components/devices/imu/bmi088/bmi088.c",
+      "sha256": "e0bdfb20831405dcb3a4c8fd93621698ee9bfca1b1a45b8f99abcc1dfdc0fee9"
+    },
+    {
+      "path": "components/devices/imu/bmi088/bmi088.h",
+      "sha256": "2c4d34bb195d074281e19b04528327dd8a3771f20be5f9c8752af7a202f03786"
+    },
+    {
+      "path": "components/devices/motor/dji/dji.c",
+      "sha256": "6199cf6271249a055ce6c982fd9b4b762d6509e081a548776fce5ecce7214221"
+    },
+    {
+      "path": "components/devices/motor/dji/dji.h",
+      "sha256": "4095fa763a16058887b9e1e97a22f1be54235c0ddf23c1dfbf19b20ecd83aa5a"
+    },
+    {
+      "path": "components/devices/remote/remote.c",
+      "sha256": "3359fb936c5b380d5b2c64633a5e266a804675f360d710211966d747d6ac109c"
+    },
+    {
+      "path": "components/devices/remote/remote.h",
+      "sha256": "306098501ba25f75e18e10d7a0070daa10ae2e8aba2419604ed842c98055ee61"
+    },
+    {
+      "path": "components/devices/remote/remote_control_state.h",
+      "sha256": "e11d8c916516ac470de270cd796b97f529a44590bd396da0bf9ee75a75444726"
+    },
+    {
+      "path": "components/devices/vision/vision_link_state.c",
+      "sha256": "bd297836b22876e9e952f2f7b4253b1522a1906543e3282649b4dd8e8ce87e8c"
+    },
+    {
+      "path": "components/devices/vision/vision_link_state.h",
+      "sha256": "620fe1baf7ae71019a6e6c379efc9e5844e40620827ce3d6e58e15553a303791"
+    },
+    {
+      "path": "components/devices/vision/vision_protocol.c",
+      "sha256": "554860067697943068765d41a3b21fa62aa8fcfe91fee8675e78baab65e3cf4c"
+    },
+    {
+      "path": "components/devices/vision/vision_protocol.h",
+      "sha256": "530c55041d894d084987ebd6e159eaae1585f88f8ce74fff1edb4567cbc5907b"
+    },
+    {
+      "path": "components/services/ins/ins.c",
+      "sha256": "a47270ff5460fb8ff8c094bee71f8192473ccd444185c2a3a261da74453a5ac2"
+    },
+    {
+      "path": "components/services/ins/ins.h",
+      "sha256": "ffd794653b4d22ee140279f94f3257927580c17a852eb31cf5c030e5250b7fb3"
+    },
+    {
+      "path": "components/services/logging/logging.c",
+      "sha256": "76f6d911c74a6b7df26d36c74f224849c6508233b4271821cfa04acda6162e25"
+    },
+    {
+      "path": "components/services/logging/logging.h",
+      "sha256": "5aa361c654c4272cb426b78b8dd5bf98fc02a68f951148ec3800c81bdc0524bc"
+    },
+    {
+      "path": "components/services/safety/output_gate.c",
+      "sha256": "f64c0a8ee42696f44e755f6238538873a5c9842f9405aaa54a67660216693260"
+    },
+    {
+      "path": "components/services/safety/output_gate.h",
+      "sha256": "515eefef3d2f175bd41ca65956fa65e7922a44910720b4505e21f1edd4eeb299"
+    },
+    {
+      "path": "components/services/safety/safety_manager.c",
+      "sha256": "1dc1c921fafdbad059592774d22aba155fba5b6bc4add0b9aa8b6b137b82aac0"
+    },
+    {
+      "path": "components/services/safety/safety_manager.h",
+      "sha256": "2e5417e71f1843a39d5e83bb366616922a7ceafaa42d5bd8568611bb5723a4cf"
+    },
+    {
+      "path": "config/boards/dm_mc02/resources.h",
+      "sha256": "b9528ca3a6bdce0a200998253fb8da7f742ecb6bce5d3bd87edddcce6c0dd9af"
+    },
+    {
+      "path": "config/profiles/bringup.h",
+      "sha256": "6899df97a406c4f50b544e9ca90078bc749cca9ef11785dc5161e6da970bc1ef"
+    },
+    {
+      "path": "config/robots/bringup/binding.c",
+      "sha256": "88a1cfc1ebe8a5bbec0c20ab994a81aa84a2c63a0763762c5cdb8fa3df316d90"
+    },
+    {
+      "path": "config/robots/bringup/binding.h",
+      "sha256": "5d98e729f3efde3c6e7b76f37e8722c8978e64a77370b16a751ab0f419af9849"
+    },
+    {
+      "path": "config/robots/chassis_demo/binding.c",
+      "sha256": "d755530e293875b8085cd99924e04ed2605cc951475f485b6f11796fbcf16f7c"
+    },
+    {
+      "path": "config/robots/chassis_demo/chassis_config.h",
+      "sha256": "e8c039ba176879c54ac62ce0c7c08278553a3a0e4f4a60555692b2606d1a4a1b"
+    },
+    {
+      "path": "config/robots/mecanum_demo/binding.c",
+      "sha256": "e51fe7cb9c3c32937fab5126cb05af906bb7b66f41896a2f2d48a0e9ac27f05d"
+    },
+    {
+      "path": "config/robots/mecanum_demo/mecanum_config.h",
+      "sha256": "6ec4e202a6a3277cc20a820414e444323c1f9f7b0565edad955befd2cc8af4a2"
+    },
+    {
+      "path": "firmware/dm_mc02/chassis_main.c",
+      "sha256": "3af5fd0856016966e9985d3313c93151c231fa26bc9b8bd16afc6506bf73ca29"
+    },
+    {
+      "path": "firmware/dm_mc02/main.c",
+      "sha256": "af3e26a2d6da0f5edcdc6999d0971483ce6b313fbc027c1552c208fefd50c9f0"
+    },
+    {
+      "path": "firmware/dm_mc02/mecanum_main.c",
+      "sha256": "898477ed21b8f7382fea79a1e2ba7202bac03325b4b5f5b121961be8d7ed0793"
+    },
+    {
+      "path": "firmware/dm_mc02/syscalls.c",
+      "sha256": "92119a206fc6a7f27ad5c61cc25bf9cb85a902db76c01b66f98d71d6de040424"
+    },
+    {
+      "path": "platform/api/rm_platform.h",
+      "sha256": "b2dd313cfb4973f147c6ac6fa3d4286663572bc62237e8510b329f6c4c0e443e"
+    },
+    {
+      "path": "platform/boards/dm_mc02/board.c",
+      "sha256": "44ad949f647fc76042fc156927b478eda9fe5210d27a471ae09f68839bc97983"
+    },
+    {
+      "path": "platform/boards/dm_mc02/fault/fault.c",
+      "sha256": "438e37f0ded930516c10200e7eacbd3e1941741991128ff8225a279c7fc88c23"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/fdcan.c",
+      "sha256": "aa93f2f50ac32447d1a8ab6bf883885717b832f1a68c085088e8ce1a2f3e7814"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/gpio.c",
+      "sha256": "a5090bb081872e8d6ed0d75eb480b19089958fc7aae53b2cefcb5dbfa9714085"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/spi.c",
+      "sha256": "86793bdc5bd86c18718c9438dda135a3281ef4c6fe02836b7ed37cc68ae2418b"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/stm32h7xx_hal_msp.c",
+      "sha256": "7246c19aeea766a4ad60bd1b5aef7ac464bc0498f54f7bbf1141a374de6cf508"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/system_stm32h7xx.c",
+      "sha256": "e444cb477c5a326ab6a7a1eb1cd47a6012f8ad0f988e74457bb2eb9b4f47bb53"
+    },
+    {
+      "path": "platform/boards/dm_mc02/generated/usart.c",
+      "sha256": "9df975ee90cfc31ab907f7eac1110dd00573d190409ed852baa1a38d82a7a836"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/FreeRTOSConfig.h",
+      "sha256": "06a8d0033ceeb0474ce990d0dca006bfc664d082b601a6a106913c42c5addb7f"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/fdcan.h",
+      "sha256": "6040912db1b6c7de55c40ac6b27b0cae6555eac3ea65d18307778dc0795ab15c"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/gpio.h",
+      "sha256": "8648a64151f772929666f6b66e85071c7bc5d4bbfcdf12cffe1aaa1b2d5fbb1e"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/main.h",
+      "sha256": "4c2accc2ec27de3a9dd0ddae2fc5e5c8246d557ed0bf2de92a09e67c70571fc1"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/spi.h",
+      "sha256": "dbad12dc606d7d8fbb76263ea5790b15e19b0e85918c80da841ea6d1a5c344a0"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/stm32h7xx_hal_conf.h",
+      "sha256": "ae5ed16431ad6ea2ae3fc37ce29eb1d4a36dec33d600a6bfd2e84c0ce8da3293"
+    },
+    {
+      "path": "platform/boards/dm_mc02/include/usart.h",
+      "sha256": "ddb18ccce7788c5098e994a0bac8eb682baf768825e69d179e48c7cfbf094e0f"
+    },
+    {
+      "path": "platform/boards/dm_mc02/irq/interrupts.c",
+      "sha256": "7a7ccfcc60a149d96e5bf316b0c943f673acb7346a90a138b3d7c9d6607969e9"
+    },
+    {
+      "path": "platform/boards/dm_mc02/linker/STM32H723VG.ld",
+      "sha256": "766b0969d192dafe4379abcb8a230fa0e9113d0cbc37d34bc2ffb3b303358919"
+    },
+    {
+      "path": "platform/boards/dm_mc02/startup/startup_stm32h723vgtx.s",
+      "sha256": "7386a0ee3844a88c0a5e75a1c38c8eec8a9640ad2d7bf6ee45a5d828110eb65a"
+    },
+    {
+      "path": "platform/stm32h7/can.c",
+      "sha256": "a8cf80b19289b90f97d96a31106fe7ff724ccf921d58171670184ab07541a6f3"
+    },
+    {
+      "path": "platform/stm32h7/critical.c",
+      "sha256": "3ca9b6369eabfcd1e99c69cf636931a6e692c5b0f5995c406b9021cd90dc3cbd"
+    },
+    {
+      "path": "platform/stm32h7/h7_private.h",
+      "sha256": "675140c0042cb65fdd1d848799051c0ac1be62599711868452d78017aa58ecdc"
+    },
+    {
+      "path": "platform/stm32h7/memory.c",
+      "sha256": "f119cc3fee57ba41aac35e3e78d2d4d32360139a63e08906340d45cf9e6d8d18"
+    },
+    {
+      "path": "platform/stm32h7/sensor_bus.c",
+      "sha256": "bdf05bf2f9bdf75c0c3ef237a7869acb40880bafcee86a3b06e1a70411a5e31e"
+    },
+    {
+      "path": "platform/stm32h7/serial.c",
+      "sha256": "a4a3b1b88fc5e61a8975da2968be3921a9f384079d6c8e4954da74f87ae6b550"
+    },
+    {
+      "path": "platform/stm32h7/time.c",
+      "sha256": "903e7e00838cbaefb6d14e103a4e2338ceaa2eb6494974196bfe1c2a589c1412"
+    },
+    {
+      "path": "platform/stm32h7/watchdog.c",
+      "sha256": "77b8d7bef9b0bfc73a209dc25c6419f3ac4ebe30e9e0b816ff82b93ad61c70d1"
+    },
+    {
+      "path": "runtime/freertos/hooks.c",
+      "sha256": "5d0f487049aa2d22a8eab53948a8e7781019a04099e96bc0d21fa7dcdd415f64"
+    },
+    {
+      "path": "runtime/freertos/runtime.c",
+      "sha256": "18706b9a7851cf3e6e7436dc71d248cf51285d5bde7f25757edebdeebdb96744"
+    },
+    {
+      "path": "runtime/freertos/runtime.h",
+      "sha256": "18ba87e283e173387c1ff1d8407283bcc96d58f5e552bf3062e95610fbdf9023"
+    },
+    {
+      "path": "scripts/build.sh",
+      "sha256": "503ee70ff79913e9d9630b7d702cebdf51ee78067b69bef8c163eb13ab463d81"
+    },
+    {
+      "path": "scripts/debug.sh",
+      "sha256": "21f787d79c5a8afd961f9cf766de5482251940a468a41ebd700b99fe0c06fd29"
+    },
+    {
+      "path": "scripts/devtools.py",
+      "sha256": "e1a9180000a45976a9b1572e35a16aa1bb3b6131f4f4da350e9bba47e65201da"
+    },
+    {
+      "path": "scripts/gdb.sh",
+      "sha256": "bc7ad1594116a3e33e75454dd2811e353de1a7a4e845772303b799ae5aa67df0"
+    },
+    {
+      "path": "scripts/log.sh",
+      "sha256": "5071cebf3078ed25301bae5484c4331ddf8f877439c3fcaae8d43b6efe819c75"
+    },
+    {
+      "path": "scripts/openocd_rtt_log.ps1",
+      "sha256": "2f2387cdca033e3c842b88dd4e61423bc782421433395abd454c69745b23e81a"
+    },
+    {
+      "path": "scripts/openocd_rtt_log.sh",
+      "sha256": "df8a7acc42b9f7c056c3ede713b077191864ce8400ebeff16187243b0a257eb3"
+    },
+    {
+      "path": "scripts/upload.ps1",
+      "sha256": "190752b0897b79cfaa77b8f6932ec416e6f956ede8151147bea8160f86df8b73"
+    },
+    {
+      "path": "scripts/upload.sh",
+      "sha256": "3a3beb84715f96936999f4c53a582b3498f0f03eed1d1cec3d2ff1caf8a3792d"
+    },
+    {
+      "path": "scripts/vt_serial_monitor.py",
+      "sha256": "49b899df6189a4b4a7345710bbd0ce1c7adcb9155465aa0c036420347b5818bb"
+    }
+  ],
+  "copied_from": [
+    {
+      "source": "applications/chassis_demo/chassis_app.c",
+      "source_sha256": "beee0412a6463ef1e154d9fa21661e16fb3d8e8c7e273f2ec4a915a7a7efd7d0",
+      "destination": "applications/mecanum_demo/mecanum_app.c",
+      "implementation_sha256": "d2195d8a17fc764a6cd56674935846548d948c8e4f2c7ad970af916fc1919c1f"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_control.h",
+      "source_sha256": "111df5dca518785b59d2b98e53d4b4b3e7ca024c7d2ba0819611aa2586c0e15c",
+      "destination": "applications/mecanum_demo/mecanum_control.h",
+      "implementation_sha256": "a693db8ce6aa3a7fcb7a25ebc8ff8ed629eb8835fef812fc02b7c38b44bef990"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_kinematics.h",
+      "source_sha256": "18a66db50ed497e3455e34c99339c24f677236716a980570c5762f1a2a11c8e8",
+      "destination": "applications/mecanum_demo/mecanum_kinematics.h",
+      "implementation_sha256": "675e56b9fb54f3726202637b717dc946d931c6cb54ec73c2976cfad772f99658"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_follow.h",
+      "source_sha256": "607cfd28eafedca30f0b532ac66925e7ca457c423c506309227e7599e00e6e4e",
+      "destination": "applications/mecanum_demo/mecanum_follow.h",
+      "implementation_sha256": "4fd4c3ef5f48b94331c2b42b582d8de9a8e6c1d2ce724c58d5471dbfae2fd697"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_kinematics.c",
+      "source_sha256": "02c7a1b8748d4dce56f000221df3531f61db3e2dccca6b0e842f0e60e6f5317e",
+      "destination": "applications/mecanum_demo/mecanum_kinematics.c",
+      "implementation_sha256": "db85f5d2c8f7fb3ff30836db1a4c979843542646c3aece35e8217ec8fbf5d8d3"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_app.h",
+      "source_sha256": "cd37c5decf481f257c3abcc26f2f00fc364a9412790bfabbd54b5fd8ff56d4c8",
+      "destination": "applications/mecanum_demo/mecanum_app.h",
+      "implementation_sha256": "bb3b53b3114682eb032928cf6ba69ed2c4d598ce341831213c92f634a7a06c1b"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_control.c",
+      "source_sha256": "0d2f5ffc93362f38b8eb3362cbf5e58350068023dd61e4b6990b1f32ea3251c9",
+      "destination": "applications/mecanum_demo/mecanum_control.c",
+      "implementation_sha256": "b121f9d7cf1f45145a56672b578f611f2041894f099c40d2c59074a507562d04"
+    },
+    {
+      "source": "applications/chassis_demo/chassis_follow.c",
+      "source_sha256": "c807c74442fe7cd0e7f89aca368d23436f80e8020cd8fb91dbaa7ac54abdd7bf",
+      "destination": "applications/mecanum_demo/mecanum_follow.c",
+      "implementation_sha256": "a529f58faef1ba7d6c80b771041f19a8ae64b4c43dda61d02d77aede712d4f4e"
+    },
+    {
+      "source": "config/robots/chassis_demo/chassis_config.h",
+      "source_sha256": "e8c039ba176879c54ac62ce0c7c08278553a3a0e4f4a60555692b2606d1a4a1b",
+      "destination": "config/robots/mecanum_demo/mecanum_config.h",
+      "implementation_sha256": "6ec4e202a6a3277cc20a820414e444323c1f9f7b0565edad955befd2cc8af4a2"
+    },
+    {
+      "source": "config/robots/chassis_demo/binding.c",
+      "source_sha256": "d755530e293875b8085cd99924e04ed2605cc951475f485b6f11796fbcf16f7c",
+      "destination": "config/robots/mecanum_demo/binding.c",
+      "implementation_sha256": "e51fe7cb9c3c32937fab5126cb05af906bb7b66f41896a2f2d48a0e9ac27f05d"
+    }
+  ],
+  "startup_observed": true,
+  "hardware_record": "docs/archive/hardware/2026-10-17/mecanum/flash.json",
+  "hardware_scope": "Flash and static startup observed. Four motors online; remote input unavailable, motion disabled. No dynamic current/power-limit validation."
+}

@@ -19,7 +19,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "usart.h"
-#if defined(RM_CHASSIS_DEMO_BOARD)
+#if defined(RM_MECANUM_DEMO_BOARD)
+#include "mecanum_config.h"
+#define RM_USART1_BAUDRATE MECANUM_DEMO_SERIAL_BAUD
+#elif defined(RM_CHASSIS_DEMO_BOARD)
 #include "chassis_config.h"
 #define RM_USART1_BAUDRATE CHASSIS_DEMO_SERIAL_BAUD
 #endif

@@ -47,6 +47,18 @@ PowerShell 入口：
 ./scripts/upload.ps1 --format bin --dry-run
 ```
 
+## 麦轮目标
+
+```sh
+./scripts/build.sh build --target mecanum_demo
+./scripts/upload.sh mecanum_demo
+./scripts/build.sh upload --target mecanum_demo
+./scripts/build.sh build --preset h7-mecanum-observe
+./scripts/upload.sh --preset h7-mecanum-observe
+```
+
+默认目标仍为全向轮，麦轮需要显式指定，功率模型与接线见 [麦轮指南](../docs/guides/mecanum_demo.md)。
+
 ## OpenOCD / GDB
 
 两个终端分别执行：
@@ -61,6 +73,8 @@ PowerShell 入口：
 GDB 连接会暂停目标。H7 的 IWDG 与 TIM5/TIM6 在暂停调试时需要考虑现有时间监督机制；继续后进行 reset run 可恢复完整启动时序。读取正常运行状态可以启动 `debug.sh`，再使用现有 `tools/board_probe.py`，它只通过 Tcl 读取而不暂停 CPU。脚本没有自动改写看门狗冻结寄存器。
 
 ## 日志
+
+麦轮 demo 的 USART1 已改为 VOFA+ JustFloat 二进制输出，使用VOFA+接收，通道表见 [麦轮指南](../docs/guides/mecanum_demo.md)。以下 `log.sh` 用于文本日志。
 
 本框架的日志传输是 USART，`log.sh` 默认只接收串口，自动选择唯一 Horco DAP 串口，115200 8N1：
 

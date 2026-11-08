@@ -44,6 +44,14 @@
         "CMAKE_BUILD_TYPE": "Debug",
         "RM_BUILD_FIRMWARE": "OFF"
       }
+    },
+    {
+      "name": "h7-mecanum-observe",
+      "inherits": "h7-debug",
+      "binaryDir": "${sourceDir}/build/h7-mecanum-observe",
+      "cacheVariables": {
+        "RM_MECANUM_ENABLE_MOTION": "OFF"
+      }
     }
   ],
   "buildPresets": [
@@ -62,11 +70,20 @@
     {
       "name": "h7-chassis-observe",
       "configurePreset": "h7-chassis-observe",
-      "targets": ["chassis_demo.elf"]
+      "targets": [
+        "chassis_demo.elf"
+      ]
     },
     {
       "name": "host",
       "configurePreset": "host"
+    },
+    {
+      "name": "h7-mecanum-observe",
+      "configurePreset": "h7-mecanum-observe",
+      "targets": [
+        "mecanum_demo.elf"
+      ]
     }
   ]
 }

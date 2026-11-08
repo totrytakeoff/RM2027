@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-17T19:31:02.685351+08:00",
+  "command": "./scripts/upload.sh mecanum_demo --backend dapv2",
+  "backend": "CMSIS-DAPv2",
+  "exit_code": 0,
+  "flash_written": true,
+  "verify_image_succeeded": true,
+  "reset_run": true,
+  "sample_period_ms": 10,
+  "average_window_ms": 200,
+  "nominal_output_hz": 5,
+  "channels_unchanged": true,
+  "serial_capture": "Unavailable: port busy (errno16); did not interrupt owner",
+  "firmware": {
+    "bin": {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "19bffa4c32ecc5ab5da67a92bb761603648f1e86f974f84bb86500cc4e811a85"
+    },
+    "elf": {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "337dec56a7e8da570ea623c9eb876cd9a979f23e4c6601dd78c7f7cdc88bfd91"
+    }
+  }
+}

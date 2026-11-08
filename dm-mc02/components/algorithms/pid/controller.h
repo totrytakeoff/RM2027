@@ -30,6 +30,7 @@ typedef enum
     PID_ChangingIntegrationRate = 0x20U,
     PID_DerivativeFilter = 0x40U,
     PID_ErrorHandle = 0x80U,
+    PID_HoldIntegral = 0x100U, /* Retain load compensation at zero error/deadband. */
 } PID_Improvement_e;
 
 /* PID 报错类型枚举*/

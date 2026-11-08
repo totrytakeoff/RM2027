@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-17T19:07:10.305026+08:00",
+  "command": "./scripts/upload.sh mecanum_demo --backend dapv2",
+  "exit_code": 0,
+  "backend": "CMSIS-DAPv2 / USB bulk",
+  "flash_written": true,
+  "verify_image_succeeded": true,
+  "reset_run": true,
+  "bin_sha256": "25717fa8781ce6c118e6d645af629880ce275d35cd00a16634025ecea924932c",
+  "elf_sha256": "308354a3c3977344c212cd1b7d9f9bcacf962c345407dd4b5a4fcbb0416e13a9",
+  "scope": "Reflash of current unchanged source; build reported no work to do. Power-model and motion issues not fixed in this operation."
+}

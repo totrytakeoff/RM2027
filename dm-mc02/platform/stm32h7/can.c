@@ -1,3 +1,4 @@
+#include "dm.h"
 #include "h7_private.h"
 #include "resources.h"
 #include "fdcan.h"
@@ -177,6 +178,16 @@ RmStatus RmCan_SubmitZeroFrame(const RmCanFrame *frame,uint32_t deadline_ms)
 {
     if (!frame || frame->extended || frame->length!=8U) return RM_INVALID;
     for (unsigned i=0;i<8U;++i) if (frame->data[i]!=0U) return RM_DENIED;
+    return submit(frame,0U,deadline_ms,true);
+}
+RmStatus RmCan_SubmitDmServiceFrame(const RmCanFrame *frame,uint32_t deadline_ms)
+{
+    if (!RmDm_ServiceFrameSafe(frame)) return RM_DENIED;
+    return submit(frame,0U,deadline_ms,true);
+}
+RmStatus RmCan_SubmitDmTimeoutFrame(const RmCanFrame *frame,uint32_t deadline_ms)
+{
+    if (!RmDm_TimeoutFrameSafe(frame)) return RM_DENIED;
     return submit(frame,0U,deadline_ms,true);
 }
 bool RmCan_GetStats(RmCanId id,RmCanStats *stats)

@@ -1,0 +1,3 @@
+# Preserve raw UART capture bytes, including CRLF line endings.
+docs/archive/hardware/**/*.txt -text whitespace=cr-at-eol
+docs/validation/motor_test/**/*.txt -text whitespace=cr-at-eol

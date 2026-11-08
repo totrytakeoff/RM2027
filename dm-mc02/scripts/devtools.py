@@ -66,6 +66,8 @@ def preset_dir(name):
 
 
 def default_target(preset):
+    if preset == 'h7-mecanum-observe':
+        return 'mecanum_demo.elf'
     if preset == 'host':
         return 'all'
     if preset == 'h7-dbus-debug':

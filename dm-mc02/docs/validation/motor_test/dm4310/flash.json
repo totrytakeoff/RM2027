@@ -1,0 +1,9 @@
+{
+  "firmware": "build/h7-debug/motor_test_dm4310.bin",
+  "sha256": "92b741e25a6e60e952a4f29a294546f2b1963da24b3e828fff6062b806955ef8",
+  "flash_and_verify": "passed",
+  "uart": "115200, Horco 507874000034",
+  "config_mask": 0,
+  "motor_online": false,
+  "closed_loop_commissioned": false
+}

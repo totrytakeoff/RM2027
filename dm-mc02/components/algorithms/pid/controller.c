@@ -242,6 +242,16 @@ float PIDCalculate(PIDInstance *pid, float measure, float ref, float dt_s)
         // 输出限幅
         f_Output_Limit(pid);
     }
+    else if (pid->Improve & PID_HoldIntegral)
+    {
+        pid->Pout = pid->Dout = pid->ITerm = 0;
+        if (pid->Improve & PID_Integral_Limit)
+            pid->Iout = fmaxf(-pid->IntegralLimit, fminf(pid->IntegralLimit, pid->Iout));
+        pid->Output = pid->Iout;
+        if (pid->Improve & PID_OutputFilter) f_Output_Filter(pid);
+        if (!isfinite(pid->Output)) goto numeric_failure;
+        f_Output_Limit(pid);
+    }
     else // 进入死区, 则清空积分和输出
     {
         pid->Output = 0;

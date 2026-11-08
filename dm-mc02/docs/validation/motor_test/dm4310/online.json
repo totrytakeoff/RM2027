@@ -1,0 +1,43 @@
+{
+  "config_and_feedback": "passed",
+  "samples": [
+    {
+      "t": 102175,
+      "cfg": 31,
+      "err": 0,
+      "w": 64,
+      "o": 1
+    },
+    {
+      "t": 103175,
+      "cfg": 31,
+      "err": 0,
+      "w": 64,
+      "o": 1
+    },
+    {
+      "t": 104175,
+      "cfg": 31,
+      "err": 0,
+      "w": 64,
+      "o": 1
+    },
+    {
+      "t": 105175,
+      "cfg": 31,
+      "err": 0,
+      "w": 64,
+      "o": 1
+    },
+    {
+      "t": 106175,
+      "cfg": 31,
+      "err": 0,
+      "w": 64,
+      "o": 1
+    }
+  ],
+  "operator_enabled": false,
+  "closed_loop_commissioned": false,
+  "uart_file": "online_uart.txt"
+}

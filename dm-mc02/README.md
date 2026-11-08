@@ -31,7 +31,10 @@
 | 需要了解什么 | 文档 |
 | --- | --- |
 | 全部文档与阅读顺序 | [文档目录](docs/README.md) |
+| 麦轮布局与实时功率估算 | [麦轮 demo](docs/guides/mecanum_demo.md) |
 | 底盘接线、遥控操作、IMU yaw 与参数 | [底盘 demo](docs/guides/chassis_demo.md) |
+| M3508 速度/位置测试 | [motor test](docs/guides/motor_test.md) |
+| DM4310 主控力矩串级测试 | [DM4310 motor test](docs/guides/motor_test_dm4310.md) |
 | 构建、基础诊断、日志含义 | [构建与板级诊断](docs/guides/build_and_bringup.md) |
 | 脚本命令与参数 | [常用脚本](scripts/README.md) |
 | 分层、接口契约与后续移植目标 | [架构与移植方案](docs/architecture/porting_plan.md) |

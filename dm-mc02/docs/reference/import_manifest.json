@@ -929,7 +929,7 @@
       "destination": "platform/boards/dm_mc02/generated/usart.c",
       "source": "dm-mc02/damiao_mc02_bsp/dm02_test/Core/Src/usart.c",
       "source_sha256": "af81a35e5003776f304f28ee312ab181cdb62d16e5d7ad5f0b5b43a51dd4e03b",
-      "implementation_sha256": "22cdc8534ae8580e8801e2f01c63d7f53c1d3c489f579e5cb8fd392b11acaee6",
+      "implementation_sha256": "9df975ee90cfc31ab907f7eac1110dd00573d190409ed852baa1a38d82a7a836",
       "adapted": true
     },
     {
@@ -1055,14 +1055,14 @@
       "destination": "components/algorithms/pid/controller.c",
       "source": "RM2026/components/algorithms/pid/controller.c",
       "source_sha256": "51361a6a42e29f2be50d6b7f86d21f61e44d250c8fec3d0687cbe8dd6ac9dff9",
-      "implementation_sha256": "2b94cc1641b3a9fd194f6c946f2b30551734f0f357bed7041541519e66a81fcd",
+      "implementation_sha256": "385337407486a6669d5c00d9e13df95d98ae09d4aaaa51a4274580afbc13fddf",
       "adapted": true
     },
     {
       "destination": "components/algorithms/pid/controller.h",
       "source": "RM2026/components/algorithms/pid/controller.h",
       "source_sha256": "209b773508a293ed45ab650c0ec1b79cecb7b7c6b9138df8328bfa9d0c5f661b",
-      "implementation_sha256": "f0c9a1e9bb47c7e452fde09990578c6f7977e36768352c3f879377594ff64630",
+      "implementation_sha256": "9e6a2e0dd29e70efab9586ff14a3d7fdfab1199aced53e6d5dbae36a920cfc8c",
       "adapted": true
     },
     {
@@ -1202,7 +1202,7 @@
       "destination": "scripts/build.sh",
       "source": "RM2026/scripts/build.sh",
       "source_sha256": "34814dbb4edd0f9fb982b1b69cb1761a73828aef3f087bb13f71b24e94de471c",
-      "implementation_sha256": "ac5ad2d8f42fa86decc7d1c592f66e38abb6c01139f3498ba3c1374594c651e5",
+      "implementation_sha256": "503ee70ff79913e9d9630b7d702cebdf51ee78067b69bef8c163eb13ab463d81",
       "adapted": true
     },
     {
@@ -1244,14 +1244,14 @@
       "destination": "scripts/upload.ps1",
       "source": "RM2026/scripts/upload.ps1",
       "source_sha256": "e34d2b4b6fb5c85454310e43027ccdf9da4f148dd528f3dce53ed2fb4dec69e4",
-      "implementation_sha256": "9470f615690aa7a2a0aa23f591e58eaa593d05866403b82ca714c777f0683138",
+      "implementation_sha256": "190752b0897b79cfaa77b8f6932ec416e6f956ede8151147bea8160f86df8b73",
       "adapted": true
     },
     {
       "destination": "scripts/upload.sh",
       "source": "RM2026/scripts/upload.sh",
       "source_sha256": "4b106bf3a39df6706093fe7b3d2ca2e39956f4fdcc2ff0b56c0dbc31d19aaf30",
-      "implementation_sha256": "890dab214fdbafa32fb31f91781f944ca072acebe99ebd0c309a2b92b4178cb1",
+      "implementation_sha256": "3a3beb84715f96936999f4c53a582b3498f0f03eed1d1cec3d2ff1caf8a3792d",
       "adapted": true
     },
     {

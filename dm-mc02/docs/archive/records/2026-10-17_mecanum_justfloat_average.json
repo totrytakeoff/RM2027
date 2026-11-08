@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-17T19:31:02.685351+08:00",
+  "change": "200ms non-overlapping arithmetic mean before JustFloat output; sample-wise rectification before averaging power",
+  "builds_passed": [
+    "h7-debug",
+    "h7-release",
+    "h7-mecanum-observe"
+  ],
+  "tests_run": false,
+  "hardware_record": "docs/archive/hardware/2026-10-17/mecanum_justfloat_average/flash.json",
+  "artifacts": [
+    {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "337dec56a7e8da570ea623c9eb876cd9a979f23e4c6601dd78c7f7cdc88bfd91"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "19bffa4c32ecc5ab5da67a92bb761603648f1e86f974f84bb86500cc4e811a85"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.hex",
+      "sha256": "ac64b9b0f74e6b240d2f2c5990a3973d0f51d2c2b0bfdbca59d5289bca1db918"
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.map",
+      "sha256": "4259569fc8dc8935c634df21836275bf8addc4c8c43aadb418dfd5dd2f75e11d"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.elf",
+      "sha256": "4d1af537ff9a610d4e966497c3634aa98055540205b5e9984d469503a0ef0fe7"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.bin",
+      "sha256": "723b2ca255328109600a628956f87495eb7c2082830f05148307a3a616704557"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.hex",
+      "sha256": "19e78a09099a8946f61250e24256411dd9c8753f6037e1135e801d01b45e8f72"
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.map",
+      "sha256": "481ac06599361fca139767f7c5df0f8f93f85836eed5a002f60ceac4fa53a1d4"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.elf",
+      "sha256": "f943d6da5bf12faba9493b08fcf888020fd4d2a0f35aba52a4e6870c07b2dc58"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.bin",
+      "sha256": "60feb36a0935cbf256484bc934a6d8ae23339930046d5aec31b314f45c9572c3"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.hex",
+      "sha256": "1dc977f5dc1c0db84f662ad73533f0d21d3e8b17be2d81851384730d0e8e6a1c"
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.map",
+      "sha256": "c29d1f237d5635a364130e0ae83d547ad52cb0b3da9b29aa03305018722df394"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "applications/mecanum_demo/mecanum_app.c",
+      "sha256": "6fc9e95c5cb701842ce74059b3342218b552605eaf000121add395beedd5d147"
+    },
+    {
+      "path": "config/robots/mecanum_demo/mecanum_config.h",
+      "sha256": "7b1226f5587b9db44a77abdf283057184ba94ab56b1db8d4b2e2cbf1885e56a7"
+    }
+  ]
+}

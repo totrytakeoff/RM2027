@@ -23,7 +23,7 @@ DEFAULT_CFG="${ROOT_DIR}/platform/boards/dm_mc02/openocd/cmsis-dap.cfg"
 usage() {
     cat <<EOF
 用法: $(basename "$0") [<name>] [--file <path>] [--format bin|hex|elf] [--addr <0x...>] [--cfg <openocd.cfg>] [--openocd <path>] [--verify-only] [--dry-run]
-可选: --preset h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe
+可选: --preset h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe|h7-mecanum-observe
       --backend dapv2|dapv1|auto  --speed <kHz>  --verbose
 默认: chassis_demo.bin，h7-debug，DAP v2；只需 Bash 和 OpenOCD，不调用 Python。
 说明: BIN 默认写入 0x08000000；HEX/ELF 默认使用文件内地址，--addr 对其表示地址偏移。
@@ -82,6 +82,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 case "$PRESET" in
+    h7-mecanum-observe) [[ "$FILE" != "$DEFAULT_FILE" || -n "$POSITIONAL_FILE" ]] || FILE="mecanum_demo";;
     h7-debug|h7-release|h7-chassis-observe) ;;
     h7-dbus-debug) [[ "$FILE" != "$DEFAULT_FILE" || -n "$POSITIONAL_FILE" ]] || FILE="board_bringup";;
     *) echo "不支持的固件 preset: $PRESET" >&2; exit 1;;

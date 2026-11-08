@@ -1,0 +1,9 @@
+{
+  "device": "/dev/serial/by-id/usb-Horco_Horco_CMSIS-DAP_507874000034-if02",
+  "baud": 115200,
+  "duration_s": 8.003795344000537,
+  "bytes": 20454,
+  "lines": 619,
+  "decode_errors": 0,
+  "chassis_rows": 0
+}

@@ -1,0 +1,26 @@
+{
+  "time": "2026-10-17T19:17:35.645034+08:00",
+  "command": "./scripts/upload.sh mecanum_demo --backend dapv2",
+  "exit_code": 0,
+  "backend": "CMSIS-DAPv2",
+  "flash_written": true,
+  "verify_image_succeeded": true,
+  "reset_run": true,
+  "firmware": {
+    "elf": {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "321210242763d8ca0d4d06b3f855b7ee13d1ec33f3b70dfe686e2cc9e1076952"
+    },
+    "bin": {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "d275852dfd8a2314630828b7b5a64f63d9e6ef312ff1687058f302605ad0d88b"
+    }
+  },
+  "serial_duration_s": 8,
+  "last_mc": "MC t=11665 mode=0 en=0 tx=1 why=64 online=15",
+  "last_rc": "RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3",
+  "last_power": "PWR est_mW=615 I_mA=25 mask=15",
+  "old_lim_rows_present": false,
+  "power_estimate_rows": 40,
+  "scope": "No-power-limit firmware flashed and static serial startup verified. SA down, four motors online. No dynamic motion test."
+}

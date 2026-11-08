@@ -1,0 +1,58 @@
+{
+  "time": "2026-10-17T19:22:12.434301+08:00",
+  "command": "./scripts/upload.sh mecanum_demo --backend dapv2",
+  "backend": "CMSIS-DAPv2",
+  "exit_code": 0,
+  "flash_written": true,
+  "verify_image_succeeded": true,
+  "reset_run": true,
+  "protocol": "VOFA+ JustFloat",
+  "channels": [
+    "estimated_power_W",
+    "absolute_current_sum_A",
+    "ID1_current_A",
+    "ID2_current_A",
+    "ID3_current_A",
+    "ID4_current_A",
+    "online_mask_ID1_to_ID4"
+  ],
+  "firmware": {
+    "elf": {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "7d98aaff044eb765ccc2d2bd249f3d100ac734e96669575d5b4f378b20441575"
+    },
+    "bin": {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "03bf905c10a626aa124f4d64f39fcd05b10d01b17693531778034179df9d9214"
+    }
+  },
+  "serial_summary": {
+    "duration_s": 6.015085103001184,
+    "bytes": 9793,
+    "frames": 306,
+    "channels": 7,
+    "malformed_segments": [],
+    "trailing_bytes": 1,
+    "contains_RM_text": false,
+    "contains_MC_text": false,
+    "first": [
+      5.068359375,
+      0.211181640625,
+      -0.167236328125,
+      -0.023193359375,
+      -0.015869140625,
+      0.0048828125,
+      15.0
+    ],
+    "last": [
+      1.58203125,
+      0.06591796875,
+      -0.01220703125,
+      0.040283203125,
+      -0.006103515625,
+      -0.00732421875,
+      15.0
+    ]
+  },
+  "scope": "Binary frame reception only; not a power-accuracy or motion validation."
+}

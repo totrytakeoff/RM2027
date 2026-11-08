@@ -6,7 +6,7 @@
 
 | 目录 | 内容 | 入口 |
 | --- | --- | --- |
-| `guides/` | 当前构建、诊断、底盘接线与操作 | [底盘指南](guides/chassis_demo.md)、[构建诊断](guides/build_and_bringup.md) |
+| `guides/` | 当前构建、诊断、底盘接线与操作 | [全向轮指南](guides/chassis_demo.md)、[麦轮指南](guides/mecanum_demo.md)、[构建诊断](guides/build_and_bringup.md)、[电机测试](guides/motor_test.md)、[DM4310](guides/motor_test_dm4310.md) |
 | `architecture/` | 分层、接口契约、移植目标、硬件与内存基线 | [移植方案](architecture/porting_plan.md)、[硬件基线](architecture/hardware_baseline.md) |
 | `reference/` | 参考工程分析、来源与导入清单 | [来源记录](reference/provenance.md)、[资料分析](reference/reference_analysis.md)、[导入清单](reference/import_manifest.json) |
 | `validation/` | 当前阶段结论、已验证范围和剩余工作 | [验收状态](validation/README.md) |

@@ -1,0 +1,620 @@
+M2 ref=0 fdb=0 cur=27 temp=28
+MC t=2665 mode=0 en=0 tx=1 why=64 online=15
+M2 ref=0 fdb=0 cur=2 temp=28
+MC t=2865 mode=0 en=0 tx=1 why=64 online=15
+M2 ref=0 fdb=0 cur=-15 temp=28
+RM 3005 event=17 a=268435456 b=0
+RM 3005 event=17 a=536870912 bRM 3005 event=13 a=536871513 b=274
+RM 3005 event=12 a=805306368M3 ref=0 fdb=0 cur=58 temp=28
+M2 ref=0 fdb=0 cur=22 temp=28
+MC t=3465 mode=0 en=0 tx=1 why=64 online=15
+M2 ref=0 fdb=0 cur=14 temp=28
+MC t=3665 mode=0 en=0 tx=1 why=64 online=15
+M1 ref=0 fdb=0 cur=24 temp=27
+M2 ref=0 fdb=0 cur=14 temp=28
+M3 ref=0 fdb=0 cur=-32 temp=28
+MC t=3865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=0 imu=0 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2402 I_mA=100 mask=15
+M0 ref=0 fdb=0 cur=-13 temp=27
+M1 ref=0 fdb=-313 cur=-18 temp=27
+M2 ref=0 fdb=0 cur=-12 temp=28
+M3 ref=0 fdb=0 cur=-39 temp=28
+RM 4005 event=6 a=4005 b=0
+RM 4005 event=9 a=3682 b=1
+RM 4005 event=15 a=3554 b=1
+RM 4005 event=16 a=277 b=1
+RM 4005 event=19 a=4 b=0
+RM 4005 event=17 a=15 b=15
+RM 4005 event=17 a=268435456 b=0
+RM 4005 event=17 a=536870912 b=0
+RM 4005 event=8 a=16095 b=0
+RM 4005 event=8 a=268435456 b=0
+RM 4005 event=8 a=536870912 b=0
+RM 4005 event=7 a=6950 b=0
+RM 4005 event=20 a=1 b=0
+RM 4005 event=7 a=268435456 b=0
+RM 4005 event=20 a=268435457 b=0
+RM 4005 event=7 a=536870912 b=0
+RM 4005 event=20 a=536870913 b=0
+RM 4005 event=7 a=805306368 b=0
+RM 4005 event=20 a=805306369 b=0
+RM 4005 event=12 a=0 b=80
+RM 4005 event=13 a=4001 b=884
+RM 4005 event=12 a=268435456 b=81
+RM 4005 event=13 a=268439457 b=568
+RM 4005 event=12 a=536870912 b=15
+RM 4005 event=13 a=536871713 b=274
+RM 4005 event=12 a=805306368 b=6
+RM 4005 event=13 a=805307169 b=380
+RM 4005 event=12 a=1073741824 b=16
+RM 4005 event=13 a=1073742025 b=398
+RM 4005 event=12 a=1342177280 b=58
+RM 4005 event=13 a=1342177680 b=566
+MC t=4065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=908 I_mA=37 mask=15
+M0 ref=0 fdb=0 cur=-28 temp=27
+M1 ref=0 fdb=0 cur=-2 temp=27
+M2 ref=0 fdb=0 cur=1 temp=28
+M3 ref=0 fdb=0 cur=0 temp=28
+MC t=4265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3339 I_mA=139 mask=15
+M0 ref=0 fdb=0 cur=-8 temp=27
+M1 ref=0 fdb=0 cur=59 temp=27
+M2 ref=0 fdb=0 cur=8 temp=28
+M3 ref=0 fdb=0 cur=-39 temp=28
+MC t=4465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1201 I_mA=50 mask=15
+M0 ref=0 fdb=0 cur=7 temp=27
+M1 ref=0 fdb=0 cur=9 temp=27
+M2 ref=0 fdb=0 cur=-16 temp=28
+M3 ref=0 fdb=0 cur=9 temp=28
+MC t=4665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1435 I_mA=59 mask=15
+M0 ref=0 fdb=0 cur=14 temp=27
+M1 ref=0 fdb=0 cur=-1 temp=27
+M2 ref=0 fdb=0 cur=-12 temp=28
+M3 ref=0 fdb=0 cur=22 temp=28
+MC t=4865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1787 I_mA=74 mask=15
+M0 ref=0 fdb=0 cur=7 temp=27
+M1 ref=0 fdb=0 cur=3 temp=27
+M2 ref=0 fdb=0 cur=16 temp=28
+M3 ref=0 fdb=0 cur=-35 temp=28
+RM 5005 event=6 a=5005 b=0
+RM 5005 event=9 a=4682 b=1
+RM 5005 event=15 a=4554 b=1
+RM 5005 event=16 a=347 b=1
+RM 5005 event=19 a=4 b=0
+RM 5005 event=17 a=15 b=15
+RM 5005 event=17 a=268435456 b=0
+RM 5005 event=17 a=536870912 b=0
+RM 5005 event=8 a=20114 b=0
+RM 5005 event=8 a=268435456 b=0
+RM 5005 event=8 a=536870912 b=0
+RM 5005 event=7 a=8700 b=0
+RM 5005 event=20 a=1 b=0
+RM 5005 event=7 a=268435456 b=0
+RM 5005 event=20 a=268435457 b=0
+RM 5005 event=7 a=536870912 b=0
+RM 5005 event=20 a=536870913 b=0
+RM 5005 event=7 a=805306368 b=0
+RM 5005 event=20 a=805306369 b=0
+RM 5005 event=12 a=0 b=80
+RM 5005 event=13 a=5001 b=884
+RM 5005 event=12 a=268435456 b=81
+RM 5005 event=13 a=268440457 b=568
+RM 5005 event=12 a=536870912 b=15
+RM 5005 event=13 a=536871913 b=274
+RM 5005 event=12 a=805306368 b=6
+RM 5005 event=13 a=805307369 b=380
+RM 5005 event=12 a=1073741824 b=16
+RM 5005 event=13 a=1073742075 b=398
+RM 5005 event=12 a=1342177280 b=58
+RM 5005 event=13 a=1342177780 b=566
+MC t=5065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2021 I_mA=84 mask=15
+M0 ref=0 fdb=0 cur=0 temp=27
+M1 ref=0 fdb=0 cur=2 temp=27
+M2 ref=0 fdb=0 cur=25 temp=28
+M3 ref=0 fdb=0 cur=42 temp=28
+MC t=5265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1142 I_mA=47 mask=15
+M0 ref=0 fdb=0 cur=-21 temp=27
+M1 ref=0 fdb=0 cur=5 temp=27
+M2 ref=0 fdb=0 cur=-5 temp=28
+M3 ref=0 fdb=0 cur=8 temp=28
+MC t=5465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3134 I_mA=130 mask=15
+M0 ref=0 fdb=0 cur=-1 temp=27
+M1 ref=0 fdb=-314 cur=3 temp=27
+M2 ref=0 fdb=0 cur=-13 temp=28
+M3 ref=0 fdb=0 cur=90 temp=28
+MC t=5665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2197 I_mA=91 mask=15
+M0 ref=0 fdb=0 cur=19 temp=27
+M1 ref=0 fdb=0 cur=9 temp=27
+M2 ref=0 fdb=0 cur=9 temp=28
+M3 ref=0 fdb=0 cur=38 temp=28
+MC t=5865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2460 I_mA=102 mask=15
+M0 ref=0 fdb=0 cur=8 temp=27
+M1 ref=0 fdb=0 cur=-2 temp=27
+M2 ref=0 fdb=0 cur=-20 temp=28
+M3 ref=0 fdb=0 cur=54 temp=28
+RM 6005 event=6 a=6005 b=0
+RM 6005 event=9 a=5682 b=1
+RM 6005 event=15 a=5554 b=1
+RM 6005 event=16 a=416 b=1
+RM 6005 event=19 a=4 b=0
+RM 6005 event=17 a=15 b=15
+RM 6005 event=17 a=268435456 b=0
+RM 6005 event=17 a=536870912 b=0
+RM 6005 event=8 a=24132 b=0
+RM 6005 event=8 a=268435456 b=0
+RM 6005 event=8 a=536870912 b=0
+RM 6005 event=7 a=10425 b=0
+RM 6005 event=20 a=1 b=0
+RM 6005 event=7 a=268435456 b=0
+RM 6005 event=20 a=268435457 b=0
+RM 6005 event=7 a=536870912 b=0
+RM 6005 event=20 a=536870913 b=0
+RM 6005 event=7 a=805306368 b=0
+RM 6005 event=20 a=805306369 b=0
+RM 6005 event=12 a=0 b=80
+RM 6005 event=13 a=6001 b=884
+RM 6005 event=12 a=268435456 b=81
+RM 6005 event=13 a=268441457 b=568
+RM 6005 event=12 a=536870912 b=15
+RM 6005 event=13 a=536872113 b=274
+RM 6005 event=12 a=805306368 b=6
+RM 6005 event=13 a=805307569 b=380
+RM 6005 event=12 a=1073741824 b=16
+RM 6005 event=13 a=1073742125 b=398
+RM 6005 event=12 a=1342177280 b=58
+RM 6005 event=13 a=1342177880 b=566
+MC t=6065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1904 I_mA=79 mask=15
+M0 ref=0 fdb=0 cur=0 temp=27
+M1 ref=0 fdb=0 cur=9 temp=27
+M2 ref=0 fdb=0 cur=-26 temp=28
+M3 ref=0 fdb=0 cur=30 temp=28
+MC t=6265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2402 I_mA=100 mask=15
+M0 ref=0 fdb=0 cur=53 temp=27
+M1 ref=0 fdb=0 cur=-2 temp=27
+M2 ref=0 fdb=0 cur=1 temp=28
+M3 ref=0 fdb=0 cur=26 temp=28
+MC t=6465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2402 I_mA=100 mask=15
+M0 ref=0 fdb=0 cur=21 temp=27
+M1 ref=0 fdb=0 cur=-1 temp=27
+M2 ref=0 fdb=0 cur=21 temp=28
+M3 ref=0 fdb=0 cur=-39 temp=28
+MC t=6665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2695 I_mA=112 mask=15
+M0 ref=0 fdb=0 cur=-14 temp=27
+M1 ref=0 fdb=0 cur=-9 temp=27
+M2 ref=0 fdb=0 cur=-59 temp=28
+M3 ref=0 fdb=0 cur=10 temp=28
+MC t=6865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2402 I_mA=100 mask=15
+M0 ref=0 fdb=0 cur=27 temp=27
+M1 ref=0 fdb=0 cur=-35 temp=27
+M2 ref=0 fdb=0 cur=1 temp=28
+M3 ref=0 fdb=0 cur=-19 temp=28
+RM 7005 event=6 a=7005 b=0
+RM 7005 event=9 a=6682 b=1
+RM 7005 event=15 a=6554 b=1
+RM 7005 event=16 a=486 b=1
+RM 7005 event=19 a=4 b=0
+RM 7005 event=17 a=15 b=15
+RM 7005 event=17 a=268435456 b=0
+RM 7005 event=17 a=536870912 b=0
+RM 7005 event=8 a=28149 b=0
+RM 7005 event=8 a=268435456 b=0
+RM 7005 event=8 a=536870912 b=0
+RM 7005 event=7 a=12175 b=0
+RM 7005 event=20 a=1 b=0
+RM 7005 event=7 a=268435456 b=0
+RM 7005 event=20 a=268435457 b=0
+RM 7005 event=7 a=536870912 b=0
+RM 7005 event=20 a=536870913 b=0
+RM 7005 event=7 a=805306368 b=0
+RM 7005 event=20 a=805306369 b=0
+RM 7005 event=12 a=0 b=80
+RM 7005 event=13 a=7001 b=884
+RM 7005 event=12 a=268435456 b=81
+RM 7005 event=13 a=268442457 b=568
+RM 7005 event=12 a=536870912 b=15
+RM 7005 event=13 a=536872313 b=274
+RM 7005 event=12 a=805306368 b=6
+RM 7005 event=13 a=805307769 b=380
+RM 7005 event=12 a=1073741824 b=16
+RM 7005 event=13 a=1073742175 b=398
+RM 7005 event=12 a=1342177280 b=58
+RM 7005 event=13 a=1342177980 b=566
+MC t=7065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=1 imu=1 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=4306 I_mA=179 mask=15
+M0 ref=0 fdb=0 cur=-67 temp=27
+M1 ref=0 fdb=-7 cur=10 temp=27
+M2 ref=0 fdb=0 cur=19 temp=28
+M3 ref=0 fdb=0 cur=-51 temp=28
+MC t=7265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2431 I_mA=101 mask=15
+M0 ref=0 fdb=0 cur=-1 temp=27
+M1 ref=0 fdb=0 cur=-26 temp=27
+M2 ref=0 fdb=0 cur=-5 temp=28
+M3 ref=0 fdb=0 cur=-51 temp=28
+MC t=7465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3134 I_mA=130 mask=15
+M0 ref=0 fdb=0 cur=-14 temp=27
+M1 ref=0 fdb=0 cur=-19 temp=27
+M2 ref=0 fdb=0 cur=4 temp=28
+M3 ref=0 fdb=0 cur=70 temp=28
+MC t=7665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1933 I_mA=80 mask=15
+M0 ref=0 fdb=0 cur=-1 temp=27
+M1 ref=0 fdb=0 cur=-35 temp=27
+M2 ref=0 fdb=0 cur=3 temp=28
+M3 ref=0 fdb=0 cur=-27 temp=28
+MC t=7865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1816 I_mA=75 mask=15
+M0 ref=0 fdb=0 cur=0 temp=27
+M1 ref=0 fdb=0 cur=-6 temp=27
+M2 ref=0 fdb=0 cur=-26 temp=28
+M3 ref=0 fdb=0 cur=30 temp=28
+RM 8005 event=6 a=8005 b=0
+RM 8005 event=9 a=7682 b=1
+RM 8005 event=15 a=7554 b=1
+RM 8005 event=16 a=555 b=1
+RM 8005 event=19 a=4 b=0
+RM 8005 event=17 a=15 b=15
+RM 8005 event=17 a=268435456 b=0
+RM 8005 event=17 a=536870912 b=0
+RM 8005 event=8 a=32168 b=0
+RM 8005 event=8 a=268435456 b=0
+RM 8005 event=8 a=536870912 b=0
+RM 8005 event=7 a=13900 b=0
+RM 8005 event=20 a=1 b=0
+RM 8005 event=7 a=268435456 b=0
+RM 8005 event=20 a=268435457 b=0
+RM 8005 event=7 a=536870912 b=0
+RM 8005 event=20 a=536870913 b=0
+RM 8005 event=7 a=805306368 b=0
+RM 8005 event=20 a=805306369 b=0
+RM 8005 event=12 a=0 b=80
+RM 8005 event=13 a=8001 b=884
+RM 8005 event=12 a=268435456 b=81
+RM 8005 event=13 a=268443457 b=568
+RM 8005 event=12 a=536870912 b=15
+RM 8005 event=13 a=536872513 b=274
+RM 8005 event=12 a=805306368 b=6
+RM 8005 event=13 a=805307969 b=380
+RM 8005 event=12 a=1073741824 b=16
+RM 8005 event=13 a=1073742225 b=398
+RM 8005 event=12 a=1342177280 b=58
+RM 8005 event=13 a=1342178080 b=566
+MC t=8065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2900 I_mA=120 mask=15
+M0 ref=0 fdb=0 cur=7 temp=27
+M1 ref=0 fdb=0 cur=-60 temp=27
+M2 ref=0 fdb=0 cur=-28 temp=28
+M3 ref=0 fdb=0 cur=4 temp=28
+MC t=8265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2197 I_mA=91 mask=15
+M0 ref=0 fdb=0 cur=13 temp=27
+M1 ref=0 fdb=0 cur=-7 temp=27
+M2 ref=0 fdb=0 cur=-42 temp=28
+M3 ref=0 fdb=0 cur=-13 temp=28
+MC t=8465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3339 I_mA=139 mask=15
+M0 ref=0 fdb=0 cur=35 temp=27
+M1 ref=0 fdb=0 cur=27 temp=27
+M2 ref=0 fdb=0 cur=27 temp=28
+M3 ref=0 fdb=0 cur=25 temp=28
+MC t=8665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3427 I_mA=142 mask=15
+M0 ref=0 fdb=0 cur=-54 temp=27
+M1 ref=0 fdb=0 cur=-5 temp=27
+M2 ref=0 fdb=0 cur=-44 temp=28
+M3 ref=0 fdb=0 cur=14 temp=28
+MC t=8865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2753 I_mA=114 mask=15
+M0 ref=0 fdb=0 cur=20 temp=27
+M1 ref=0 fdb=0 cur=4 temp=27
+M2 ref=0 fdb=0 cur=-31 temp=28
+M3 ref=0 fdb=0 cur=-39 temp=28
+RM 9005 event=6 a=9005 b=0
+RM 9005 event=9 a=8682 b=1
+RM 9005 event=15 a=8554 b=1
+RM 9005 event=16 a=625 b=1
+RM 9005 event=19 a=4 b=0
+RM 9005 event=17 a=15 b=15
+RM 9005 event=17 a=268435456 b=0
+RM 9005 event=17 a=536870912 b=0
+RM 9005 event=8 a=36187 b=0
+RM 9005 event=8 a=268435456 b=0
+RM 9005 event=8 a=536870912 b=0
+RM 9005 event=7 a=15650 b=0
+RM 9005 event=20 a=1 b=0
+RM 9005 event=7 a=268435456 b=0
+RM 9005 event=20 a=268435457 b=0
+RM 9005 event=7 a=536870912 b=0
+RM 9005 event=20 a=536870913 b=0
+RM 9005 event=7 a=805306368 b=0
+RM 9005 event=20 a=805306369 b=0
+RM 9005 event=12 a=0 b=80
+RM 9005 event=13 a=9001 b=884
+RM 9005 event=12 a=268435456 b=81
+RM 9005 event=13 a=268444457 b=568
+RM 9005 event=12 a=536870912 b=15
+RM 9005 event=13 a=536872713 b=274
+RM 9005 event=12 a=805306368 b=6
+RM 9005 event=13 a=805308169 b=380
+RM 9005 event=12 a=1073741824 b=16
+RM 9005 event=13 a=1073742275 b=398
+RM 9005 event=12 a=1342177280 b=58
+RM 9005 event=13 a=1342178180 b=566
+MC t=9065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3105 I_mA=129 mask=15
+M0 ref=0 fdb=0 cur=-19 temp=27
+M1 ref=0 fdb=0 cur=-27 temp=27
+M2 ref=0 fdb=0 cur=-6 temp=28
+M3 ref=0 fdb=0 cur=54 temp=28
+MC t=9265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1669 I_mA=69 mask=15
+M0 ref=0 fdb=0 cur=-7 temp=27
+M1 ref=0 fdb=-47 cur=-21 temp=27
+M2 ref=0 fdb=0 cur=-15 temp=28
+M3 ref=0 fdb=0 cur=14 temp=28
+MC t=9465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=3750 I_mA=156 mask=15
+M0 ref=0 fdb=0 cur=-21 temp=27
+M1 ref=0 fdb=0 cur=-1 temp=27
+M2 ref=0 fdb=0 cur=-48 temp=28
+M3 ref=0 fdb=0 cur=58 temp=28
+MC t=9665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2109 I_mA=87 mask=15
+M0 ref=0 fdb=0 cur=-8 temp=27
+M1 ref=0 fdb=0 cur=-32 temp=27
+M2 ref=0 fdb=0 cur=12 temp=28
+M3 ref=0 fdb=0 cur=20 temp=28
+MC t=9865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2519 I_mA=104 mask=15
+M0 ref=0 fdb=0 cur=20 temp=27
+M1 ref=0 fdb=-314 cur=-11 temp=27
+M2 ref=0 fdb=0 cur=-4 temp=28
+M3 ref=0 fdb=0 cur=-51 temp=28
+RM 10005 event=6 a=10005 b=0
+RM 10005 event=9 a=9682 b=1
+RM 10005 event=15 a=9554 b=1
+RM 10005 event=16 a=694 b=1
+RM 10005 event=19 a=4 b=0
+RM 10005 event=17 a=15 b=15
+RM 10005 event=17 a=268435456 b=0
+RM 10005 event=17 a=536870912 b=0
+RM 10005 event=8 a=40204 b=0
+RM 10005 event=8 a=268435456 b=0
+RM 10005 event=8 a=536870912 b=0
+RM 10005 event=7 a=17375 b=0
+RM 10005 event=20 a=1 b=0
+RM 10005 event=7 a=268435456 b=0
+RM 10005 event=20 a=268435457 b=0
+RM 10005 event=7 a=536870912 b=0
+RM 10005 event=20 a=536870913 b=0
+RM 10005 event=7 a=805306368 b=0
+RM 10005 event=20 a=805306369 b=0
+RM 10005 event=12 a=0 b=80
+RM 10005 event=13 a=10001 b=884
+RM 10005 event=12 a=268435456 b=81
+RM 10005 event=13 a=268445457 b=568
+RM 10005 event=12 a=536870912 b=15
+RM 10005 event=13 a=536872913 b=274
+RM 10005 event=12 a=805306368 b=6
+RM 10005 event=13 a=805308369 b=380
+RM 10005 event=12 a=1073741824 b=16
+RM 10005 event=13 a=1073742325 b=398
+RM 10005 event=12 a=1342177280 b=58
+RM 10005 event=13 a=1342178280 b=566
+MC t=10065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2255 I_mA=93 mask=15
+M0 ref=0 fdb=0 cur=19 temp=27
+M1 ref=0 fdb=0 cur=19 temp=27
+M2 ref=0 fdb=0 cur=-20 temp=28
+M3 ref=0 fdb=0 cur=-19 temp=28
+MC t=10265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2138 I_mA=89 mask=15
+M0 ref=0 fdb=0 cur=-2 temp=27
+M1 ref=0 fdb=0 cur=-12 temp=27
+M2 ref=0 fdb=0 cur=21 temp=28
+M3 ref=0 fdb=0 cur=38 temp=28
+MC t=10465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=5039 I_mA=209 mask=15
+M0 ref=0 fdb=0 cur=33 temp=27
+M1 ref=0 fdb=0 cur=58 temp=27
+M2 ref=0 fdb=0 cur=22 temp=28
+M3 ref=0 fdb=0 cur=-59 temp=28
+MC t=10665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=2 imu=2 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2080 I_mA=86 mask=15
+M0 ref=0 fdb=0 cur=-7 temp=27
+M1 ref=0 fdb=0 cur=-15 temp=27
+M2 ref=0 fdb=0 cur=-8 temp=28
+M3 ref=0 fdb=0 cur=41 temp=28
+MC t=10865 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=3 imu=3 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1699 I_mA=70 mask=15
+M0 ref=0 fdb=0 cur=-7 temp=27
+M1 ref=0 fdb=-313 cur=-31 temp=27
+M2 ref=0 fdb=0 cur=-12 temp=28
+M3 ref=0 fdb=0 cur=-8 temp=28
+RM 11005 event=6 a=11005 b=0
+RM 11005 event=9 a=10682 b=1
+RM 11005 event=15 a=10554 b=1
+RM 11005 event=16 a=764 b=1
+RM 11005 event=19 a=4 b=0
+RM 11005 event=17 a=15 b=15
+RM 11005 event=17 a=268435456 b=0
+RM 11005 event=17 a=536870912 b=0
+RM 11005 event=8 a=44224 b=0
+RM 11005 event=8 a=268435456 b=0
+RM 11005 event=8 a=536870912 b=0
+RM 11005 event=7 a=19125 b=0
+RM 11005 event=20 a=1 b=0
+RM 11005 event=7 a=268435456 b=0
+RM 11005 event=20 a=268435457 b=0
+RM 11005 event=7 a=536870912 b=0
+RM 11005 event=20 a=536870913 b=0
+RM 11005 event=7 a=805306368 b=0
+RM 11005 event=20 a=805306369 b=0
+RM 11005 event=12 a=0 b=80
+RM 11005 event=13 a=11001 b=884
+RM 11005 event=12 a=268435456 b=81
+RM 11005 event=13 a=268446457 b=568
+RM 11005 event=12 a=536870912 b=15
+RM 11005 event=13 a=536873113 b=274
+RM 11005 event=12 a=805306368 b=6
+RM 11005 event=13 a=805308569 b=380
+RM 11005 event=12 a=1073741824 b=16
+RM 11005 event=13 a=1073742375 b=398
+RM 11005 event=12 a=1342177280 b=58
+RM 11005 event=13 a=1342178380 b=566
+MC t=11065 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=3 imu=3 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=1142 I_mA=47 mask=15
+M0 ref=0 fdb=0 cur=-7 temp=27
+M1 ref=0 fdb=0 cur=-5 temp=27
+M2 ref=0 fdb=0 cur=-9 temp=28
+M3 ref=0 fdb=0 cur=18 temp=28
+MC t=11265 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=3 imu=3 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2050 I_mA=85 mask=15
+M0 ref=0 fdb=0 cur=13 temp=27
+M1 ref=0 fdb=0 cur=45 temp=27
+M2 ref=0 fdb=0 cur=1 temp=28
+M3 ref=0 fdb=0 cur=-11 temp=28
+MC t=11465 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=3 imu=3 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=2871 I_mA=119 mask=15
+M0 ref=0 fdb=0 cur=8 temp=27
+M1 ref=0 fdb=0 cur=-30 temp=27
+M2 ref=0 fdb=0 cur=22 temp=28
+M3 ref=0 fdb=0 cur=38 temp=28
+MC t=11665 mode=0 en=0 tx=1 why=64 online=15
+RC lx=14 ly=0 rx=0 ry=0 sa=3 sb=3
+YAW ref=3 imu=3 err=0 rate=0
+BODY vx=0 vy=0 wz=0 scale=0
+PWR est_mW=615 I_mA=25 mask=15
+M

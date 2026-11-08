@@ -1,0 +1,30 @@
+{
+  "time": "2026-10-17T18:54:57.039802+08:00",
+  "command": "./scripts/upload.sh mecanum_demo --backend dapv2",
+  "backend": "CMSIS-DAPv2 / USB bulk",
+  "probe_serial": "507874000034",
+  "exit_code": 0,
+  "flash_written": true,
+  "verify_image_succeeded": true,
+  "reset_run": true,
+  "firmware": {
+    "bin": {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "25717fa8781ce6c118e6d645af629880ce275d35cd00a16634025ecea924932c"
+    },
+    "elf": {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "308354a3c3977344c212cd1b7d9f9bcacf962c345407dd4b5a4fcbb0416e13a9"
+    }
+  },
+  "startup_serial": {
+    "duration_s": 10,
+    "bytes": 27316,
+    "mecanum_rows": 50,
+    "last_mc": "MC t=15465 mode=0 en=0 tx=1 why=6 online=15",
+    "last_rc": "RC lx=0 ly=0 rx=0 ry=0 sa=0 sb=0",
+    "last_pwr": "PWR cmd_mW=0 fb_mW=2900 mask=15 fault=0",
+    "last_lim": "LIM req_mA=0 out_mA=0 k=1000 hits=0"
+  },
+  "scope": "Flash and static startup observed. Four motors online; remote input unavailable, motion disabled. No dynamic current/power-limit validation."
+}

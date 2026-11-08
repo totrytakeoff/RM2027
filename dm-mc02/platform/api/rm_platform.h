@@ -59,6 +59,10 @@ RmStatus RmCan_Submit(const RmCanFrame *frame, uint32_t epoch, uint32_t deadline
 /* Gate-independent all-zero standard 8-byte payload, bounded to 100 ms.
    Application must bind IDs for protocols where this payload means zero output. */
 RmStatus RmCan_SubmitZeroFrame(const RmCanFrame *frame,uint32_t deadline_ms);
+/* Only validated DM disable and read-only parameter frames may bypass the gate. */
+RmStatus RmCan_SubmitDmServiceFrame(const RmCanFrame *frame,uint32_t deadline_ms);
+/* Exact volatile watchdog write; caller must verify stopped motor and closed gate. */
+RmStatus RmCan_SubmitDmTimeoutFrame(const RmCanFrame *frame,uint32_t deadline_ms);
 void RmCan_CancelMotion(void);
 bool RmCan_GetStats(RmCanId bus, RmCanStats *stats);
 void RmCan_Service(uint32_t now_ms);

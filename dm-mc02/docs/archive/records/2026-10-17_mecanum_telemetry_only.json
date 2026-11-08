@@ -1,0 +1,108 @@
+{
+  "time": "2026-10-17T19:15:25.411138+08:00",
+  "change": "Remove all mecanum power limiting; diagnostics-only power estimate",
+  "tests_run": false,
+  "flash_performed": true,
+  "hardware_verified": false,
+  "builds_passed": [
+    "h7-debug",
+    "h7-release",
+    "h7-mecanum-observe",
+    "h7-dbus-debug",
+    "host"
+  ],
+  "deleted": [
+    "applications/mecanum_demo/mecanum_power.c",
+    "applications/mecanum_demo/mecanum_power.h"
+  ],
+  "source_snapshot": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "380556a5c97b69fc5e944f9e9d3b0914ae89eead326793bf839cfb1999b9df50"
+    },
+    {
+      "path": "config/robots/bringup/binding.h",
+      "sha256": "8a23057ee15f77170e9496c9ca07f287c89e46ec9680ffe0af06c2fb78904861"
+    },
+    {
+      "path": "applications/board_bringup/bringup.c",
+      "sha256": "1f0867f5e4dd370b63af9249e5cc313982383b2106e1c21648bbf070894ff2a1"
+    },
+    {
+      "path": "config/robots/mecanum_demo/binding.c",
+      "sha256": "2176bdc8dd9cfb431f5c34ee4a43db2eee1e7a79eca56d139a5de78c0380c3dd"
+    },
+    {
+      "path": "config/robots/mecanum_demo/mecanum_config.h",
+      "sha256": "a1375535b79c905c723539902d5ddf5f687750d5ac294c16bb5297bf7bc1bffe"
+    },
+    {
+      "path": "applications/mecanum_demo/mecanum_app.c",
+      "sha256": "f50399a2b5cb784586b2efe79a0d15d0067ae8cc4b9c5e251beb6a48b42bc4fb"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "build/h7-debug/mecanum_demo.elf",
+      "sha256": "321210242763d8ca0d4d06b3f855b7ee13d1ec33f3b70dfe686e2cc9e1076952",
+      "bytes": 2552924
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.bin",
+      "sha256": "d275852dfd8a2314630828b7b5a64f63d9e6ef312ff1687058f302605ad0d88b",
+      "bytes": 83900
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.hex",
+      "sha256": "d703213e9566130b3d084428992f22829fc6fc0584131f7291b067194969d3a5",
+      "bytes": 236045
+    },
+    {
+      "path": "build/h7-debug/mecanum_demo.map",
+      "sha256": "2d5da6f7367837f9ead3bc8e46bab1dc761287932e76af114d3efe2909649792",
+      "bytes": 812051
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.elf",
+      "sha256": "2e407037a42d289ef7fcd8a754bdd4daebc489586747f89976075fde971e2c06",
+      "bytes": 934996
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.bin",
+      "sha256": "dd1f2b9ab2e9ee4867181469fc9b247f8f2118caf2ff9073486296c3ecb8825e",
+      "bytes": 85628
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.hex",
+      "sha256": "653cbd22c70e43d5b58559ae294a1f983318281ffe9e855d7d27e5e4e1f02d91",
+      "bytes": 240905
+    },
+    {
+      "path": "build/h7-release/mecanum_demo.map",
+      "sha256": "93d0e5ce166cd9e85045de04094e7970e009f44343be34957a399c472eb97eff",
+      "bytes": 320556
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.elf",
+      "sha256": "20c1be509ac7f17a4c8ca99d79ce1eb21f87f53ff65db1e5c9e49defb4eeca2a",
+      "bytes": 2552816
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.bin",
+      "sha256": "fac6d7b63399c42ad76847b64d77932ba572daec861c5a277ed1809e61b53413",
+      "bytes": 83852
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.hex",
+      "sha256": "c841668c5239b235c20c3daa45d0bbe9dee348703aa70a98e68ce2b7ae5ea1cf",
+      "bytes": 235910
+    },
+    {
+      "path": "build/h7-mecanum-observe/mecanum_demo.map",
+      "sha256": "eaa5d5f279f5a64822526d481f7ca253c2c967bf0ecd55188998c3899ade4d9b",
+      "bytes": 811996
+    }
+  ],
+  "startup_observed": true,
+  "hardware_record": "docs/archive/hardware/2026-10-17/mecanum_telemetry_only/flash.json"
+}

@@ -35,3 +35,14 @@ https://raw.githubusercontent.com/FreeRTOS/FreeRTOS-Kernel/V10.3.1-kernel-only/L
 本地来源目录包含未跟踪 demo 文件，因此采用内容哈希定位；不能以参考仓库提交号代替这些文件的版本。RM2026 行为基线为 `4cb0020`。
 
 后续更新 imported 文件时保留来源记录，并刷新实现哈希；新增导入补充清单。许可说明按文件所属组件保留，当前未为全部 RM2026 用户组件另行声明统一许可证。
+
+## 2026-10-17 麦轮 demo 派生
+
+`applications/mecanum_demo` 与对应 config/main 从当前全向轮 demo 复制并独立命名，替换X型麦轮运动学、轮序/极性与坐标约定，新增后PID电流限幅和功率代理遥测。未覆盖原应用配置。复制来源与当前实现 hash 见 [本轮构建记录](../archive/records/2026-10-17_mecanum_build.json)。新增可选 motor-owner hook 默认空，原全向轮不启用麦轮功率限制。
+
+麦轮后续简化：按用户要求移除上述后PID限流与可选hook，仅保留诊断任务内的只读功率估算；限幅版构建记录属于历史版本。
+
+
+## 2026-11-08 单电机测试扩展
+
+M3508 分支复用本框架 DJI 控制、ET08 映射、安全门与 268/19 减速比配置；DM4310 协议依据用户提供的 DM-J4310-2EC V1.1/V1.2 官方手册。DM 主控位置/速度/力矩串级、MIT torque-only 打包及积分负载保持参考用户本地 `Leg/my-wheelleg` 的 8009P 实现，DM4310 单独设参。新增实现位于 `applications/motor_test/` 与 `components/devices/motor/dm/`，来源和验证边界见 [DM4310 指南](../guides/motor_test_dm4310.md)。

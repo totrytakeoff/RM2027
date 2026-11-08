@@ -33,7 +33,7 @@ $DefaultCfg = Join-Path $RootDir "platform/boards/dm_mc02/openocd/cmsis-dap.cfg"
 # 帮助信息
 function Show-Usage {
     Write-Host 'Usage: ./scripts/upload.ps1 [name] [--file path] [--format bin|hex|elf] [--addr 0x...] [--cfg path] [--openocd path] [--verify-only] [--dry-run]'
-    Write-Host 'Optional: --preset h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe --backend dapv2|dapv1|auto --speed kHz --verbose'
+    Write-Host 'Optional: --preset h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe|h7-mecanum-observe --backend dapv2|dapv1|auto --speed kHz --verbose'
     Write-Host 'Default: build/h7-debug/chassis_demo.bin, DAP v2. Requires PowerShell and OpenOCD only.'
 }
 
@@ -113,8 +113,9 @@ while ($i -lt $args.Length) {
     }
 }
 
-if ($Preset -notin @("h7-debug","h7-release","h7-dbus-debug","h7-chassis-observe")) { throw "Unsupported firmware preset: $Preset" }
+if ($Preset -notin @("h7-debug","h7-release","h7-dbus-debug","h7-chassis-observe","h7-mecanum-observe")) { throw "Unsupported firmware preset: $Preset" }
 $OutputDir = Join-Path $BuildDir $Preset
+if ($Preset -eq "h7-mecanum-observe" -and $File -eq $DefaultFile -and -not $PositionalFile) { $File = "mecanum_demo" }
 if ($Preset -eq "h7-dbus-debug" -and $File -eq $DefaultFile -and -not $PositionalFile) { $File = "board_bringup" }
 if ($Backend -notin @("dapv2","dapv1","auto")) { throw "Invalid backend: $Backend" }
 if ($Speed -and $Speed -notmatch '^[1-9][0-9]*$') { throw "speed must be positive kHz" }

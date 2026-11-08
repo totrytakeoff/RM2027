@@ -1,0 +1,46 @@
+{
+  "reduction": 14.105263157894736,
+  "kp": 20,
+  "ki": 80,
+  "kd": 0,
+  "max_command": 16384,
+  "integral_limit": 5000,
+  "baseline_zero": {
+    "window_ms": [
+      24155,
+      24995
+    ],
+    "samples": 85,
+    "reference_mean_rpm": 0.0,
+    "speed_mean_rpm": 19.44705882352941,
+    "speed_std_rpm": 677.1635914239432,
+    "speed_min_rpm": -1024,
+    "speed_max_rpm": 1113,
+    "feedback_current_std_raw": 11378.441675014003
+  },
+  "tuned_zero": {
+    "window_ms": [
+      110155,
+      116995
+    ],
+    "samples": 595,
+    "reference_mean_rpm": 0.0,
+    "speed_mean_rpm": -0.653781512605042,
+    "speed_std_rpm": 3.7138575364441153,
+    "speed_min_rpm": -26,
+    "speed_max_rpm": 18,
+    "feedback_current_std_raw": 41.70855850823967
+  },
+  "tuned_reverse_full_speed": {
+    "window_ms": [
+      102155,
+      103995
+    ],
+    "samples": 170,
+    "reference_mean_rpm": -4999,
+    "speed_mean_rpm": -5015.205882352941,
+    "speed_std_rpm": 25.02278892125983,
+    "speed_min_rpm": -5081,
+    "speed_max_rpm": -4956
+  }
+}

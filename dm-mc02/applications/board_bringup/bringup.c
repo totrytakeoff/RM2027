@@ -33,6 +33,8 @@ static RmSafetyManager safety;
 static uint32_t serial_generation[RM_SERIAL_COUNT];
 static uint32_t observed_can[RM_CAN_COUNT], observed_serial[RM_SERIAL_COUNT];
 static bool bootstrap_done;
+static void (*can_observer)(const RmCanFrame *);
+void RmBringup_SetCanObserver(void (*observer)(const RmCanFrame *)) { can_observer=observer; }
 static void ins_tick(uint64_t now_us)
 {
     RmBmi088_Tick(&imu,now_us);
@@ -65,6 +67,7 @@ static void io_tick(uint64_t now_us)
         RmCanFrame frame;
         for (unsigned n=0;n<RM_IO_FRAMES_PER_BUS && RmCan_Read((RmCanId)bus,&frame);++n) {
             ++observed_can[bus];
+            if (can_observer) can_observer(&frame);
             if (!frame.extended && frame.identifier>=0x201U && frame.identifier<=0x20bU) {
                 unsigned index=frame.identifier-0x201U;
                 RmDjiFeedbackState candidate=dji_candidates[bus][index];
@@ -309,6 +312,25 @@ bool RmBringup_ReadMotor(unsigned motor,RmDjiFeedback *out)
     if (!out->valid) out->position_valid=false;
     RmCritical_Exit(key);
     return out->valid;
+}
+
+bool RmBringup_ZeroMotorPosition(unsigned motor)
+{
+    if (motor >= motor_registry.count) return false;
+    RmCriticalState key = RmCritical_Enter();
+    RmOutputGateSnapshot gate; RmOutputGate_Read(&gate);
+    RmDjiFeedback current;
+    bool valid = !gate.permitted && RmBringup_ReadMotor(motor, &current);
+    if (valid) {
+        /* I/O is excluded by the critical section; preserve the last encoder
+           so its next delta starts at this exact feedback sample. */
+        RmDjiFeedback *value = &motor_feedback[motor].value;
+        value->encoder_total = 0;
+        value->angle_deg = value->angle_rad = 0.0f;
+        value->position_valid = true;
+    }
+    RmCritical_Exit(key);
+    return valid;
 }
 
 bool RmBringup_SubmitMotorCommands(const RmDjiCommand *commands,unsigned count,uint32_t epoch)

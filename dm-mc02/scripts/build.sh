@@ -30,9 +30,9 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 case "$ACTION" in help|-h|--help) usage; exit 0;; clean|configure|build|upload|upload-verbose|verify) ;; *) usage; exit 1;; esac
-case "$PRESET" in h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe|host) ;; *) echo "未知 preset: $PRESET" >&2; exit 1;; esac
+case "$PRESET" in h7-debug|h7-release|h7-dbus-debug|h7-chassis-observe|h7-mecanum-observe|host) ;; *) echo "未知 preset: $PRESET" >&2; exit 1;; esac
 if [[ -z "$TARGET" ]]; then
-    case "$PRESET" in host) TARGET=all;; h7-dbus-debug) TARGET=board_bringup.elf;; *) TARGET=chassis_demo.elf;; esac
+    case "$PRESET" in host) TARGET=all;; h7-mecanum-observe) TARGET=mecanum_demo.elf;; h7-dbus-debug) TARGET=board_bringup.elf;; *) TARGET=chassis_demo.elf;; esac
 elif [[ "$PRESET" != host && "$TARGET" != all && "$TARGET" != *.elf ]]; then
     TARGET+=".elf"
 fi
