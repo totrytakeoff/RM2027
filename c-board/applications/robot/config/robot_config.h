@@ -397,8 +397,8 @@
 #define CHASSIS_RUN_LOOP_STOP          SPEED_LOOP
 #define CHASSIS_RUN_LOOP_NORMAL        SPEED_LOOP
 
-/* [标定] 云台机械正前方对应的 Yaw 原始编码器值；本车 2026-07-20 实测为 7821。 */
-#define YAW_CHASSIS_ALIGN_ECD          7821U
+/* [标定] 云台机械正前方对应的 Yaw 原始编码器值；2026-11-06 重装后实测 6820~6821，取 6820。 */
+#define YAW_CHASSIS_ALIGN_ECD          6820U
 #define YAW_ALIGN_ANGLE_DEG            (YAW_CHASSIS_ALIGN_ECD * ECD_ANGLE_COEF_DJI) /* [派生] */
 /* [标定] IMU 累计 Yaw 的逻辑零位；仅在对应标定逻辑中使用。 */
 #define IMU_YAW_LOGIC_ZERO_TOTAL_DEG   364.30f
